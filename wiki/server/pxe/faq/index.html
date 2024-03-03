@@ -9,18 +9,18 @@
   <head>
     <meta charset="utf-8">
     <!-- begin _includes/seo.html -->
-    <title>中国科学技术大学校园网 PXE 服务 FAQ - CIPS @ NYIST</title>
-    <meta name="description" content="中国科学技术大学校园网 PXE 服务 FAQ">
+    <title>南阳理工学院校园网 PXE 服务 FAQ - CIPS @ NYIST</title>
+    <meta name="description" content="南阳理工学院校园网 PXE 服务 FAQ">
     <meta name="author" content="NYIST-CIPS">
     <meta property="article:author" content="NYIST-CIPS">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="zh_CN">
     <meta property="og:site_name" content="CIPS @ NYIST">
-    <meta property="og:title" content="中国科学技术大学校园网 PXE 服务 FAQ">
+    <meta property="og:title" content="南阳理工学院校园网 PXE 服务 FAQ">
     <meta property="og:url" content="https://cips.nyist.edu.cn/wiki/server/pxe/faq/">
-    <meta property="og:description" content="中国科学技术大学校园网 PXE 服务 FAQ">
+    <meta property="og:description" content="南阳理工学院校园网 PXE 服务 FAQ">
     <meta property="article:published_time" content="2020-08-15T12:48:35+08:00">
-    <meta property="article:modified_time" content="2022-12-09T16:35:50+08:00">
+    <meta property="article:modified_time" content="2024-03-03T12:20:05+08:00">
     <link rel="canonical" href="https://cips.nyist.edu.cn/wiki/server/pxe/faq/">
     <script type="application/ld+json">
       {
@@ -57,7 +57,7 @@
       document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
     </script>
     <!-- For all browsers -->
-    <link rel="stylesheet" href="/assets/css/main.css?v=54b38a2b7d">
+    <link rel="stylesheet" href="/assets/css/main.css?v=0bbabc7be1">
     <link rel="stylesheet" href="/_extra/fontawesome/css/all.min.css" media="invalid" onload="this.media='all'">
     <link rel="stylesheet" href="/_extra/open-sans.css" media="invalid" onload="this.media='all'">
     <!--[if IE]>
@@ -168,13 +168,13 @@
           </nav>
         </div>
         <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-          <meta itemprop="headline" content="中国科学技术大学校园网 PXE 服务 FAQ">
-          <meta itemprop="description" content="中国科学技术大学校园网 PXE 服务 FAQ">
+          <meta itemprop="headline" content="南阳理工学院校园网 PXE 服务 FAQ">
+          <meta itemprop="description" content="南阳理工学院校园网 PXE 服务 FAQ">
           <meta itemprop="datePublished" content="2020-08-15T12:48:35+08:00">
-          <meta itemprop="dateModified" content="2022-12-09T16:35:50+08:00">
+          <meta itemprop="dateModified" content="2024-03-03T12:20:05+08:00">
           <div class="page__inner-wrap">
             <header>
-              <h1 id="page-title" class="page__title" itemprop="headline">中国科学技术大学校园网 PXE 服务 FAQ
+              <h1 id="page-title" class="page__title" itemprop="headline">南阳理工学院校园网 PXE 服务 FAQ
               </h1>
             </header>
             <section class="page__content" itemprop="text">
@@ -187,34 +187,16 @@
                     <li><a href="#一般用户">一般用户</a>
                       <ul>
                         <li><a href="#什么是-pxe">什么是 PXE</a></li>
-                        <li><a href="#pxeustc-有什么用处">PXE.USTC 有什么用处？</a></li>
+                        <li><a href="#pxenyist-有什么用处">PXE.NYIST 有什么用处？</a></li>
                         <li><a href="#pxeustc-提供了哪些系统工具">PXE.USTC 提供了哪些系统/工具？</a></li>
-                        <li><a href="#享受-pxeustc-服务需要什么软硬件环境">享受 PXE.USTC 服务需要什么软硬件环境？</a></li>
+                        <li><a href="#享受-pxenyist-服务需要什么软硬件环境">享受 PXE.NYIST 服务需要什么软硬件环境？</a></li>
                         <li><a href="#如何激活我电脑中的-pxe-boot-agent">如何激活我电脑中的 PXE Boot Agent？</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#高级用户">高级用户</a>
-                      <ul>
-                        <li><a href="#我的电脑没有内置-pxe-boot-agent我该怎么做">我的电脑没有内置 PXE Boot Agent，我该怎么做？</a></li>
-                        <li><a href="#如何制作-pxe-启动软盘">如何制作 PXE 启动软盘？</a></li>
-                        <li><a href="#如何制作-pxe-eeprom">如何制作 PXE EEPROM？</a></li>
-                        <li><a href="#如何把-pxe-boot-agent-加入-grublilo-的启动菜单">如何把 PXE Boot Agent 加入 GRUB/LILO 的启动菜单？</a></li>
-                        <li><a href="#如何把某个-pxeustc-上的网络启动系统直接加入-grublilo-的启动菜单">如何把某个 PXE.USTC 上的网络启动系统直接加入 GRUB/LILO 的启动菜单？</a></li>
-                        <li><a href="#如何直接把-knoppix-live-cd-的-iso-文件安装到本地硬盘">如何直接把 Knoppix Live CD 的 iso 文件安装到本地硬盘？</a></li>
                       </ul>
                     </li>
                     <li><a href="#管理员">管理员</a>
                       <ul>
                         <li><a href="#出于管理的需要我们机房希望只为内部网络提供受限的-pxe-服务或加以密码保护">出于管理的需要，我们机房希望只为内部网络提供受限的 PXE 服务，或加以密码保护</a></li>
                         <li><a href="#我们实验室有自己的网关和-dhcp-服务器该如何设置以便子网内的计算机能够访问-pxe-服务">我们实验室有自己的网关和 DHCP 服务器，该如何设置以便子网内的计算机能够访问 PXE 服务？</a></li>
-                        <li><a href="#可以进一步建立自己的-tftp-服务器所需的文件可以从我们这里取得">可以进一步建立自己的 TFTP 服务器，所需的文件可以从我们这里取得</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#开发者">开发者</a>
-                      <ul>
-                        <li><a href="#pxe-的加载过程">PXE 的加载过程？</a></li>
-                        <li><a href="#受限和密码保护的-pxe-菜单系统是如何实现的">受限和密码保护的 PXE 菜单系统是如何实现的？</a></li>
-                        <li><a href="#xxx-很不错能不能把它也加入-pxeustc-">XXX 很不错，能不能把它也加入 PXE.USTC ？</a></li>
                         <li><a href="#如何把一张-linuxbsd-的-live-cd-做成可网络启动">如何把一张 Linux/BSD 的 Live CD 做成可网络启动？</a></li>
                         <li><a href="#如何把一个安装在服务器硬盘上的-linux-系统做成可网络启动">如何把一个安装在服务器硬盘上的 Linux 系统做成可网络启动？</a></li>
                       </ul>
@@ -228,7 +210,7 @@
               <p>PXE(Pre-boot Execution Environment)是由 Intel 设计的协议，它可以使计算机通过网络启动。协议分为 client 和 server 两端，PXE client 在网卡的 ROM 中，当计算机引导时，BIOS 把 PXE client 调入内存执行，并显示出命令菜单，经用户选择后，PXE client 将放置在远端的操作系统通过网络下载到本地运行。 — 摘自 <a href="http://www-900.ibm.com/developerWorks/cn/linux/l-tip-prompt/l-pex/index.shtml#2">IBM 中国</a></p>
               <p>In the mid-90’s, Compaq, Dell, HP, Intel, and Microsoft jointly released a system design guide for building Net PC systems. The guide describes a method of booting the operating system from a network server. This method eventually became known as the Preboot Execution Environment (PXE). Several manufacturers have created implementations of the PXE specification, and include a PXE compliant BootROM on their network cards. Most computer motherboards with embedded network interfaces include PXE in the BIOS.</p>
               <p>PXE is designed to load a small (32kb or less) image called a Network Bootstrap Program (NBP). The NBP is then responsible for loading the operating system image. When using PXE to boot an LTSP workstation, the choices for an NBP are PXELINUX and Etherboot. — 摘自 <a href="http://wiki.ltsp.org/twiki/bin/view/Ltsp/PXE#Introduction_to_PXE">LTSP</a></p>
-              <h3 id="pxeustc-有什么用处">PXE.USTC 有什么用处？</h3>
+              <h3 id="pxenyist-有什么用处">PXE.NYIST 有什么用处？</h3>
               <p>用途举例：</p>
               <ul>
                 <li>安装新系统 – 安装 Linux/Windows，但是电脑没有软驱/光驱，有没有 USB 启动功能；</li>
@@ -303,10 +285,10 @@
                   A DOS bootdisk that provides TCP/IP networking support.</li>
                 <li>Intel PXE PDK 2.0</li>
               </ul>
-              <h3 id="享受-pxeustc-服务需要什么软硬件环境">享受 PXE.USTC 服务需要什么软硬件环境？</h3>
-              <p>您的电脑最好内置有 PXE Boot Agent，并且已经<a href="https://lug.ustc.edu.cn/wiki/server/pxe/faq#如何激活我电脑中的_pxe_boot_agent">激活</a>；没有现成支持的话，有<a href="https://lug.ustc.edu.cn/wiki/server/pxe/faq#我的电脑没有内置_pxe_boot_agent_我该怎么做">几种解决办法</a>。
-                您所在的网段最好有能提供正确的 PXE 信息的 DHCP 服务器，以及可以通过 TFTP 数据包的网关；没有的话可以请管理员加以<a href="https://lug.ustc.edu.cn/wiki/server/pxe/faq#我们实验室有自己的网关和dhcp服务器_该如何设置以便子网内的计算机能够访问pxe服务">设置</a>，或自己动手<a href="https://lug.ustc.edu.cn/wiki/server/pxe/faq#如何把某个_pxeustc_上的网络启动系统直接加入_grublilo_的启动菜单">把网络启动系统加入 GRUB/LILO 菜单</a>。
-                如果您所在实验室用地址转换/伪装技术建立了自己的子网，则需要<a href="https://lug.ustc.edu.cn/wiki/server/pxe/faq#我们实验室有自己的网关和dhcp服务器_该如何设置以便子网内的计算机能够访问pxe服务">配置</a>。</p>
+              <h3 id="享受-pxenyist-服务需要什么软硬件环境">享受 PXE.NYIST 服务需要什么软硬件环境？</h3>
+              <p>您的电脑最好内置有 PXE Boot Agent，并且已经<a href="https://cips.nyist.edu.cn/wiki/server/pxe/faq#如何激活我电脑中的_pxe_boot_agent">激活</a>；没有现成支持的话，有<a href="https://cips.nyist.edu.cn/wiki/server/pxe/faq#我的电脑没有内置_pxe_boot_agent_我该怎么做">几种解决办法</a>。
+                您所在的网段最好有能提供正确的 PXE 信息的 DHCP 服务器，以及可以通过 TFTP 数据包的网关；没有的话可以请管理员加以<a href="https://cips.nyist.edu.cn/wiki/server/pxe/faq#我们实验室有自己的网关和dhcp服务器_该如何设置以便子网内的计算机能够访问pxe服务">设置</a>。
+                如果您所在实验室用地址转换/伪装技术建立了自己的子网，则需要<a href="https://cips.nyist.edu.cn/wiki/server/pxe/faq#我们实验室有自己的网关和dhcp服务器_该如何设置以便子网内的计算机能够访问pxe服务">配置</a>。</p>
               <h3 id="如何激活我电脑中的-pxe-boot-agent">如何激活我电脑中的 PXE Boot Agent？</h3>
               <p>目前有不少主板内部已经集成了 PXE 启动代码，一般的判别准则是：集成了网卡芯片的主板通常都会在 BIOS 中包含 PXE Boot Agent。
                 很多主板内置了 PXE Boot Agent 但是没有激活它，激活标志通常是：在电脑启动自检后在屏幕上会出现 PXE 字样。
@@ -339,136 +321,6 @@ Boot Device Prioty:
 </code></pre>
                 </div>
               </div>
-              <p>有些主板还包含更多的设置选项。比如 Intel Boot Agent 的 <a href="http://pxe.ustc.edu.cn/images/boot-device-pxe.gif">激活</a> 及 <a href="http://pxe.ustc.edu.cn/images/intel-boot-agent-setup.gif">设定</a>； Realtek Boot Agent 的<a href="http://pxe.ustc.edu.cn/images/realtek-boot-agent-setup.gif">设定</a>。</p>
-              <h2 id="高级用户">高级用户</h2>
-              <h3 id="我的电脑没有内置-pxe-boot-agent我该怎么做">我的电脑没有内置 PXE Boot Agent，我该怎么做？</h3>
-              <p>可以自己制作包含 PXE Boot Agent 的<a href="https://lug.ustc.edu.cn/wiki/server/pxe/faq#如何制作_pxe_启动软盘">启动软盘</a>/<a href="https://lug.ustc.edu.cn/wiki/server/pxe/faq#如何制作_pxe_eeprom">EEPROM</a>，也可以把它加入引导程序的<a href="https://lug.ustc.edu.cn/wiki/server/pxe/faq#如何把_pxe_boot_agent_加入_grublilo_的启动菜单">启动菜单</a>。</p>
-              <h3 id="如何制作-pxe-启动软盘">如何制作 PXE 启动软盘？</h3>
-              <ol>
-                <li>打开 <a href="http://rom-o-matic.net/">ROM-o-matic.net</a> 网站</li>
-                <li>单击 Etherboot 5.3.12 或以上的版本</li>
-                <li>在 “1. Choose NIC/ROM type:” 中选择你的网卡类型</li>
-                <li>单击网页第四项中的 “Get ROM” 按钮下载它帮你动态生成的启动文件</li>
-                <li>插入一个空白软盘，运行网页第六项中提示的命令。(在 Windows 下的话就用 rawwrite 程序写软盘。)</li>
-              </ol>
-              <h3 id="如何制作-pxe-eeprom">如何制作 PXE EEPROM？</h3>
-              <ol>
-                <li>打开 <a href="http://rom-o-matic.net/">ROM-o-matic.net</a> 网站</li>
-                <li>单击 Etherboot 5.3.12 或以上的版本</li>
-                <li>在 “1. Choose NIC/ROM type:” 中选择你的网卡类型</li>
-                <li>在 “2. Choose ROM output format:” 中选择 “Binary ROM Image(.zrom)”</li>
-                <li>单击网页第四项中的 “Get ROM” 按钮下载它帮你动态生成的启动文件</li>
-                <li>带上此文件前去步瑞祺二楼，那里有卖 EEPROM 的公司，让他们帮你把文件烧刻进 EEPROM。</li>
-                <li>把做好的 EEPROM <a href="http://pxe.ustc.edu.cn/images/8139_NIC_PXE.jpg">插入网卡</a>。</li>
-              </ol>
-              <p>在做 EEPROM 之前请注意：</p>
-              <ul>
-                <li>先做一张 PXE 启动软盘，确认<a href="http://pxe.ustc.edu.cn/images/etherboot-screen.gif">运行无误</a>。</li>
-                <li>确保网卡的 PCI ID 与第三步中所选的类型相匹配，否则 BIOS 不会调用它(虽然它的软盘版本可以正确运行)。</li>
-                <li>有的网卡用的是 <a href="http://pxe.ustc.edu.cn/images/8139_28pin_bootrom.jpg">28 pin EEPROM</a>， 有的是 <a href="http://pxe.ustc.edu.cn/images/8139_32pin_bootrom.jpg">32 pin EEPROM</a>。</li>
-              </ul>
-              <h3 id="如何把-pxe-boot-agent-加入-grublilo-的启动菜单">如何把 PXE Boot Agent 加入 GRUB/LILO 的启动菜单？</h3>
-              <p>以我的系统为例：</p>
-              <ol>
-                <li>打开 <a href="http://rom-o-matic.net/">ROM-o-matic.net</a> 网站</li>
-                <li>单击 Etherboot 5.3.12 或较新的版本</li>
-                <li>在 “1. Choose NIC/ROM type:” 中选择你的网卡类型</li>
-                <li>在 “2. Choose ROM output format:” 中选择 “LILO/GRUB/SYSLINUX loadable kernel format (.zlilo)”</li>
-                <li>单击网页第四项中的 “Get ROM” 按钮下载它帮你动态生成的启动文件</li>
-                <li>将此文件放入 /boot 目录，并加入 GRUB 配置如下：</li>
-              </ol>
-              <div class="language-plaintext highlighter-rouge">
-                <div class="highlight">
-                  <pre class="highlight"><code># cat&gt;&gt;/boot/grub/menu.lst&lt;&lt;EOF
-title           etherboot
-root            (hd0,2)
-kernel          /boot/eb-5.3.12-forcedeth.zlilo
-savedefault
-boot
-EOF
-</code></pre>
-                </div>
-              </div>
-              <p>Windows 9x/XP/NT 用户需要下载安装 <a href="http://sourceforge.net/projects/grub4dos/">WINGRUB</a> ，并阅读它提供的<a href="http://grub4dos.sourceforge.net/wingrub.html">文档</a> 和<a href="http://grub4dos.sourceforge.net/wingrub_examples.html">示例</a> 。 强烈推荐 <a href="http://grub.linuxeden.com/">Linuxeden 的 GRUB 专区</a>，这里可以找到中文文档及最新版本。</p>
-              <h3 id="如何把某个-pxeustc-上的网络启动系统直接加入-grublilo-的启动菜单">如何把某个 PXE.USTC 上的网络启动系统直接加入 GRUB/LILO 的启动菜单？</h3>
-              <p>以我的系统为例：</p>
-              <div class="language-plaintext highlighter-rouge">
-                <div class="highlight">
-                  <pre class="highlight"><code># aptitude install tftp
-# mkdir /boot/knoppix ; cd /boot/knoppix
-# tftp pxe.ustc.edu.cn
-tftp&gt; get /tftpboot/knoppix/vmlinuz /tftpboot/knoppix/miniroot.gz
-tftp&gt; quit
-# cat&gt;&gt;/boot/grub/menu.lst&lt;&lt;EOF
-title           KNOPPIX on NFS
-root            (hd0,2)
-kernel          /boot/knoppix/vmlinuz nfsdir=pxe.ustc.edu.cn:/pub/pub knoppix_dir=KNOPPIX501 \
-                nodhcp lang=us ramdisk_size=100000 init=/etc/init apm=power-off nomce noeject quiet
-initrd          /boot/knoppix/miniroot.gz
-savedefault
-boot
-EOF
-</code></pre>
-                </div>
-              </div>
-              <p>请把上面的(hd0,2)替换为您所使用的分区。</p>
-              <p>Windows 9x/XP/NT 用户需要下载安装 <a href="http://sourceforge.net/projects/grub4dos/">GRUB4DOS</a> 。为了方便起见，我们做了一个可直接使用的 GRUB4DOS 启动包，用法如下：</p>
-              <ol>
-                <li>
-                  <p>下载 <a href="ftp://pxe.ustc.edu.cn/linux/GRUB4DOS/C/">ftp://pxe.ustc.edu.cn/linux/GRUB4DOS/C/</a>* 到 C:\</p>
-                </li>
-                <li>
-                  <p>将如下一行拷贝到 C:\boot.ini 文件中去（一般是作为它的最后一行）：</p>
-                  <div class="language-plaintext highlighter-rouge">
-                    <div class="highlight">
-                      <pre class="highlight"><code>C:\GRLDR="GRUB for DOS"
-</code></pre>
-                    </div>
-    </div>
-                </li>
-                <li>
-                  <p>重启，在 Windows 启动菜单中选择 “GRUB for DOS”</p>
-                </li>
-              </ol>
-              <p>此方法适用于 Windows XP/NT 操作系统, C:文件系统为 NTFS/FAT32 均可.
-                目前它包含了如下一些启动项目，欢迎使用：</p>
-              <ul>
-                <li>Debian GNU/Linux for Education</li>
-                <li>Debian GNU/Linux for Education (Secure)</li>
-                <li>KNOPPIX Live Linux-on-CD</li>
-                <li>Debian Sarge Installer</li>
-                <li>Mandrake Installer</li>
-                <li>Redhat Fedora Core Installer</li>
-                <li>Etherboot (for rtl8139)</li>
-                <li>Etherboot (for nforce2)</li>
-                <li>Etherboot (for via-rhine)</li>
-                <li>memtest86+</li>
-              </ul>
-              <h3 id="如何直接把-knoppix-live-cd-的-iso-文件安装到本地硬盘">如何直接把 Knoppix Live CD 的 iso 文件安装到本地硬盘？</h3>
-              <p>下面的 linux 命令序列可以把 knoppix 3.7 安装到 /dev/hda2(空闲空间&gt;700MB)：</p>
-              <div class="language-plaintext highlighter-rouge">
-                <div class="highlight">
-                  <pre class="highlight"><code># wget ftp://202.38.64.123/pub/linux/iso/Knoppix-3.7/KNOPPIX_V3.7-2004-12-08-EN.iso
-# mkdir /mnt/knoppix-iso
-# mount -o loop KNOPPIX_V3.7-2004-12-08-EN.iso /mnt/knoppix-iso
-# mkdir /boot/knoppix
-# cp /mnt/knoppix-iso/boot/isolinux/{linux26,minirt26.gz} /boot/knoppix/
-# cp -a /mnt/knoppix-iso/KNOPPIX /
-# umount /mnt/knoppix-iso
-# rmdir /mnt/knoppix-iso
-# cat&gt;&gt;/boot/grub/menu.lst&lt;&lt;EOF
-title           Debian GNU/Linux, KNOPPIX 3.7
-root            (hd0,1)
-kernel          /boot/knoppix/linux26 ramdisk_size=100000 init=/etc/init fromhd=/dev/hda2
-initrd          /boot/knoppix/minirt26.gz
-savedefault
-boot
-EOF
-</code></pre>
-                </div>
-              </div>
-              <p>上面的硬盘分区号 /dev/hda2 及 (hd0,1) 请调整为您实际使用的分区。
-                Windows 9x/XP/NT 用户需要下载安装 <a href="http://sourceforge.net/projects/grub4dos/">WINGRUB</a> 。</p>
               <h2 id="管理员">管理员</h2>
               <h3 id="出于管理的需要我们机房希望只为内部网络提供受限的-pxe-服务或加以密码保护">出于管理的需要，我们机房希望只为内部网络提供受限的 PXE 服务，或加以密码保护</h3>
               <p>您有两种选择：</p>
@@ -496,97 +348,7 @@ EOF
                     </div>
     </div>
                 </li>
-                <li>
-                  <p>DHCP 服务: 为 PXELinux/Etherboot 提供必要的信息
-                    以安装有 dhcp3-server 的 debian 系统为例：</p>
-                  <div class="language-plaintext highlighter-rouge">
-                    <div class="highlight">
-                      <pre class="highlight"><code># cd /etc/dhcp3
-# wget http://pxe.ustc.edu.cn/dhcpd.pxe.conf
-# echo 'include "/etc/dhcp3/dhcpd.pxe.conf";' &gt;&gt; dhcpd.conf
-# /etc/init.d/dhcp3-server restart
-</code></pre>
-                    </div>
-    </div>
-                  <p>如果只有较老版本的 ISC DHCP Server，或者其他 DHCP 服务程序，则只需加入以下两项配置信息，一般情况下都不会有问题：</p>
-                  <div class="language-plaintext highlighter-rouge">
-                    <div class="highlight">
-                      <pre class="highlight"><code>next-server  pxe.ustc.edu.cn;
-filename     "pxelinux.0";
-</code></pre>
-                    </div>
-    </div>
-                </li>
               </ul>
-              <h3 id="可以进一步建立自己的-tftp-服务器所需的文件可以从我们这里取得">可以进一步建立自己的 TFTP 服务器，所需的文件可以从我们这里取得</h3>
-              <div class="language-plaintext highlighter-rouge">
-                <div class="highlight">
-                  <pre class="highlight"><code># aptitude install tftpd-hpa
-# mount pxe.ustc.edu.cn:/tftpboot /tftpboot
-# cp /tftpboot/tftpd-hpa /etc/default
-</code></pre>
-                </div>
-              </div>
-              <h2 id="开发者">开发者</h2>
-              <h3 id="pxe-的加载过程">PXE 的加载过程？</h3>
-              <p>这里是 LTSP 的 <a href="http://wiki.ltsp.org/twiki/bin/view/Ltsp/PXE#Booting_with_pxelinux_0">Booting with pxelinux.0</a>；</p>
-              <!-- 下面是摘自IBM中国的图解：
-[![img](https://lug.ustc.edu.cn/wiki/_media/server/pxe/pxe-boot-process.gif)](https://lug.ustc.edu.cn/wiki/_detail/server/pxe/pxe-boot-process.gif?id=server%3Apxe%3Afaq) -->
-              <h3 id="受限和密码保护的-pxe-菜单系统是如何实现的">受限和密码保护的 PXE 菜单系统是如何实现的？</h3>
-              <p>缺省的菜单系统是用 PXELinux 实现的，受限的菜单可以用定制的 PXELinux 菜单程序实现，而 MD5 加密的口令保护目前只有 pxegrub 能够支持。</p>
-              <ol>
-                <li>
-                  <p>准备好 MD5 加密的口令</p>
-                  <div class="language-plaintext highlighter-rouge">
-                    <div class="highlight">
-                      <pre class="highlight"><code># grub-md5-crypt
-Password:
-Retype password:
-$1$NcP8o0$DrDhZlUX36Rt6Yzl2RavM/
-</code></pre>
-                    </div>
-    </div>
-                </li>
-                <li>
-                  <p>准备好一个 menu.lst</p>
-                  <div class="language-plaintext highlighter-rouge">
-                    <div class="highlight">
-                      <pre class="highlight"><code># cat /tftpboot/restricted/menu.lst
-password --md5 $1$NcP8o0$DrDhZlUX36Rt6Yzl2RavM/
-dhcp
-root (nd)
-color light-gray/blue black/light-gray
-title *=*=*=*=*=*=*=*=*=* Welcome to PXE.USTC *=*=*=*=*=*=*=*=*=*
-
-title linux
-  kernel /tftpboot/linux/bzImage root=/dev/nfs nfsroot=202.38.73.198:/croot,rsize=8192,wsize=8192,tcp,flags=nolock,intr,v3 ip=dhcp
-title knoppix
-  kernel /tftpboot/knoppix/vmlinuz nfsdir=202.38.73.198:/croot nodhcp lang=us ramdisk_size=100000 init=/etc/init apm=power-off nomce vga=791 quiet secure BOOT_IMAGE=knoppix
-  initrd /tftpboot/knoppix/miniroot.gz
-title dos
-  kernel /tftpboot/images/memdisk floppy c=8 s=32 h=64
-  initrd=/tftpboot/images/dos.igz
-  lock
-</code></pre>
-                    </div>
-    </div>
-                </li>
-                <li>
-                  <p>编译</p>
-                  <div class="language-plaintext highlighter-rouge">
-                    <div class="highlight">
-                      <pre class="highlight"><code># ./configure --disable-auto-linux-mem-opt --enable-preset-menu=/tftpboot/restricted/menu.lst --enable-diskless --enable-via-rhine
-# make
-# cp netboot/pxegrub /tftpboot/restricted/pxegrub.0
-</code></pre>
-                    </div>
-    </div>
-                </li>
-              </ol>
-              <p>遗憾的是 pxegrub 已经有些年没更新了，不支持包括 nForce 在内的一些新网卡。 另外还有更严重的<a href="http://wiki.ltsp.org/twiki/bin/view/Ltsp/PXE#PXEGRUB">稳定性问题</a>，估计是至少某些网卡会存在这种问题。</p>
-              <h3 id="xxx-很不错能不能把它也加入-pxeustc-">XXX 很不错，能不能把它也加入 PXE.USTC ？</h3>
-              <p>只要版权没有问题，肯定是可以的。不过，请你务必提供直接可以网络启动的新系统，因为我们时间有限，将着重于维护现有的系统。
-                所提供的系统或者是一个可启动的软盘映像文件，或者是 kernel, initrd, 以及 pxelinux.cfg 配置文件。必要的话还可以给出 NFS-ROOT 系统。</p>
               <h3 id="如何把一张-linuxbsd-的-live-cd-做成可网络启动">如何把一张 Linux/BSD 的 Live CD 做成可网络启动？</h3>
               <p>可以参考 knoppix Live CD 中的 /usr/sbin/knoppix-terminal-server 脚本，以及它所创建出来的 initrd。
                 大体上需要对原有系统的 initrd 做如下两个修改：</p>
@@ -714,7 +476,7 @@ CONFIG_ROOT_NFS=y
               </ul>
             </section>
             <footer class="page__meta">
-              <p class="page__date"><strong><i class="fad fa-fw fa-calendar-alt" aria-hidden="true"></i> 更新时间:</strong> <time datetime="2022-12-09">2022 年 12 月 9 日</time></p>
+              <p class="page__date"><strong><i class="fad fa-fw fa-calendar-alt" aria-hidden="true"></i> 更新时间:</strong> <time datetime="2024-03-03">2024 年 3 月 3 日</time></p>
             </footer>
             <nav class="pagination">
               <a href="/wiki/server/mirrors/" class="pagination--pager" title="南阳理工学院开源软件镜像
