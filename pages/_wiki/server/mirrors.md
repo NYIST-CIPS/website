@@ -12,7 +12,7 @@ v4-only: mirror4.nyist.edu.cn
 v6-only: mirror6.nyist.edu.cn
 
 教育网 IP：59.69.128.21
-联通IPv4：222.139.215.198
+联通 IPv4：222.139.215.198
 IPv6：2001:da8:5018:8::80/64
 
 ### 支持的访问方式
