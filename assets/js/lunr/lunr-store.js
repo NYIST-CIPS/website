@@ -11,12 +11,6 @@ var store = [{
 "url": "/news/2024/03/SPP-80/",
 "teaser": null
 },{
-"title": "LUG 网站 Planet 文章模板",
-"excerpt":"复制本文件，使用 Markdown 内容替换掉本说明文字即可。请将复制的文件按格式 YYYY-MM-DD-page-name.md 命名并直接放在 _planet 目录下，它将自动渲染为 /planet/YYYY/MM/page-name/ 页面并出现在 /planet/ 的分页目录中。然后编辑本文件最开头的 Front Matter（两行 --- 中间的部分，是个 YAML）写入信息，包括文章标题、作者（参见主题文档）、分类（可以有多个）和标签（可以有多个）。   若要启用标题背景图片（就像 Planet 目录 页面一样），请在 Front Matter 里指定 header 标签，详细配置内容请参阅[主题文档][2]。   具体格式样例请参考附近的其他文件。   注意：正文部分请勿将 H1/2/3 放在开头，否则 YAML 头中设置的 title 可能会被覆盖。（如果必须这么排，可以在前面加 &lt;!-- Workaround for jekyll-titles-from-headings --&gt;，但是列表展示的时候会没有内容预览）   ","categories": [],
-"tags": [],
-"url": "/planet/2024/03/test/",
-"teaser": null
-},{
 "title": "Hello CIPS!",
 "excerpt":"南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。  ","categories": ["news"],
 "tags": [],
@@ -27,12 +21,6 @@ var store = [{
 "excerpt":"报告主题：《如何让读书成为人生杠杆》   报告简介：本期 SPP 将通过讲者的亲身经历，讲解读书的意义，拆解读书的本质，介绍 SITOP 五步读书法，通过世界级成功人士的读书案例，激励年轻一代好好读书，实现个人的十倍速增长。   演讲嘉宾：孙思远，远读重洋创始人兼 CEO   远读重洋创始人兼 CEO，美国南加州大学经济学硕士，是《埃隆·马斯克传》中文版译者，荣获福布斯中国“出海全球化人物 Top30 先锋人物”；亚马逊中国挚爱阅读大使；还是 G20 青年企业家联盟理事、国际合作中心副主任。   举办时间：2024.03.13 19:30~21:00   会议地点：其他 在线会议 13 教 211 室转播   主办单位：中国计算机学会  ","categories": [],
 "tags": [],
 "url": "/news/2024/03/SPP-80/",
-"teaser": null
-},{
-"title": "LUG 网站 Planet 文章模板",
-"excerpt":"复制本文件，使用 Markdown 内容替换掉本说明文字即可。请将复制的文件按格式 YYYY-MM-DD-page-name.md 命名并直接放在 _planet 目录下，它将自动渲染为 /planet/YYYY/MM/page-name/ 页面并出现在 /planet/ 的分页目录中。然后编辑本文件最开头的 Front Matter（两行 --- 中间的部分，是个 YAML）写入信息，包括文章标题、作者（参见主题文档）、分类（可以有多个）和标签（可以有多个）。   若要启用标题背景图片（就像 Planet 目录 页面一样），请在 Front Matter 里指定 header 标签，详细配置内容请参阅[主题文档][2]。   具体格式样例请参考附近的其他文件。   注意：正文部分请勿将 H1/2/3 放在开头，否则 YAML 头中设置的 title 可能会被覆盖。（如果必须这么排，可以在前面加 &lt;!-- Workaround for jekyll-titles-from-headings --&gt;，但是列表展示的时候会没有内容预览）   ","categories": [],
-"tags": [],
-"url": "/planet/2024/03/test/",
 "teaser": null
 },{
 "title": "联系我们",
