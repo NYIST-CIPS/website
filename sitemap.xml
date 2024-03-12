@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+      <loc>https://cips.nyist.edu.cn/news/2024/03/SPP-80/</loc>
+      <lastmod>2024-03-12T19:21:10+08:00</lastmod>
+    </url>
+    <url>
       <loc>https://cips.nyist.edu.cn/planet/2024/03/test/</loc>
       <lastmod>2024-03-02T21:59:12+08:00</lastmod>
+    </url>
+    <url>
+      <loc>https://cips.nyist.edu.cn/news/2024/03/SPP-80/</loc>
+      <lastmod>2024-03-12T19:21:10+08:00</lastmod>
     </url>
     <url>
       <loc>https://cips.nyist.edu.cn/planet/2024/03/test/</loc>
