@@ -174,7 +174,7 @@ var store = [{
 "teaser": null
 },{
 "title": "南阳理工学院计算机与信息化处理协会",
-"excerpt":"English Version   特色活动   暂无。   网络服务      开源软件镜像   GitLab 代码托管   在 这里 可以找到我们  ","categories": [],
+"excerpt":"南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。 English Version   特色活动   暂无。   网络服务      开源软件镜像   GitLab 代码托管   其他   请参阅 CIPS 网络服务总则   在 这里 可以找到我们  ","categories": [],
 "tags": [],
 "url": "/wiki/intro/",
 "teaser": null
