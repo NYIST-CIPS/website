@@ -108,7 +108,7 @@ var store = [{
 "teaser": null
 },{
 "title": "联系我们",
-"excerpt":"官方邮件地址      您可以向我们直接发送电子邮件。   参与邮件列表讨论（推荐）   点击此处了解详情         面对面交流   NYIST CIPS 在校内的活动室：      东南校区 13 教 211 室   你也可以在 CIPS 举办的各类活动中找到 CIPS 的成员并当面进行交流。  ","categories": [],
+"excerpt":"官方邮件地址      您可以向我们直接发送电子邮件。   参与邮件列表讨论（推荐）   点击此处了解详情     QQ 群上的 LUG   适合于即时性较强的讨论，较正式的讨论还请使用官方邮件列表。      QQ 群: 群号请查看 cipsqq.palve.moe 的 DNS TXT 记录。校内学生请联系管理员了解详情。     面对面交流   NYIST CIPS 在校内的活动室：      东南校区 13 教 211 室   你也可以在 CIPS 举办的各类活动中找到 CIPS 的成员并当面进行交流。  ","categories": [],
 "tags": [],
 "url": "/wiki/cips/contact/",
 "teaser": null
@@ -138,7 +138,7 @@ var store = [{
 "teaser": null
 },{
 "title": "CIPS 负责人",
-"excerpt":"公共联系方式   联系我们   主要负责人                  代号       职务       姓名       邮箱                       -       社长       吕帅军       smallkid_kclub AT foxmail.com                 -       副社长       潘富       i AT palve.tech                 -       副社长       谈和鑫                  ","categories": [],
+"excerpt":"公共联系方式   联系我们   主要负责人                  代号       职务       姓名       邮箱                       Palve       社长       潘富       i AT palve.moe                 -       副社长       靳明凯       cips AT nyist.edu.cn                 -       学术部       高鹏飞       cips AT nyist.edu.cn                 -       学术部       郑丛煜       cips AT nyist.edu.cn                 -       组织部       丁驰       cips AT nyist.edu.cn                 -       组织部       陈振智       cips AT nyist.edu.cn                 -       科技竞赛部       吴倩       cips AT nyist.edu.cn                 -       科技竞赛部       马艳红       cips AT nyist.edu.cn                 -       媒体宣传部       张印彤       cips AT nyist.edu.cn                 -       媒体宣传部       靳明凯       cips AT nyist.edu.cn           历任负责人   2023-2024 届                  代号       职务       姓名       邮箱                       -       社长       吕帅军       smallkid_kclub AT foxmail.com                 Palve       副社长       潘富       i AT palve.moe                 -       副社长       谈和鑫       dp AT nyist.edu.cn          ","categories": [],
 "tags": [],
 "url": "/wiki/cips/person-in-charge/",
 "teaser": null
@@ -150,7 +150,7 @@ var store = [{
 "teaser": null
 },{
 "title": "网络服务列表",
-"excerpt":"S 级服务      开源镜像站（HTTP 访问）：https://mirror.nyist.edu.cn   A 级服务      代码托管平台（校内 访问）：https://git.nyist.edu.cn   B 级服务      主页 (本 wiki)：https://cips.nyist.edu.cn   网络启动：pxe.nyist.edu.cn   开源镜像站（定时同步；rsync 访问；帮助页面）：https://mirror.nyist.edu.cn   C 级服务      Grafana 监控 (校内 only)：https://grafana.nyist.edu.cn   IPTV: https://iptv.nyist.edu.cn/   服务等级与服务标准           S 级：最优先保障服务可用性，24 小时故障监控，故障自动转移            A 级：优先保障服务可用性，24 小时故障监控，每日备份            B 级：关键数据备份            C 级：非保障类服务            未列入本列表的服务：实验性服务      ","categories": [],
+"excerpt":"S 级服务      开源镜像站（HTTP 访问）：https://mirror.nyist.edu.cn   A 级服务      代码托管平台（校内 访问）：https://git.nyist.edu.cn   B 级服务      主页 (本 wiki)：https://cips.nyist.edu.cn   网络启动：pxe.nyist.edu.cn   开源镜像站（定时同步；rsync 访问；帮助页面）：https://mirror.nyist.edu.cn   C 级服务      Grafana 监控 (校内 only)：https://grafana.mirror.nyist.edu.cn   IPTV: https://iptv.nyist.edu.cn/   服务等级与服务标准           S 级：最优先保障服务可用性，24 小时故障监控，故障自动转移            A 级：优先保障服务可用性，24 小时故障监控，每日备份            B 级：关键数据备份            C 级：非保障类服务            未列入本列表的服务：实验性服务      ","categories": [],
 "tags": [],
 "url": "/wiki/cips/services/",
 "teaser": null
@@ -180,13 +180,13 @@ var store = [{
 "teaser": null
 },{
 "title": "南阳理工学院-计算机与信息化处理协会",
-"excerpt":"南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。 了解更多   English Version   特色活动     暂无。   网络服务      开源软件镜像   GitLab 代码托管   其他   请参阅 CIPS 网络服务总则   联系我们      QQ 群: 适合于即时性较强的讨论，较正式的讨论还请使用邮件列表。   邮件列表: 点击此处了解详情   官方邮箱:    活动室: 东南校区 13 教 211 室   更多联系方式请 戳这里   协会 LOGO       协会章程   CIPS 的所有活动均依照协会章程开展。  ","categories": [],
+"excerpt":"南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。 了解更多   English Version   特色活动     暂无。   网络服务      开源软件镜像   GitLab 代码托管   其他   请参阅 CIPS 网络服务总则   联系我们      QQ 群: 适合于即时性较强的讨论，较正式的讨论还请使用邮件列表。   邮件列表: 点击此处了解详情   官方邮箱:    活动室: 东南校区 13 教 211 室   更多联系方式请 戳这里   协会 LOGO      协会章程   CIPS 的所有活动均依照协会章程开展。  ","categories": [],
 "tags": [],
 "url": "/wiki/",
 "teaser": null
 },{
 "title": "南阳理工学院计算机与信息化处理协会",
-"excerpt":"南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。 English Version   特色活动   暂无。   网络服务      开源软件镜像   GitLab 代码托管   其他   请参阅 CIPS 网络服务总则   在 这里 可以找到我们  ","categories": [],
+"excerpt":"关于我们   南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。 English Version   特色活动   暂无。   协会 LOGO      更多信息      网络服务   特色活动   联系方式  ","categories": [],
 "tags": [],
 "url": "/wiki/intro/",
 "teaser": null
