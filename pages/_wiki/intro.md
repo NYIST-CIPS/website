@@ -22,8 +22,11 @@
 - [网络服务](cips/services/index.md)
 - [特色活动](cips/events/index.md)
 - [联系方式](cips/contact.md)
+<<<<<<< HEAD
 =======
 - [网络服务](lug/services/index.md)
 - [特色活动](lug/events/index.md)
 - [联系方式](lug/contact.md)
 >>>>>>> 5278f24 (Prettier auto fix from GitHub Actions run 68)
+=======
+>>>>>>> 761ae8e (Prettier auto fix from GitHub Actions run 70)
