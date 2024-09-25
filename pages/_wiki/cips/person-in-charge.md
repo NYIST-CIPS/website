@@ -16,7 +16,6 @@
 | -     | 学术部     | 高鹏飞 | cips AT nyist.edu.cn |
 | -     | 学术部     | 郑丛煜 | cips AT nyist.edu.cn |
 | -     | 组织部     | 丁驰   | cips AT nyist.edu.cn |
-| -     | 组织部     | 陈振智 | cips AT nyist.edu.cn |
 | -     | 科技竞赛部 | 吴倩   | cips AT nyist.edu.cn |
 | -     | 科技竞赛部 | 马艳红 | cips AT nyist.edu.cn |
 | -     | 媒体宣传部 | 张印彤 | cips AT nyist.edu.cn |
