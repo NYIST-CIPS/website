@@ -1,35 +1,223 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2024-09-25T15:14:03+08:00</updated><id>https://cips.nyist.edu.cn/feed.xml</id><title type="html">CIPS @ NYIST</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">你好啊，新社员</title><link href="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/" rel="alternate" type="text/html" title="你好啊，新社员" /><published>2024-09-22T00:00:00+08:00</published><updated>2024-09-22T20:05:04+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/09/Hello-new-members</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/"><![CDATA[<p>欢迎加入 CIPS，开启你的计算机探险之旅！
-        无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。</p>
-      <p>CIPS——让热爱技术的你大展拳脚！</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-10-17T19:03:47+08:00</updated><id>https://cips.nyist.edu.cn/feed.xml</id><title type="html">CIPS @ NYIST</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖</title><link href="https://cips.nyist.edu.cn/news/2025/10/cips1/" rel="alternate" type="text/html" title="南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-17T11:01:16+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/10/cips1</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/10/cips1/"><![CDATA[<p>近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。</p>
+      <p>本次大赛吸引了来自全国各高校的优秀学子同台竞技。南阳理工学院 CIPS 社团的参赛队员们经过数月的精心准备，在比赛中展现了扎实的数学功底、创新的建模思维和出色的团队协作能力。他们的获奖作品充分体现了将数学理论应用于解决实际问题的能力，获得了评委们的一致认可。</p>
+      <p>CIPS 社团作为南阳理工学院重要的学术科技类社团，一直致力于培养学生的创新精神和实践能力。此次获奖不仅是对参赛同学个人能力的肯定，更是对社团长期坚持“以赛促学、以学促用”理念的充分印证。</p>
+      <p>学校相关负责人表示，将继续支持学生参与各类高水平学科竞赛，为学生提供更多展示才华的平台，助力培养更多具有创新精神和实践能力的优秀人才。</p>
+      ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。]]></summary></entry><entry><title type="html">一、网络安全概述</title><link href="https://cips.nyist.edu.cn/news/2025/10/cips2/" rel="alternate" type="text/html" title="一、网络安全概述" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-17T11:01:16+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/10/cips2</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/10/cips2/"><![CDATA[<p>网络安全（Cybersecurity）是指通过采取技术、管理等多种手段，保护网络系统及其数据免受攻击、损坏、泄露和非法访问，确保信息的机密性、完整性和可用性。</p>
+    <h2 id="二常见网络安全威胁">二、常见网络安全威胁</h2>
+    <ol>
+      <li><strong>恶意软件（Malware）</strong>
+        <ul>
+          <li>包括病毒、蠕虫、木马、勒索软件等，能够破坏系统、窃取数据或勒索赎金。</li>
+        </ul>
+      </li>
+      <li><strong>网络钓鱼（Phishing）</strong>
+        <ul>
+          <li>通过伪造邮件、网站等手段诱骗用户泄露敏感信息，如账号密码、银行卡号等。</li>
+        </ul>
+      </li>
+      <li><strong>拒绝服务攻击（DDoS）</strong>
+        <ul>
+          <li>攻击者通过大量请求使目标服务器瘫痪，导致正常用户无法访问服务。</li>
+        </ul>
+      </li>
+      <li><strong>SQL 注入（SQL Injection）</strong>
+        <ul>
+          <li>攻击者通过在输入框中插入恶意 SQL 语句，获取或篡改数据库中的数据。</li>
+        </ul>
+      </li>
+      <li><strong>中间人攻击（MITM）</strong>
+        <ul>
+          <li>攻击者在通信双方之间窃听、篡改数据，常见于不安全的 Wi-Fi 环境。</li>
+        </ul>
+      </li>
+    </ol>
+    <h2 id="三网络安全防护措施">三、网络安全防护措施</h2>
+    <ol>
+      <li><strong>防火墙与入侵检测系统</strong>
+        <ul>
+          <li>部署硬件或软件防火墙，监控和过滤进出网络的数据流，防止非法访问。</li>
+        </ul>
+      </li>
+      <li><strong>数据加密</strong>
+        <ul>
+          <li>采用 SSL/TLS 等加密协议保护数据传输安全，防止数据被窃听和篡改。</li>
+        </ul>
+      </li>
+      <li><strong>多因素认证（MFA）</strong>
+        <ul>
+          <li>除密码外，增加短信、动态令牌等验证方式，提高账号安全性。</li>
+        </ul>
+      </li>
+      <li><strong>定期漏洞扫描与补丁管理</strong>
+        <ul>
+          <li>定期扫描系统漏洞，及时修补操作系统和应用程序的安全漏洞。</li>
+        </ul>
+      </li>
+      <li><strong>安全意识培训</strong>
+        <ul>
+          <li>对员工和用户进行网络安全知识培训，提升防范意识，减少人为失误。</li>
+        </ul>
+      </li>
+    </ol>
+    <h2 id="四网络安全发展趋势">四、网络安全发展趋势</h2>
+    <ol>
+      <li><strong>零信任安全架构（Zero Trust）</strong>
+        <ul>
+          <li>不再默认信任任何内部或外部网络，所有访问都需严格验证和授权。</li>
+        </ul>
+      </li>
+      <li><strong>人工智能与大数据安全</strong>
+        <ul>
+          <li>利用 AI 和大数据分析技术，提升威胁检测和响应的智能化水平。</li>
+        </ul>
+      </li>
+      <li><strong>云安全</strong>
+        <ul>
+          <li>随着云计算普及，云平台的安全防护成为重点，包括数据隔离、访问控制等。</li>
+        </ul>
+      </li>
+      <li><strong>物联网安全</strong>
+        <ul>
+          <li>物联网设备数量激增，安全风险随之增加，需加强设备认证和数据保护。</li>
+        </ul>
+      </li>
+    </ol>
+    <h2 id="五结语">五、结语</h2>
+    <p>网络安全是一个持续演进的领域，面对日益复杂的威胁，只有不断学习新技术、完善安全体系，才能有效保障个人和组织的信息安全。</p>
+    ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、网络安全概述]]></summary></entry><entry><title type="html">一、引言</title><link href="https://cips.nyist.edu.cn/news/2025/10/cips3/" rel="alternate" type="text/html" title="一、引言" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-15T13:24:17+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/10/cips3</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/10/cips3/"><![CDATA[<p>随着数字化转型的加速，企业面临的网络安全威胁日益复杂。如何构建健全的网络安全体系，已成为企业信息化建设的核心课题。本文结合实际，探讨企业网络安全建设的关键环节与实践经验。</p>
+  <h2 id="二企业网络安全建设的核心要素">二、企业网络安全建设的核心要素</h2>
+  <h3 id="1-安全策略与制度建设">1. 安全策略与制度建设</h3>
+  <ul>
+    <li><strong>制定安全管理制度</strong>：明确安全责任、操作规范、应急流程等，形成可执行的管理体系。</li>
+    <li><strong>定期安全培训</strong>：提升员工安全意识，防止因人为疏忽导致的安全事件。</li>
+  </ul>
+  <h3 id="2-网络边界防护">2. 网络边界防护</h3>
+  <ul>
+    <li><strong>部署防火墙与网闸</strong>：隔离内外网，阻断非法访问。</li>
+    <li><strong>入侵检测与防御系统（IDS/IPS）</strong>：实时监控网络流量，发现并阻止异常行为。</li>
+  </ul>
+  <h3 id="3-终端与服务器安全">3. 终端与服务器安全</h3>
+  <ul>
+    <li><strong>操作系统与应用补丁管理</strong>：及时修复已知漏洞，防止被利用。</li>
+    <li><strong>杀毒与主机防护软件</strong>：防范恶意代码和勒索软件攻击。</li>
+  </ul>
+  <h3 id="4-数据安全与备份">4. 数据安全与备份</h3>
+  <ul>
+    <li><strong>数据分类分级保护</strong>：对敏感数据加密存储与传输，严格权限控制。</li>
+    <li><strong>定期备份与恢复演练</strong>：确保数据在遭受攻击或故障时可快速恢复。</li>
+  </ul>
+  <h3 id="5-访问控制与身份认证">5. 访问控制与身份认证</h3>
+  <ul>
+    <li><strong>最小权限原则</strong>：用户仅拥有完成工作所需的最小权限。</li>
+    <li>**多因素认证（MFA</li>
+  </ul>
+  <p>好的，下面为你再写一篇关于网络安全的技术文章，主题聚焦“校园网络安全防护实践”，同样采用 Markdown 格式。</p>
+  <hr />
+  <h1 id="校园网络安全防护实践">校园网络安全防护实践</h1>
+  <h2 id="一引言">一、引言</h2>
+  <p>随着信息化进程的不断推进，校园网络已成为教学、科研和管理的重要基础设施。然而，网络安全威胁也日益增多，给高校的信息资产和师生的个人隐私带来了巨大挑战。本文结合实际，探讨校园网络安全的主要风险及防护措施。</p>
+  <h2 id="二校园网络面临的主要安全风险">二、校园网络面临的主要安全风险</h2>
+  <ol>
+    <li><strong>恶意攻击与病毒传播</strong>
       <ul>
-        <li>技术实战： 我们社团负责管理学校信息系统，服务器运维、系统搭建、镜像站维护、GitLab 代码托管等都是我们的日常工作。加入 CIPS，你将有机会在真实项目中学习并实践计算机技术。</li>
-        <li>全面学习： 从网络搭建、服务器管理到编程实战，我们为你提供丰富的学习资源和一线技术指导，无论你是技术小白还是有一定经验，我们都能帮助你提升。</li>
-        <li>竞赛与交流： 我们积极组织和参与各类计算机相关竞赛，与校内外技术大咖深入交流，参加论坛与培训，拓展视野，丰富履历。</li>
+        <li>校园网络开放性强，易成为蠕虫、病毒等恶意软件的传播温床。</li>
       </ul>
-      <p>加入 CIPS，你将获得：</p>
+    </li>
+    <li><strong>钓鱼与社工欺诈</strong>
       <ul>
-        <li>实战经验积累：参与学校的真实项目管理，提升实践能力。</li>
-        <li>技术提升：定期的技术分享会、编程课程、竞赛指导，帮助你快速成长。</li>
-        <li>人脉拓展：结识志同道合的伙伴，与经验丰富的师兄师姐共事交流。</li>
-        <li>资源丰富：拥有独立的实验室和专属 WiFi，学习环境极佳，资源共享。</li>
+        <li>针对师生的钓鱼邮件、虚假网站、社交工程攻击频发，诱导泄露账号密码。</li>
       </ul>
-      <p>如果你具备以下特质，我们在等你：</p>
+    </li>
+    <li><strong>内部人员误操作</strong>
       <ul>
-        <li>对计算机、编程、网络技术充满兴趣；</li>
-        <li>渴望在实践中提升自己，敢于挑战和创新；</li>
-        <li>有责任心、团队合作精神，愿意与伙伴们共同成长。</li>
+        <li>学生或教职工因安全意识不足，误操作导致数据泄露或系统被入侵。</li>
       </ul>
-      <p>报名方式： 点<a href="https://docs.qq.com/sheet/DZFROZVhRUE5SVFNE">这里</a>填写报名表。<br />
-        面试时间： 10 月 8 日，地点：13 号楼 211 室。<br />
-        联系我们：*如果有任何疑问，可以点<a href="https://qm.qq.com/q/GMTHU2wqky">这里</a>加入招新群进行咨询。</p>
-      <p>你与未来只差一步——快来加入我们吧！
-        CIPS，期待与你一起探索计算机的无限可能！</p>
-      ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[欢迎加入 CIPS，开启你的计算机探险之旅！ 无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。]]></summary></entry><entry><title type="html">南阳市网络安全监控预警中心召开2024年第二期技术研讨会</title><link href="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/" rel="alternate" type="text/html" title="南阳市网络安全监控预警中心召开2024年第二期技术研讨会" /><published>2024-04-21T00:00:00+08:00</published><updated>2024-04-24T07:14:13+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>耿凯峰</em></strong>）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。</p>
-    <p><img src="/static/news/seminar-1.jpg" alt="" /></p>
-    <p>本次研讨会的亮点之一是大二大三在校学生们积极参与并进行了技术分享。他们结合自身学习和实践经验，分享了在网络安全领域的研究成果和应用实践。从网络漏洞挖掘到安全加固措施的实施，再到应急响应和事件处理的流程。</p>
-    <p><img src="/static/news/seminar-2.jpg" alt="" /></p>
-    <p>通过本次研讨会，学生们的技术分享展示了他们对网络安全的热情和专业素养，为网络安全领域的发展注入了新的活力和动力。相关负责人表示，南阳市网络安全监控预警中心将继续支持和鼓励年轻学子们在网络安全领域的学习和探索，为构建网络安全的铜墙铁壁贡献力量。（校对/<strong><em>徐扬</em></strong>）</p>
-    ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[本网讯（特约记者/耿凯峰）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。]]></summary></entry><entry><title type="html">SPP85-从学业到职业的成长</title><link href="https://cips.nyist.edu.cn/news/2024/04/SPP-85/" rel="alternate" type="text/html" title="SPP85-从学业到职业的成长" /><published>2024-04-16T00:00:00+08:00</published><updated>2024-04-16T11:10:56+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/04/SPP-85</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/04/SPP-85/"><![CDATA[<p>报告主题：《群体智能–从自然现象到 AI 远景》</p>
+    </li>
+    <li><strong>设备安全隐患</strong>
+      <ul>
+        <li>个人终端、物联网设备接入校园网，存在弱口令、系统漏洞等问题。</li>
+      </ul>
+    </li>
+    <li><strong>数据泄露与隐私风险</strong>
+      <ul>
+        <li>教务、科研等敏感数据若未加密或权限管理不当，易被非法获取。</li>
+      </ul>
+    </li>
+  </ol>
+  <h2 id="三校园网络安全防护措施">三、校园网络安全防护措施</h2>
+  <ol>
+    <li><strong>加强网络边界防护</strong>
+      <ul>
+        <li>部署防火墙、入侵检测与防御系统（IDS/IPS），实时监控异常流量。</li>
+      </ul>
+    </li>
+    <li><strong>完善身份认证与访问控制</strong>
+      <ul>
+        <li>推行统一身份认证平台，采用多因素认证，细化权限分级管理。</li>
+      </ul>
+    </li>
+    <li><strong>定期安全培训与宣传</strong>
+      <ul>
+        <li>组织网络安全讲座、演练，提高师生安全意识和应急能力。</li>
+      </ul>
+    </li>
+    <li><strong>终端安全管理</strong>
+      <ul>
+        <li>要求终端设备安装杀毒软件、定期更新补丁，限制高风险应用接入。</li>
+      </ul>
+    </li>
+    <li><strong>数据加密与备份</strong>
+      <ul>
+        <li>对敏感数据进行加密存储与传输，定期备份重要数据，防止勒索和丢失。</li>
+      </ul>
+    </li>
+    <li><strong>应急响应与日志审计</strong>
+      <ul>
+        <li>建立安全事件应急预案，完善日志审计机制，快速定位和处置安全事件。</li>
+      </ul>
+    </li>
+  </ol>
+  <h2 id="四典型案例分析">四、典型案例分析</h2>
+  <ul>
+    <li><strong>案例一：钓鱼邮件攻击</strong>
+      某高校多名师生收到伪装成教务处的钓鱼邮件，诱导点击恶意链接，导致部分账号被盗。学校通过邮件网关过滤、加强安全宣传，有效遏制了类似事件发生。</li>
+    <li><strong>案例二：勒索病毒入侵</strong>
+      一台未打补丁的实验室电脑感染勒索病毒，所幸通过定期备份及时恢复数据，未造成严重损失。</li>
+  </ul>
+  <h2 id="五结语">五、结语</h2>
+  <p>校园网络安全是一项系统工程，需要技术、管理和意识多管齐下。只有构建完善的防护体系，才能为高校的数字化发展保驾护航。</p>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、引言]]></summary></entry><entry><title type="html">你好啊，新社员</title><link href="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/" rel="alternate" type="text/html" title="你好啊，新社员" /><published>2024-09-22T00:00:00+08:00</published><updated>2024-09-22T20:05:04+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/09/Hello-new-members</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/"><![CDATA[<p>欢迎加入 CIPS，开启你的计算机探险之旅！
+    无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。</p>
+  <p>CIPS——让热爱技术的你大展拳脚！</p>
+  <ul>
+    <li>技术实战： 我们社团负责管理学校信息系统，服务器运维、系统搭建、镜像站维护、GitLab 代码托管等都是我们的日常工作。加入 CIPS，你将有机会在真实项目中学习并实践计算机技术。</li>
+    <li>全面学习： 从网络搭建、服务器管理到编程实战，我们为你提供丰富的学习资源和一线技术指导，无论你是技术小白还是有一定经验，我们都能帮助你提升。</li>
+    <li>竞赛与交流： 我们积极组织和参与各类计算机相关竞赛，与校内外技术大咖深入交流，参加论坛与培训，拓展视野，丰富履历。</li>
+  </ul>
+  <p>加入 CIPS，你将获得：</p>
+  <ul>
+    <li>实战经验积累：参与学校的真实项目管理，提升实践能力。</li>
+    <li>技术提升：定期的技术分享会、编程课程、竞赛指导，帮助你快速成长。</li>
+    <li>人脉拓展：结识志同道合的伙伴，与经验丰富的师兄师姐共事交流。</li>
+    <li>资源丰富：拥有独立的实验室和专属 WiFi，学习环境极佳，资源共享。</li>
+  </ul>
+  <p>如果你具备以下特质，我们在等你：</p>
+  <ul>
+    <li>对计算机、编程、网络技术充满兴趣；</li>
+    <li>渴望在实践中提升自己，敢于挑战和创新；</li>
+    <li>有责任心、团队合作精神，愿意与伙伴们共同成长。</li>
+  </ul>
+  <p>报名方式： 点<a href="https://docs.qq.com/sheet/DZFROZVhRUE5SVFNE">这里</a>填写报名表。<br />
+    面试时间： 10 月 8 日，地点：13 号楼 211 室。<br />
+    联系我们：*如果有任何疑问，可以点<a href="https://qm.qq.com/q/GMTHU2wqky">这里</a>加入招新群进行咨询。</p>
+  <p>你与未来只差一步——快来加入我们吧！
+    CIPS，期待与你一起探索计算机的无限可能！</p>
+  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[欢迎加入 CIPS，开启你的计算机探险之旅！ 无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。]]></summary></entry><entry><title type="html">南阳市网络安全监控预警中心召开2024年第二期技术研讨会</title><link href="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/" rel="alternate" type="text/html" title="南阳市网络安全监控预警中心召开2024年第二期技术研讨会" /><published>2024-04-21T00:00:00+08:00</published><updated>2024-04-24T07:14:13+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>耿凯峰</em></strong>）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。</p>
+  <p><img src="/static/news/seminar-1.jpg" alt="" /></p>
+  <p>本次研讨会的亮点之一是大二大三在校学生们积极参与并进行了技术分享。他们结合自身学习和实践经验，分享了在网络安全领域的研究成果和应用实践。从网络漏洞挖掘到安全加固措施的实施，再到应急响应和事件处理的流程。</p>
+  <p><img src="/static/news/seminar-2.jpg" alt="" /></p>
+  <p>通过本次研讨会，学生们的技术分享展示了他们对网络安全的热情和专业素养，为网络安全领域的发展注入了新的活力和动力。相关负责人表示，南阳市网络安全监控预警中心将继续支持和鼓励年轻学子们在网络安全领域的学习和探索，为构建网络安全的铜墙铁壁贡献力量。（校对/<strong><em>徐扬</em></strong>）</p>
+  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[本网讯（特约记者/耿凯峰）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。]]></summary></entry><entry><title type="html">SPP85-从学业到职业的成长</title><link href="https://cips.nyist.edu.cn/news/2024/04/SPP-85/" rel="alternate" type="text/html" title="SPP85-从学业到职业的成长" /><published>2024-04-16T00:00:00+08:00</published><updated>2024-04-16T11:10:56+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/04/SPP-85</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/04/SPP-85/"><![CDATA[<p>报告主题：《群体智能–从自然现象到 AI 远景》</p>
   <p>报告主题：《从学业到职业的成长》</p>
   <p>报告简介：本期 SPP 报告主要分享讲者的学业与职业经历，为大家的学业与职业规划提供助力及参考。首先将回顾学生阶段的经历与选择，强调规划的重要性。接着，介绍工作带来的认知变化，突出职场所需的关键能力。最后，讲者将分享面试招聘环节的注意事项，提醒大家在求职过程中保持自信并了解公司文化。希望本期 SPP 报告能对大家有所启发，助力大家更好地规划自己的学业与职业道路。欢迎参加本期 SPP：4 月 17 日（周三）19:30-21:00。</p>
   <p>演讲嘉宾：张成远，京东云专家架构师</p>
@@ -63,12 +251,4 @@
   <p>预警中心相关负责人就当前网络安全形势进行了介绍与分析。在全球范围内，网络安全威胁日益严峻，各种网络攻击层出不穷，给社会稳定和经济发展带来了巨大挑战。与会者就当前网络安全面临的挑战和难题展开探讨，分享了各自在网络安全防护工作中的实践经验和技术成果。大家纷纷表示，只有通过技术创新和密切合作，才能有效提升网络安全防护水平，保障网络信息安全。</p>
   <p><img src="/static/news/seminar-2.jpg" alt="" /></p>
   <p>此次研讨会不仅为广大同学提供了学习交流的平台，也为网络安全领域的发展注入了新的活力和动力。在全球网络安全形势严峻的背景下，南阳市网络安全监控预警中心将继续积极推动网络安全领域的技术创新和合作交流，为维护国家网络安全、促进信息化建设作出更大的贡献。（校对/<strong><em>徐扬</em></strong>）</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[本网讯（特约记者/耿凯峰）3 月 13 日下午，南阳市网络安全监控预警中心举行了一场技术研讨会，旨在加强网络安全防护工作，共同应对日益复杂的网络安全威胁。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。]]></summary></entry><entry><title type="html">SPP80-如何让读书成为人生杠杆</title><link href="https://cips.nyist.edu.cn/news/2024/03/SPP-80/" rel="alternate" type="text/html" title="SPP80-如何让读书成为人生杠杆" /><published>2024-03-13T00:00:00+08:00</published><updated>2024-03-12T19:21:10+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/03/SPP-80</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/03/SPP-80/"><![CDATA[<p>报告主题：《如何让读书成为人生杠杆》</p>
-  <p>报告简介：本期 SPP 将通过讲者的亲身经历，讲解读书的意义，拆解读书的本质，介绍 SITOP 五步读书法，通过世界级成功人士的读书案例，激励年轻一代好好读书，实现个人的十倍速增长。</p>
-  <p>演讲嘉宾：孙思远，远读重洋创始人兼 CEO</p>
-  <p>远读重洋创始人兼 CEO，美国南加州大学经济学硕士，是《埃隆·马斯克传》中文版译者，荣获福布斯中国“出海全球化人物 Top30 先锋人物”；亚马逊中国挚爱阅读大使；还是 G20 青年企业家联盟理事、国际合作中心副主任。</p>
-  <p>举办时间：2024.03.13 19:30~21:00</p>
-  <p>会议地点：其他 在线会议 13 教 211 室转播</p>
-  <p>主办单位：中国计算机学会</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[报告主题：《如何让读书成为人生杠杆》]]></summary></entry><entry><title type="html">Hello CIPS!</title><link href="https://cips.nyist.edu.cn/news/2024/03/Hello-CIPS/" rel="alternate" type="text/html" title="Hello CIPS!" /><published>2024-03-05T00:00:00+08:00</published><updated>2024-03-12T19:23:19+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/03/Hello-CIPS</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/03/Hello-CIPS/"><![CDATA[<p>南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><category term="news" /><summary type="html"><![CDATA[南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。]]></summary></entry></feed>
+  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[本网讯（特约记者/耿凯峰）3 月 13 日下午，南阳市网络安全监控预警中心举行了一场技术研讨会，旨在加强网络安全防护工作，共同应对日益复杂的网络安全威胁。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。]]></summary></entry></feed>
