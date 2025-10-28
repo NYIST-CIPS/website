@@ -1,0 +1,654 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="zh-CN" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <!-- begin _includes/seo.html -->
+    <title>CTF 介绍 - CIPS @ NYIST</title>
+    <meta name="description" content="CTF 介绍">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="CIPS @ NYIST">
+    <meta property="og:title" content="CTF 介绍">
+    <meta property="og:url" content="https://cips.nyist.edu.cn/planet/2025/10/CTF001/">
+    <meta property="og:description" content="CTF 介绍">
+    <meta property="og:image" content="https://cips.nyist.edu.cn/static/splash/galaxy-1.jpg">
+    <meta property="article:published_time" content="2025-10-21T00:00:00+08:00">
+    <meta property="article:modified_time" content="2025-10-28T16:47:20+08:00">
+    <link rel="canonical" href="https://cips.nyist.edu.cn/planet/2025/10/CTF001/">
+    <!-- end _includes/seo.html -->
+    <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="CIPS @ NYIST Feed">
+    <!-- https://t.co/dKP3o1e -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#f3f6f6">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#f3f6f6">
+    <script>
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+    </script>
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="/assets/css/main.css?v=65117a4dce">
+    <link rel="stylesheet" href="/_extra/fontawesome/css/all.min.css" media="invalid" onload="this.media='all'">
+    <link rel="stylesheet" href="/_extra/open-sans.css" media="invalid" onload="this.media='all'">
+    <!--[if IE]>
+      <style>
+        /* old IE unsupported flexbox fixes */
+        .greedy-nav .site-title {
+          padding-right: 3em;
+        }
+        .greedy-nav button {
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: 100%;
+        }
+      </style>
+    <![endif]-->
+    <!-- start custom head snippets -->
+    <!-- insert favicons. use https://realfavicongenerator.net/ -->
+    <!-- end custom head snippets -->
+  </head>
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+      <ul>
+        <li><a href="#site-nav" class="screen-reader-shortcut">转到主导航栏</a></li>
+        <li><a href="#main" class="screen-reader-shortcut">转到内容</a></li>
+        <li><a href="#footer" class="screen-reader-shortcut">转到底部</a></li>
+      </ul>
+    </nav>
+    <div class="masthead">
+      <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+          <nav id="site-nav" class="greedy-nav">
+            <a class="site-logo" href="/"><img src="/static/lug-penguin.png" alt="CIPS @ NYIST"></a>
+            <a class="site-title" href="/">
+              CIPS @ NYIST
+            </a>
+            <ul class="visible-links">
+              <li class="masthead__menu-item">
+                <a
+                href="/wiki/"
+                
+                
+              ><i class="fad fa-lg fa-fw fa-star-shooting"></i> Wiki</a>
+              </li>
+              <li class="masthead__menu-item">
+                <a
+                href="/news/"
+                
+                
+              ><i class="fad fa-lg fa-fw fa-newspaper"></i> News</a>
+              </li>
+              <li class="masthead__menu-item">
+                <a
+                href="/planet/"
+                
+                
+              ><i class="fad fa-lg fa-fw fa-planet-ringed fa-swap-opacity"></i> Planet</a>
+              </li>
+              <li class="masthead__menu-item">
+                <a
+                href="https://github.com/NYIST-CIPS"
+                
+                
+              ><i class="fab fa-lg fa-fw fa-github"></i> GitHub</a>
+              </li>
+              <li class="masthead__menu-item">
+                <a
+                href="https://mirror.nyist.edu.cn/"
+                
+                
+              ><i class="fad fa-lg fa-fw fa-server"></i> Mirrors</a>
+              </li>
+            </ul>
+            <button class="search__toggle" type="button">
+              <span class="visually-hidden">切换搜索</span>
+              <i class="fas fa-search"></i>
+            </button>
+            <button class="greedy-nav__toggle hidden" type="button">
+              <span class="visually-hidden">切换菜单</span>
+              <div class="navicon"></div>
+            </button>
+            <ul class="hidden-links hidden"></ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="initial-content">
+      <div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/static/splash/galaxy-1.jpg');"
+>
+        <div class="wrapper">
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            CTF 介绍
+          </h1>
+          <p class="page__meta">
+            <span class="page__meta-date">
+              <i class="far fa-calendar-alt" aria-hidden="true"></i>
+              <time datetime="2025-10-21T00:00:00+08:00">2025 年 10 月 21 日</time>
+            </span>
+            <span class="page__meta-sep"></span>
+            <span class="page__meta-readtime">
+              <i class="far fa-clock" aria-hidden="true"></i>
+              5 分钟阅读
+            </span>
+          </p>
+        </div>
+      </div>
+      <div id="main" role="main">
+        <div class="sidebar sticky">
+          <div itemscope itemtype="https://schema.org/Person" class="h-card">
+            <div class="author__content">
+              <h3 class="author__name p-name" itemprop="name">
+                <a class="u-url" rel="me" href="https://cips.nyist.edu.cn/" itemprop="url"></a>
+              </h3>
+            </div>
+            <div class="author__urls-wrapper">
+              <button class="btn btn--inverse">关注</button>
+              <ul class="author__urls social-icons">
+                <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+          <meta itemprop="headline" content="CTF 介绍">
+          <meta itemprop="description" content="CTF 介绍">
+          <meta itemprop="datePublished" content="2025-10-21T00:00:00+08:00">
+          <meta itemprop="dateModified" content="2025-10-28T16:47:20+08:00">
+          <div class="page__inner-wrap">
+            <section class="page__content" itemprop="text">
+              <aside class="sidebar__right sticky">
+                <nav class="toc">
+                  <header>
+                    <h4 class="nav__title"><i class="fas fa-file-alt"></i> 目录</h4>
+                  </header>
+                  <ul class="toc__menu">
+                    <li><a href="#什么是-ctf">什么是 CTF？</a></li>
+                    <li><a href="#ctf-比赛类型分类">CTF 比赛类型分类</a>
+                      <ul>
+                        <li><a href="#1-jeopardy解题型">1. Jeopardy（解题型）</a></li>
+                        <li><a href="#2-attack-defense攻防型">2. Attack-Defense（攻防型）</a></li>
+                        <li><a href="#3-king-of-the-hillkoth">3. King of the Hill（KoTH）</a></li>
+                        <li><a href="#ctf-类型的区别">CTF 类型的区别</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#4-boot2root主机渗透型">4. Boot2Root（主机渗透型）</a></li>
+                    <li><a href="#5-real-world-simulation真实世界模拟型">5. Real-World Simulation（真实世界模拟型）</a></li>
+                    <li><a href="#6-ai自动化型-ctf">6. AI/自动化型 CTF</a></li>
+                    <li><a href="#7教育型-ctflearning-based">7.教育型 CTF（Learning-Based）</a></li>
+                    <li><a href="#8企业实战-ctfred-team-vs-blue-team">8.企业实战 CTF（Red Team vs. Blue Team）</a></li>
+                  </ul>
+                </nav>
+              </aside>
+              <h3 id="什么是-ctf">什么是 CTF？</h3>
+              <p>CTF（Capture The Flag）是一种资讯安全竞赛的形式，通常将挑战题目分为数种主要类型，例如：</p>
+              <ul>
+                <li><strong>Pwn (Binary</strong> Exploitation) ：破解或攻击程式，利用其弱点（漏洞）取得目标机器或执行未被预期的动作。</li>
+                <li><strong>Reverse (Reverse Engineering)</strong>：逆向工程，分析程式码或档案运作方式，找出演算法逻辑或破解方法。</li>
+                <li><strong>Web (Web Exploitation)</strong>：针对网站常见漏洞（SQL Injection、XSS、File Inclusion 等）进行渗透测试和漏洞利用。</li>
+                <li><strong>Forensics (数位鉴识)</strong>：分析系统、记忆体或封包，透过蛛丝马迹取得 Flag。</li>
+                <li><strong>Crypto (密码学)</strong>：解密、分析密码或加密演算法，甚至自行推导解密方式。</li>
+                <li><strong>Misc (杂项)</strong>：包含 OSINT、编码转换、隐写术（Steganography）等比较零散的主题。</li>
+              </ul>
+              <blockquote>
+                <p>不同 CTF 会根据赛制与性质分配不同的题目类型，也有部分竞赛主打特定范围（如纯 Web 或纯逆向）。</p>
+              </blockquote>
+              <h3 id="ctf-比赛类型分类"><strong>CTF 比赛类型分类</strong></h3>
+              <h4 id="1-jeopardy解题型">1. <strong>Jeopardy（解题型）</strong></h4>
+              <p>这是最常见的 CTF 赛制，参赛者需要从多种题目中选择解题，目标是找到题目隐藏的 Flag，根据题目难度获得相应分数。</p>
+              <ul>
+                <li>
+                  <p>特点</p>
+                  <p>题目多样，涵盖 Pwn、Reverse、Web、Crypto、Forensics 等领域。</p>
+                  <p>参赛者可以自由选择擅长的题型解题，分数通常累积到比赛结束。</p>
+                </li>
+                <li>
+                  <p><strong>适合对象</strong>：初学者与进阶玩家都可参加，对个人与小型团队特别友善。</p>
+                </li>
+                <li>
+                  <p><strong>范例比赛</strong>：picoCTF、Google CTF（Quals 赛）、AIS3 Pre-exam。</p>
+                </li>
+              </ul>
+              <hr />
+              <h4 id="2-attack-defense攻防型">2. <strong>Attack-Defense（攻防型）</strong></h4>
+              <p>攻防型 CTF 更注重实战，模拟真实的网路攻防情境。参赛团队需在指定的基础环境中，攻击对手的伺服器同时保护自己的服务。</p>
+              <ul>
+                <li>
+                  <p>特点</p>
+                  <p>团队需要同时具备进攻（渗透测试、漏洞利用）与防御（漏洞修补、日志分析）能力。</p>
+                  <p>赛事进行中，团队需快速回应对手攻击，同时在规定时间内得分。</p>
+                </li>
+                <li>
+                  <p><strong>适合对象</strong>：进阶玩家、团队合作能力强的参赛者。</p>
+                </li>
+                <li>
+                  <p><strong>范例比赛</strong>：DEF CON CTF（决赛）、HITCON CTF（部分赛制）。</p>
+                </li>
+              </ul>
+              <hr />
+              <h4 id="3-king-of-the-hillkoth">3. <strong>King of the Hill（KoTH）</strong></h4>
+              <p>KoTH 是一种特殊的 CTF 比赛类型，参赛者需要攻陷目标系统（通常是一台虚拟机或服务），并在夺得控制权后进行防御，防止其他参赛者夺回系统的控制。</p>
+              <ul>
+                <li>
+                  <p>特点</p>
+                  <p>比赛期间，参赛者需要攻击其他参赛者的已控主机，同时巩固自己对主机的控制权。</p>
+                  <p>参赛者获得分数的时间取决于他们对目标的控制时间长短。</p>
+                  <p>比赛结束时，控制系统时间最长的队伍或个人获胜。</p>
+                </li>
+                <li>
+                  <p>防御与攻击并重</p>
+                  <p>除了渗透测试技术，还需具备系统加固、防御与监控的能力（如修补漏洞、阻止其他攻击）。</p>
+                  <p>需要快速分析系统漏洞，并在有限时间内设置防御机制。</p>
+                </li>
+                <li>
+                  <p>适合对象</p>
+                  <p>进阶玩家或对攻防兼具技能有兴趣的参赛者。</p>
+                </li>
+                <li>
+                  <p><strong>范例比赛</strong>：Hack The Box KoTH、TryHackMe KoTH 模式。</p>
+                </li>
+              </ul>
+              <hr />
+              <h4 id="ctf-类型的区别">CTF 类型的区别</h4>
+              <table>
+                <thead>
+                  <tr>
+                    <th>特点</th>
+                    <th>King of the Hill</th>
+                    <th>Attack-Defense</th>
+                    <th>Jeopardy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>目标</strong></td>
+                    <td>夺取并保持控制权</td>
+                    <td>攻击对手并防御自己的服务</td>
+                    <td>解决独立题目以取得 Flag</td>
+                  </tr>
+                  <tr>
+                    <td><strong>焦点</strong></td>
+                    <td>同时进行攻击与防御</td>
+                    <td>主要专注于服务防御与攻击</td>
+                    <td>以解题能力为主</td>
+                  </tr>
+                  <tr>
+                    <td><strong>比赛方式</strong></td>
+                    <td>所有参赛者攻击同一目标并竞争控制权</td>
+                    <td>团队之间互相攻击与防御</td>
+                    <td>各自解决题目，没有直接对抗</td>
+                  </tr>
+                  <tr>
+                    <td><strong>难度</strong></td>
+                    <td>高，需兼顾攻防技术</td>
+                    <td>高，需了解渗透与防御的完整流程</td>
+                    <td>中至高，视题目难度而定</td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr />
+              <h3 id="4-boot2root主机渗透型">4. <strong>Boot2Root（主机渗透型）</strong></h3>
+              <p>参赛者需要进入一个目标机器（通常为虚拟机），利用渗透测试技术攻入系统，并在最高权限（Root 权限）下找到 Flag。</p>
+              <ul>
+                <li>
+                  <p>特点</p>
+                  <p>强调渗透技术和对系统漏洞的理解。</p>
+                  <p>过程涉及资讯搜集、漏洞分析、利用、权限提升等完整流程。</p>
+                </li>
+                <li>
+                  <p><strong>适合对象</strong>：喜欢主机渗透测试、想模拟真实环境的玩家。</p>
+                </li>
+                <li>
+                  <p><strong>范例平台</strong>：Hack The Box、TryHackMe。</p>
+                </li>
+              </ul>
+              <hr />
+              <h3 id="5-real-world-simulation真实世界模拟型">5. <strong>Real-World Simulation（真实世界模拟型）</strong></h3>
+              <p>这类比赛聚焦于模拟真实世界的安全事件，例如针对公司内部网路、工控系统（ICS）、云端服务进行渗透测试或攻防。</p>
+              <ul>
+                <li>
+                  <p>特点</p>
+                  <p>题目更贴近企业实际场景，涉及多层网路架构与复杂应用。</p>
+                  <p>强调团队合作，解决多面向问题。</p>
+                </li>
+                <li>
+                  <p><strong>适合对象</strong>：有企业安全背景或希望参与真实场景的进阶玩家与团队。</p>
+                </li>
+                <li>
+                  <p><strong>范例比赛</strong>：Cyber Apocalypse CTF、Cyber Defence Exercise（CYBER-X）。</p>
+                </li>
+              </ul>
+              <hr />
+              <h3 id="6-ai自动化型-ctf">6. <strong>AI/自动化型 CTF</strong></h3>
+              <p>部分比赛专注于结合人工智慧（AI）技术与资安竞赛，要求参赛者开发自动化工具进行漏洞探索、攻击或防御。</p>
+              <ul>
+                <li>
+                  <p>特点</p>
+                  <p>高度依赖编程能力和算法设计。</p>
+                  <p>题目通常具有学术或研究性质。</p>
+                </li>
+                <li>
+                  <p><strong>适合对象</strong>：熟悉 AI、机器学习或算法研究的参赛者。</p>
+                </li>
+                <li>
+                  <p><strong>范例比赛</strong>：DARPA Cyber Grand Challenge。</p>
+                </li>
+              </ul>
+              <hr />
+              <h3 id="7教育型-ctflearning-based">7.<strong>教育型 CTF（Learning-Based）</strong></h3>
+              <p>这类比赛设计目的是教育与培训，例如专为新手设计的题目，帮助参赛者逐步学习资安概念与技能。</p>
+              <ul>
+                <li>
+                  <p>特点</p>
+                  <p>题目附有提示与教学指引，适合练习基础技能。</p>
+                  <p>目标是提升参与者的知识与实践能力，而非竞争性。</p>
+                </li>
+                <li>
+                  <p><strong>适合对象</strong>：新手、学生、希望从头学习的玩家。</p>
+                </li>
+                <li>
+                  <p><strong>范例比赛</strong>：picoCTF、OverTheWire、AIS3 Pre-exam。</p>
+                </li>
+              </ul>
+              <hr />
+              <h3 id="8企业实战-ctfred-team-vs-blue-team">8.<strong>企业实战 CTF（Red Team vs. Blue Team）</strong></h3>
+              <p>由企业或资安组织主办，比赛通常设计为「红队 vs 蓝队」模式。参赛者分为攻击方（红队）与防御方（蓝队），模拟企业内部的攻防场景。</p>
+              <ul>
+                <li>
+                  <p>特点</p>
+                  <p>比赛设计高度贴近实际企业安全需求，涵盖事件响应、威胁检测等内容。</p>
+                  <p>适合有意进入企业资安工作的参赛者。</p>
+                </li>
+                <li>
+                  <p><strong>适合对象</strong>：企业内资安团队、进阶资安工程师。</p>
+                </li>
+                <li>
+                  <p><strong>范例比赛</strong>：Cybersecurity Attack &amp; Defense Exercise。</p>
+                </li>
+              </ul>
+              <hr />
+              <h2 id="如何选择适合的比赛类型"><strong>如何选择适合的比赛类型？</strong></h2>
+              <ol>
+                <li>
+                  <p>新手玩家</p>
+                  <p>建议从<strong>Jeopardy 型</strong>或<strong>教育型 CTF</strong>开始，例如 picoCTF、AIS3 Pre-exam、OverTheWire。</p>
+                </li>
+                <li>
+                  <p>进阶玩家或团队</p>
+                  <p>可挑战<strong>攻防型 CTF</strong>或<strong>混合型 CTF</strong>，如 HITCON CTF、Google CTF。</p>
+                </li>
+                <li>
+                  <p>实战导向</p>
+                  <p>若希望模拟真实环境或学习企业场景，选择<strong>Real-World Simulation</strong>或<strong>Boot2Root 型</strong>比赛。</p>
+                </li>
+                <li>
+                  <p>学术与研究兴趣</p>
+                  <p>对 AI 或演算法有兴趣的玩家可参与<strong>AI 相关 CTF</strong>。</p>
+                </li>
+              </ol>
+            </section>
+            <footer class="page__meta">
+              <p class="page__taxonomy">
+                <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> 分类: </strong>
+                <span itemprop="keywords">
+                  <a href="/categories/planet" class="page__taxonomy-item p-category" rel="tag">planet</a>
+                </span>
+              </p>
+              <p class="page__date"><strong><i class="fad fa-fw fa-calendar-alt" aria-hidden="true"></i> 更新时间:</strong> <time datetime="2025-10-28">2025 年 10 月 28 日</time></p>
+            </footer>
+            <nav class="pagination">
+              <a href="/planet/2025/10/AI002/" class="pagination--pager" title="人工智能 AI 工具合集">上一页</a>
+              <a href="/planet/2025/10/CTF002/" class="pagination--pager" title="CTF 资料下载（PWN/AWD 专项）">下一页</a>
+            </nav>
+          </div>
+        </article>
+        <div class="page__related">
+          <h2 class="page__related-title">猜您还喜欢</h2>
+          <div class="grid__wrapper">
+            <div class="grid__item">
+              <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+                <h2 class="archive__item-title no_toc" itemprop="headline">
+                  <a href="/planet/2025/10/CTF002/" rel="permalink">CTF 资料下载（PWN/AWD 专项）
+                  </a>
+                </h2>
+                <p class="page__meta">
+                  <span class="page__meta-date">
+                    <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+                    <time datetime="2025-10-21T00:00:00+08:00">2025 年 10 月 21 日</time>
+                  </span>
+                  <span class="page__meta-sep"></span>
+                  <span class="page__meta-readtime">
+                    <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+                    1 分钟阅读
+                  </span>
+                </p>
+                <p class="archive__item-excerpt" itemprop="description">CTF 资料下载（PWN/AWD 专项）
+                </p>
+              </article>
+            </div>
+            <div class="grid__item">
+              <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+                <h2 class="archive__item-title no_toc" itemprop="headline">
+                  <a href="/planet/2025/10/AI002/" rel="permalink">人工智能 AI 工具合集
+                  </a>
+                </h2>
+                <p class="page__meta">
+                  <span class="page__meta-date">
+                    <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+                    <time datetime="2025-10-21T00:00:00+08:00">2025 年 10 月 21 日</time>
+                  </span>
+                  <span class="page__meta-sep"></span>
+                  <span class="page__meta-readtime">
+                    <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+                    1 分钟阅读
+                  </span>
+                </p>
+                <p class="archive__item-excerpt" itemprop="description">人工智能 AI 工具合集
+                </p>
+              </article>
+            </div>
+            <div class="grid__item">
+              <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+                <h2 class="archive__item-title no_toc" itemprop="headline">
+                  <a href="/planet/2025/10/AI001/" rel="permalink">人工智能术语解释表
+                  </a>
+                </h2>
+                <p class="page__meta">
+                  <span class="page__meta-date">
+                    <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+                    <time datetime="2025-10-21T00:00:00+08:00">2025 年 10 月 21 日</time>
+                  </span>
+                  <span class="page__meta-sep"></span>
+                  <span class="page__meta-readtime">
+                    <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+                    10 分钟阅读
+                  </span>
+                </p>
+                <p class="archive__item-excerpt" itemprop="description">人工智能术语解释表
+                </p>
+              </article>
+            </div>
+            <div class="grid__item">
+              <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+                <h2 class="archive__item-title no_toc" itemprop="headline">
+                  <a href="/planet/2025/10/cips3/" rel="permalink">一、引言
+                  </a>
+                </h2>
+                <p class="page__meta">
+                  <span class="page__meta-date">
+                    <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+                    <time datetime="2025-10-14T00:00:00+08:00">2025 年 10 月 14 日</time>
+                  </span>
+                  <span class="page__meta-sep"></span>
+                  <span class="page__meta-readtime">
+                    <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+                    3 分钟阅读
+                  </span>
+                </p>
+                <p class="archive__item-excerpt" itemprop="description">一、引言
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-content">
+      <div class="search-content__inner-wrap">
+        <div class="search-searchbar"></div>
+        <div class="search-hits"></div>
+      </div>
+    </div>
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+        <!-- end custom footer snippets -->
+        <div class="footer-row">
+          <div class="footer-block footer__about">
+            <p>南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。</p>
+            <p>感谢 <a href="https://lug.ustc.edu.cn/"><b>USTC LUG</b></a> 为本站提供的主题模版。</p>
+          </div>
+          <div class="footer-block footer__extras">
+            <div class="footer__contact">
+              <ul>
+                <li>
+                  <a href="/wiki/intro/"><i class="fad fa-fw fa-address-card"></i> 关于我们</a>
+                </li>
+                <li>
+                  <a href="/wiki/cips/contact/"><i class="fas fa-fw fa-phone-alt"></i> 联系我们</a>
+                </li>
+                <li>
+                  <a href="/wiki/cips/contribute/"><i class="fad fa-fw fa-users"></i> 加入我们</a>
+                </li>
+                <li>
+                  <a href="/feed/"><i class="fad fa-fw fa-rss" style="--fa-secondary-opacity: 0.6;"></i> RSS 订阅</a>
+                </li>
+                <li>
+                  <a href="https://github.com/NYIST-CIPS/website"><i class="fab fa-fw fa-github"></i> 本站仓库</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__logo">
+              <div class="footer__logo-image">
+                <img src="/static/logo.png" />
+              </div>
+              <div class="footer__logo-text">
+                <!-- a href="http://www.beian.miit.gov.cn" target="_blank">皖ICP备05002528号</a -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/assets/js/main.min.js"></script>
+    <script>
+      // Including InstantSearch.js library and styling
+      const loadSearch = function() {
+        const loadCSS = function(src) {
+          var link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = src;
+          link.media = 'all';
+          document.head.appendChild(link);
+        };
+
+        var script = document.createElement('script');
+        script.setAttribute("type", "text/javascript");
+        script.setAttribute("src", "https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.js");
+        script.addEventListener("load", function() {
+          // Instantiating InstantSearch.js with Algolia credentials
+          const search = instantsearch({
+            appId: '',
+            apiKey: '',
+            indexName: 'default',
+            searchParameters: {
+              restrictSearchableAttributes: ['title', 'content']
+            }
+          });
+
+          const hitTemplate = function(hit) {
+            const url = hit.url;
+            const hightlight = hit._highlightResult;
+            const title = hightlight.title && hightlight.title.value  || "";
+            const content = hightlight.html && hightlight.html.value  || "";
+
+            return `
+              <div class="list__item">
+                <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+                  <h2 class="archive__item-title" itemprop="headline"><a href="${url}">${title}</a></h2>
+                  <div class="archive__item-excerpt" itemprop="description">${content}</div>
+                </article>
+              </div>
+            `;
+          }
+
+          // Adding searchbar and results widgets
+          search.addWidget(
+            instantsearch.widgets.searchBox({
+              container: '.search-searchbar',
+              poweredBy: true,
+              placeholder: '输入您要搜索的关键词...'
+            })
+          );
+          search.addWidget(
+            instantsearch.widgets.hits({
+              container: '.search-hits',
+              templates: {
+                item: hitTemplate,
+                empty: '无结果',
+              }
+            })
+          );
+
+          if (!search.started) {
+            search.start();
+          }
+        });
+        document.body.appendChild(script);
+
+        loadCSS("https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch.min.css");
+        loadCSS("https://cdn.jsdelivr.net/npm/instantsearch.js@2.3.3/dist/instantsearch-theme-algolia.min.css");
+      };
+
+      // Starting the search only when toggle is clicked
+      $(document).ready(function() {
+        var scriptLoaded = false;
+
+        $(".search__toggle").on("click", function() {
+          if (!scriptLoaded) {
+            loadSearch();
+            scriptLoaded = true;
+          }
+        });
+      });
+    </script>
+    <img src="/static/NYIST_logo.png" style="position: fixed; bottom: -320px; left: -200px; opacity: 0.1; z-index: -100;" />
+  </body>
+</html>
