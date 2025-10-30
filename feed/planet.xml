@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed/planet.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-10-30T19:53:02+08:00</updated><id>https://cips.nyist.edu.cn/feed/planet.xml</id><title type="html">CIPS @ NYIST | Planet</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">CTF 资料下载（PWN/AWD 专项）</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF002/" rel="alternate" type="text/html" title="CTF 资料下载（PWN/AWD 专项）" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-30T19:43:11+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF002/"><![CDATA[<h2 id="一pwn-方向资料">一、PWN 方向资料</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed/planet.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-10-30T20:14:32+08:00</updated><id>https://cips.nyist.edu.cn/feed/planet.xml</id><title type="html">CIPS @ NYIST | Planet</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">CTF 资料下载（PWN/AWD 专项）</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF002/" rel="alternate" type="text/html" title="CTF 资料下载（PWN/AWD 专项）" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF002/"><![CDATA[<h2 id="一pwn-方向资料">一、PWN 方向资料</h2>
       <table>
         <thead>
           <tr>
@@ -63,7 +63,7 @@
         <li><strong>资料备份提醒</strong>：PDF 电子书和关键教程建议及时下载保存，避免因链接失效导致资料无法访问。</li>
         <li><strong>学习节奏建议</strong>：PWN 方向需先掌握 C 语言、汇编基础和 Linux 系统知识；AWD 方向需额外了解网络安全、漏洞利用与防御策略。</li>
       </ol>
-      ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">CTF 介绍</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF001/" rel="alternate" type="text/html" title="CTF 介绍" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-30T19:43:11+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF001/"><![CDATA[<h3 id="什么是-ctf">什么是 CTF？</h3>
+      ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">CTF 介绍</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF001/" rel="alternate" type="text/html" title="CTF 介绍" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF001/"><![CDATA[<h3 id="什么是-ctf">什么是 CTF？</h3>
     <p>CTF（Capture The Flag）是一种资讯安全竞赛的形式，通常将挑战题目分为数种主要类型，例如：</p>
     <ul>
       <li><strong>Pwn (Binary</strong> Exploitation) ：破解或攻击程式，利用其弱点（漏洞）取得目标机器或执行未被预期的动作。</li>
@@ -269,7 +269,7 @@
         <p>对 AI 或演算法有兴趣的玩家可参与<strong>AI 相关 CTF</strong>。</p>
       </li>
     </ol>
-    ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 介绍]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI002/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-30T19:43:11+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI002/"><![CDATA[<h2 id="重要提示">重要提示</h2>
+    ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 介绍]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI002/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI002/"><![CDATA[<h2 id="重要提示">重要提示</h2>
   <p>所有的 GPT 工具都是用模型训练出来的，内容可能存在谬误，使用时需自行甄别信息准确性。</p>
   <hr />
   <h2 id="一本地部署工具">一、本地部署工具</h2>
@@ -417,7 +417,7 @@
     <li>https://supremes.pro/</li>
     <li>https://chat.aidutu.cn/#/chat/1002</li>
   </ol>
-  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能 AI 工具合集]]></summary></entry><entry><title type="html">人工智能术语解释表</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI001/" rel="alternate" type="text/html" title="人工智能术语解释表" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-30T19:43:11+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI001/"><![CDATA[<table>
+  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能 AI 工具合集]]></summary></entry><entry><title type="html">人工智能术语解释表</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI001/" rel="alternate" type="text/html" title="人工智能术语解释表" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI001/"><![CDATA[<table>
     <thead>
       <tr>
         <th>名词</th>
@@ -618,7 +618,7 @@
       </tr>
     </tbody>
   </table>
-  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能术语解释表]]></summary></entry><entry><title type="html">一、引言</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips3/" rel="alternate" type="text/html" title="一、引言" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-30T19:43:11+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips3</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips3/"><![CDATA[<p>随着数字化转型的加速，企业面临的网络安全威胁日益复杂。如何构建健全的网络安全体系，已成为企业信息化建设的核心课题。本文结合实际，探讨企业网络安全建设的关键环节与实践经验。</p>
+  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能术语解释表]]></summary></entry><entry><title type="html">一、引言</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips3/" rel="alternate" type="text/html" title="一、引言" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips3</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips3/"><![CDATA[<p>随着数字化转型的加速，企业面临的网络安全威胁日益复杂。如何构建健全的网络安全体系，已成为企业信息化建设的核心课题。本文结合实际，探讨企业网络安全建设的关键环节与实践经验。</p>
   <h2 id="二企业网络安全建设的核心要素">二、企业网络安全建设的核心要素</h2>
   <h3 id="1-安全策略与制度建设">1. 安全策略与制度建设</h3>
   <ul>
@@ -720,7 +720,7 @@
   </ul>
   <h2 id="五结语">五、结语</h2>
   <p>校园网络安全是一项系统工程，需要技术、管理和意识多管齐下。只有构建完善的防护体系，才能为高校的数字化发展保驾护航。</p>
-  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、引言]]></summary></entry><entry><title type="html">一、网络安全概述</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips2/" rel="alternate" type="text/html" title="一、网络安全概述" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-30T19:43:11+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips2</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips2/"><![CDATA[<p>网络安全（Cybersecurity）是指通过采取技术、管理等多种手段，保护网络系统及其数据免受攻击、损坏、泄露和非法访问，确保信息的机密性、完整性和可用性。</p>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、引言]]></summary></entry><entry><title type="html">一、网络安全概述</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips2/" rel="alternate" type="text/html" title="一、网络安全概述" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips2</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips2/"><![CDATA[<p>网络安全（Cybersecurity）是指通过采取技术、管理等多种手段，保护网络系统及其数据免受攻击、损坏、泄露和非法访问，确保信息的机密性、完整性和可用性。</p>
   <h2 id="二常见网络安全威胁">二、常见网络安全威胁</h2>
   <ol>
     <li><strong>恶意软件（Malware）</strong>
@@ -802,7 +802,7 @@
   </ol>
   <h2 id="五结语">五、结语</h2>
   <p>网络安全是一个持续演进的领域，面对日益复杂的威胁，只有不断学习新技术、完善安全体系，才能有效保障个人和组织的信息安全。</p>
-  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、网络安全概述]]></summary></entry><entry><title type="html">南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips1/" rel="alternate" type="text/html" title="南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-30T19:43:11+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips1</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips1/"><![CDATA[<p>近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。</p>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、网络安全概述]]></summary></entry><entry><title type="html">南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips1/" rel="alternate" type="text/html" title="南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips1</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips1/"><![CDATA[<p>近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。</p>
   <p>本次大赛吸引了来自全国各高校的优秀学子同台竞技。南阳理工学院 CIPS 社团的参赛队员们经过数月的精心准备，在比赛中展现了扎实的数学功底、创新的建模思维和出色的团队协作能力。他们的获奖作品充分体现了将数学理论应用于解决实际问题的能力，获得了评委们的一致认可。</p>
   <p>CIPS 社团作为南阳理工学院重要的学术科技类社团，一直致力于培养学生的创新精神和实践能力。此次获奖不仅是对参赛同学个人能力的肯定，更是对社团长期坚持“以赛促学、以学促用”理念的充分印证。</p>
   <p>学校相关负责人表示，将继续支持学生参与各类高水平学科竞赛，为学生提供更多展示才华的平台，助力培养更多具有创新精神和实践能力的优秀人才。</p>
