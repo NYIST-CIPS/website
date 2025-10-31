@@ -1,41 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed/news.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-10-30T20:14:32+08:00</updated><id>https://cips.nyist.edu.cn/feed/news.xml</id><title type="html">CIPS @ NYIST | News</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">信息化建设与管理中心举办学生团队技术交流会</title><link href="https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange/" rel="alternate" type="text/html" title="信息化建设与管理中心举办学生团队技术交流会" /><published>2025-09-25T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange/"><![CDATA[<p>9 月 25 日，信息化建设与管理中心组织召开学生团队技术交流会。耿凯峰副主任出席会议并讲话，安全监测组、渗透一组和渗透二组全体成员参加。</p>
-      <p>交流会以“技术共进·协作致远”为主题，同学们积极提出了在实践中遇到的各类问题，如“如何更高效地完成分组任务”“学习与项目如何平衡”“技术难题该如何突破”“团队沟通怎样更顺畅”等。针对这些提问，现场老师和组内同学们逐一进行了交流与解答，有的从时间管理方法入手，分享了如何合理规划学习与工作；有的结合实战经验，介绍了处理复杂漏洞与攻防演练的技巧；也有同学从团队协作角度提出改进建议，如加强跨组配合、建立更顺畅的沟通机制。</p>
-      <p>通过互动解答，不仅解决了实际困惑，也促进了不同小组之间的理解与借鉴，进一步增强了团队凝聚力。</p>
-      <p>耿凯峰充分肯定了学生技术团队在学校信息化工作中发挥的重要作用，并对学生技术团队提出了新的期望。他指出，希望大家在今后的学习与实践中：</p>
-      <ol>
-        <li>不断增强安全意识，规范技术行为，始终重视数据与系统的安全性。</li>
-        <li>珍惜锻炼机会，勇于担当作为，在具体任务中积累经验、提升能力。</li>
-        <li>注重理论与实践结合，全面提升素养，努力成长为既懂技术又能应用的复合型人才。</li>
-      </ol>
-      <p>此次交流会的成功举办，不仅为安全监测组、渗透一组和渗透二组搭建了互学互鉴的平台，也进一步增强了学生技术团队的凝聚力和使命感。未来，信息化建设与管理中心将继续完善学生技术队伍的培养机制，推动形成“培训—实战—反思—成长”的良性循环，助力团队在学校信息化建设中不断突破、稳步前行。</p>
-      <p>（校对/耿凯峰 审核/吴绍兴）</p>
-      ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[9 月 25 日，信息化建设与管理中心组织召开学生团队技术交流会。耿凯峰副主任出席会议并讲话，安全监测组、渗透一组和渗透二组全体成员参加。]]></summary></entry><entry><title type="html">你好啊，新社员</title><link href="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/" rel="alternate" type="text/html" title="你好啊，新社员" /><published>2024-09-22T00:00:00+08:00</published><updated>2024-09-22T20:05:04+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/09/Hello-new-members</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/"><![CDATA[<p>欢迎加入 CIPS，开启你的计算机探险之旅！
-      无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。</p>
-    <p>CIPS——让热爱技术的你大展拳脚！</p>
-    <ul>
-      <li>技术实战： 我们社团负责管理学校信息系统，服务器运维、系统搭建、镜像站维护、GitLab 代码托管等都是我们的日常工作。加入 CIPS，你将有机会在真实项目中学习并实践计算机技术。</li>
-      <li>全面学习： 从网络搭建、服务器管理到编程实战，我们为你提供丰富的学习资源和一线技术指导，无论你是技术小白还是有一定经验，我们都能帮助你提升。</li>
-      <li>竞赛与交流： 我们积极组织和参与各类计算机相关竞赛，与校内外技术大咖深入交流，参加论坛与培训，拓展视野，丰富履历。</li>
-    </ul>
-    <p>加入 CIPS，你将获得：</p>
-    <ul>
-      <li>实战经验积累：参与学校的真实项目管理，提升实践能力。</li>
-      <li>技术提升：定期的技术分享会、编程课程、竞赛指导，帮助你快速成长。</li>
-      <li>人脉拓展：结识志同道合的伙伴，与经验丰富的师兄师姐共事交流。</li>
-      <li>资源丰富：拥有独立的实验室和专属 WiFi，学习环境极佳，资源共享。</li>
-    </ul>
-    <p>如果你具备以下特质，我们在等你：</p>
-    <ul>
-      <li>对计算机、编程、网络技术充满兴趣；</li>
-      <li>渴望在实践中提升自己，敢于挑战和创新；</li>
-      <li>有责任心、团队合作精神，愿意与伙伴们共同成长。</li>
-    </ul>
-    <p>报名方式： 点<a href="https://docs.qq.com/sheet/DZFROZVhRUE5SVFNE">这里</a>填写报名表。<br />
-      面试时间： 10 月 8 日，地点：13 号楼 211 室。<br />
-      联系我们：*如果有任何疑问，可以点<a href="https://qm.qq.com/q/GMTHU2wqky">这里</a>加入招新群进行咨询。</p>
-    <p>你与未来只差一步——快来加入我们吧！
-      CIPS，期待与你一起探索计算机的无限可能！</p>
-    ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[欢迎加入 CIPS，开启你的计算机探险之旅！ 无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。]]></summary></entry><entry><title type="html">南阳市网络安全监控预警中心召开2024年第二期技术研讨会</title><link href="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/" rel="alternate" type="text/html" title="南阳市网络安全监控预警中心召开2024年第二期技术研讨会" /><published>2024-04-21T00:00:00+08:00</published><updated>2024-04-24T07:14:13+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>耿凯峰</em></strong>）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed/news.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-10-31T20:38:15+08:00</updated><id>https://cips.nyist.edu.cn/feed/news.xml</id><title type="html">CIPS @ NYIST | News</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖</title><link href="https://cips.nyist.edu.cn/news/2025/10/CIPS-Society-Claims-Award-at-Digital-Dimension-Cup/" rel="alternate" type="text/html" title="南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/10/CIPS-Society-Claims-Award-at-Digital-Dimension-Cup</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/10/CIPS-Society-Claims-Award-at-Digital-Dimension-Cup/"><![CDATA[<p>近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。</p>
+      <p>本次大赛吸引了来自全国各高校的优秀学子同台竞技。南阳理工学院 CIPS 社团的参赛队员们经过数月的精心准备，在比赛中展现了扎实的数学功底、创新的建模思维和出色的团队协作能力。他们的获奖作品充分体现了将数学理论应用于解决实际问题的能力，获得了评委们的一致认可。</p>
+      <p>CIPS 社团作为南阳理工学院重要的学术科技类社团，一直致力于培养学生的创新精神和实践能力。此次获奖不仅是对参赛同学个人能力的肯定，更是对社团长期坚持“以赛促学、以学促用”理念的充分印证。</p>
+      <p>学校相关负责人表示，将继续支持学生参与各类高水平学科竞赛，为学生提供更多展示才华的平台，助力培养更多具有创新精神和实践能力的优秀人才。</p>
+      ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。]]></summary></entry><entry><title type="html">信息化建设与管理中心举办学生团队技术交流会</title><link href="https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange/" rel="alternate" type="text/html" title="信息化建设与管理中心举办学生团队技术交流会" /><published>2025-09-25T00:00:00+08:00</published><updated>2025-10-30T20:11:02+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange/"><![CDATA[<p>9 月 25 日，信息化建设与管理中心组织召开学生团队技术交流会。耿凯峰副主任出席会议并讲话，安全监测组、渗透一组和渗透二组全体成员参加。</p>
+    <p>交流会以“技术共进·协作致远”为主题，同学们积极提出了在实践中遇到的各类问题，如“如何更高效地完成分组任务”“学习与项目如何平衡”“技术难题该如何突破”“团队沟通怎样更顺畅”等。针对这些提问，现场老师和组内同学们逐一进行了交流与解答，有的从时间管理方法入手，分享了如何合理规划学习与工作；有的结合实战经验，介绍了处理复杂漏洞与攻防演练的技巧；也有同学从团队协作角度提出改进建议，如加强跨组配合、建立更顺畅的沟通机制。</p>
+    <p>通过互动解答，不仅解决了实际困惑，也促进了不同小组之间的理解与借鉴，进一步增强了团队凝聚力。</p>
+    <p>耿凯峰充分肯定了学生技术团队在学校信息化工作中发挥的重要作用，并对学生技术团队提出了新的期望。他指出，希望大家在今后的学习与实践中：</p>
+    <ol>
+      <li>不断增强安全意识，规范技术行为，始终重视数据与系统的安全性。</li>
+      <li>珍惜锻炼机会，勇于担当作为，在具体任务中积累经验、提升能力。</li>
+      <li>注重理论与实践结合，全面提升素养，努力成长为既懂技术又能应用的复合型人才。</li>
+    </ol>
+    <p>此次交流会的成功举办，不仅为安全监测组、渗透一组和渗透二组搭建了互学互鉴的平台，也进一步增强了学生技术团队的凝聚力和使命感。未来，信息化建设与管理中心将继续完善学生技术队伍的培养机制，推动形成“培训—实战—反思—成长”的良性循环，助力团队在学校信息化建设中不断突破、稳步前行。</p>
+    <p>（校对/耿凯峰 审核/吴绍兴）</p>
+    ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[9 月 25 日，信息化建设与管理中心组织召开学生团队技术交流会。耿凯峰副主任出席会议并讲话，安全监测组、渗透一组和渗透二组全体成员参加。]]></summary></entry><entry><title type="html">你好啊，新社员</title><link href="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/" rel="alternate" type="text/html" title="你好啊，新社员" /><published>2024-09-22T00:00:00+08:00</published><updated>2024-09-22T20:05:04+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/09/Hello-new-members</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/"><![CDATA[<p>欢迎加入 CIPS，开启你的计算机探险之旅！
+    无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。</p>
+  <p>CIPS——让热爱技术的你大展拳脚！</p>
+  <ul>
+    <li>技术实战： 我们社团负责管理学校信息系统，服务器运维、系统搭建、镜像站维护、GitLab 代码托管等都是我们的日常工作。加入 CIPS，你将有机会在真实项目中学习并实践计算机技术。</li>
+    <li>全面学习： 从网络搭建、服务器管理到编程实战，我们为你提供丰富的学习资源和一线技术指导，无论你是技术小白还是有一定经验，我们都能帮助你提升。</li>
+    <li>竞赛与交流： 我们积极组织和参与各类计算机相关竞赛，与校内外技术大咖深入交流，参加论坛与培训，拓展视野，丰富履历。</li>
+  </ul>
+  <p>加入 CIPS，你将获得：</p>
+  <ul>
+    <li>实战经验积累：参与学校的真实项目管理，提升实践能力。</li>
+    <li>技术提升：定期的技术分享会、编程课程、竞赛指导，帮助你快速成长。</li>
+    <li>人脉拓展：结识志同道合的伙伴，与经验丰富的师兄师姐共事交流。</li>
+    <li>资源丰富：拥有独立的实验室和专属 WiFi，学习环境极佳，资源共享。</li>
+  </ul>
+  <p>如果你具备以下特质，我们在等你：</p>
+  <ul>
+    <li>对计算机、编程、网络技术充满兴趣；</li>
+    <li>渴望在实践中提升自己，敢于挑战和创新；</li>
+    <li>有责任心、团队合作精神，愿意与伙伴们共同成长。</li>
+  </ul>
+  <p>报名方式： 点<a href="https://docs.qq.com/sheet/DZFROZVhRUE5SVFNE">这里</a>填写报名表。<br />
+    面试时间： 10 月 8 日，地点：13 号楼 211 室。<br />
+    联系我们：*如果有任何疑问，可以点<a href="https://qm.qq.com/q/GMTHU2wqky">这里</a>加入招新群进行咨询。</p>
+  <p>你与未来只差一步——快来加入我们吧！
+    CIPS，期待与你一起探索计算机的无限可能！</p>
+  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[欢迎加入 CIPS，开启你的计算机探险之旅！ 无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。]]></summary></entry><entry><title type="html">南阳市网络安全监控预警中心召开2024年第二期技术研讨会</title><link href="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/" rel="alternate" type="text/html" title="南阳市网络安全监控预警中心召开2024年第二期技术研讨会" /><published>2024-04-21T00:00:00+08:00</published><updated>2024-04-24T07:14:13+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>耿凯峰</em></strong>）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。</p>
   <p><img src="/static/news/seminar-1.jpg" alt="" /></p>
   <p>本次研讨会的亮点之一是大二大三在校学生们积极参与并进行了技术分享。他们结合自身学习和实践经验，分享了在网络安全领域的研究成果和应用实践。从网络漏洞挖掘到安全加固措施的实施，再到应急响应和事件处理的流程。</p>
   <p><img src="/static/news/seminar-2.jpg" alt="" /></p>
@@ -81,5 +85,4 @@
   <p>举办时间：2024.03.13 19:30~21:00</p>
   <p>会议地点：其他 在线会议 13 教 211 室转播</p>
   <p>主办单位：中国计算机学会</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[报告主题：《如何让读书成为人生杠杆》]]></summary></entry><entry><title type="html">Hello CIPS!</title><link href="https://cips.nyist.edu.cn/news/2024/03/Hello-CIPS/" rel="alternate" type="text/html" title="Hello CIPS!" /><published>2024-03-05T00:00:00+08:00</published><updated>2024-03-12T19:23:19+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/03/Hello-CIPS</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/03/Hello-CIPS/"><![CDATA[<p>南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><category term="news" /><summary type="html"><![CDATA[南阳理工学院-计算机与信息化处理协会是由南阳理工学院在校的 GNU/Linux 爱好者发起并组成的团体，旨在搭建信息交流共享的平台，宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件的应用。]]></summary></entry></feed>
+  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[报告主题：《如何让读书成为人生杠杆》]]></summary></entry></feed>
