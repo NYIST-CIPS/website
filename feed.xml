@@ -1,217 +1,245 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-10-31T20:38:15+08:00</updated><id>https://cips.nyist.edu.cn/feed.xml</id><title type="html">CIPS @ NYIST</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">CTF 资料下载（PWN/AWD 专项）</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download/" rel="alternate" type="text/html" title="CTF 资料下载（PWN/AWD 专项）" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download/"><![CDATA[<h2 id="一pwn-方向资料">一、PWN 方向资料</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>资料名称</th>
-            <th>类型</th>
-            <th>链接</th>
-            <th>关键信息</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>CTF 竞赛入门指南(CTF All In One)</td>
-            <td>PDF 电子书</td>
-            <td>https://msb-netdisk.mashibing.com/share/261a7e6d36594b41a3213078f29afd21</td>
-            <td>共 1839 页，覆盖 CTF 入门核心内容</td>
-          </tr>
-          <tr>
-            <td>CTF-PWN 入门指北</td>
-            <td>在线文档</td>
-            <td>https://www.bilibili.com/read/cv16112617/</td>
-            <td>适合 PWN 新手入门学习</td>
-          </tr>
-          <tr>
-            <td>《CTF 竞赛权威指南 PWN》</td>
-            <td>电子书</td>
-            <td>https://msb-netdisk.mashibing.com/share/44ba7a2ee5a740d2aa9977af276a4dfb</td>
-            <td>聚焦 PWN 方向，权威性较强</td>
-          </tr>
-        </tbody>
-      </table>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-11-27T21:07:52+08:00</updated><id>https://cips.nyist.edu.cn/feed.xml</id><title type="html">CIPS @ NYIST</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖</title><link href="https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award/" rel="alternate" type="text/html" title="南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖" /><published>2025-11-27T00:00:00+08:00</published><updated>2025-11-27T21:06:02+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award/"><![CDATA[<p>近日，由中国教育技术协会主办的 2025 第二届教育信息技术应用创新大赛全国总决赛顺利收官。南阳理工学院计算机与信息化处理协会（CIPS）组建的”没错就是队”，在应用软件适配迁移赛项中凭借扎实的技术实力与创新实践，斩获<strong>全国二等奖</strong>。</p>
+      <h3 id="赛事概况">赛事概况</h3>
+      <p>本届大赛由中国教育技术协会主办、浙江大学联合承办，设 10 个创新赛道，采用”区域赛+全国总决赛”赛制，共有 320 支队伍晋级总决赛。南工 CIPS 团队深耕技术实践，将专业知识与教育信息化需求深度结合，经现场实操、路演答辩等多轮考核，作品的实用性与创新性获评委认可。</p>
+      <h3 id="精彩表现">精彩表现</h3>
+      <p>总决赛现场，团队通过清晰的路演展示与沉稳的答辩表现，详细阐述了作品在教育场景中的创新应用价值，其技术方案的可行性与实践意义获得评委一致认可。此次获奖不仅展现了南阳理工学院学子在信息技术领域的过硬本领，更彰显了学校在”以赛育人”理念下，在创新人才培养与教育信息技术融合应用方面的显著成效。</p>
+      <h3 id="关于-cips">关于 CIPS</h3>
+      <p>作为校内专注于信息化建设与技术创新的学生组织，CIPS 自 2023 年成立以来，始终以推动校园信息化建设与技术创新实践为己任，多次参与区域网络安全攻防演练，在技术实践中积累了丰富经验。</p>
+      <p>此次备赛期间，团队成员发扬”不甘示弱”的南工精神，充分利用课余时间钻研竞赛要求，针对赛事反复打磨技术方案，将开源技术优势与教育信息化需求深度结合，最终形成兼具实用性与创新性的参赛作品。</p>
+      <h3 id="荣誉回顾">荣誉回顾</h3>
+      <p>作为学校信息化领域骨干社团，CIPS 曾获首届大赛全国特等奖，此次获奖是团队 2025 年继数维杯全国三等奖后的又一国家级荣誉，彰显了学校”以赛育人”的显著成效。</p>
       <hr />
-      <h2 id="二awd-方向资料">二、AWD 方向资料</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>资料名称</th>
-            <th>类型</th>
-            <th>链接</th>
-            <th>关键信息</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>《从零学习 AWD 比赛指导手册》</td>
-            <td>在线文档</td>
-            <td>https://forum.butian.net/share/2536</td>
-            <td>从基础到实战，适合 AWD 新手</td>
-          </tr>
-          <tr>
-            <td>G22-AWD 平台搭建</td>
-            <td>教程文档</td>
-            <td>https://wiki.bafangwy.com/doc/645/</td>
-            <td>提供 AWD 训练平台搭建步骤</td>
-          </tr>
-        </tbody>
-      </table>
-      <hr />
-      <h2 id="资料使用建议">资料使用建议</h2>
-      <ol>
-        <li><strong>入门优先级</strong>：先阅读《CTF 竞赛入门指南》建立 CTF 整体认知，再根据目标方向深入学习 PWN 或 AWD 专项资料。</li>
-        <li><strong>理论结合实践</strong>：学习 PWN 时可搭配 CTF 平台基础题目练习（如 CTFtime、攻防世界）；学习 AWD 后，通过 G22 平台搭建实现本地模拟训练。</li>
-        <li><strong>资料备份提醒</strong>：PDF 电子书和关键教程建议及时下载保存，避免因链接失效导致资料无法访问。</li>
-        <li><strong>学习节奏建议</strong>：PWN 方向需先掌握 C 语言、汇编基础和 Linux 系统知识；AWD 方向需额外了解网络安全、漏洞利用与防御策略。</li>
-      </ol>
-      ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools/"><![CDATA[<h2 id="重要提示">重要提示</h2>
-    <p>所有的 GPT 工具都是用模型训练出来的，内容可能存在谬误，使用时需自行甄别信息准确性。</p>
+      <p><em>祝贺 CIPS 团队取得优异成绩，期待团队在未来创造更多辉煌！</em></p>
+      ]]></content><author><name>NYIST-CIPS</name></author><category term="news" /><summary type="html"><![CDATA[南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖]]></summary></entry><entry><title type="html">南阳市网络安全预警中心 2025 级新生招新通知</title><link href="https://cips.nyist.edu.cn/news/2025/11/Nanyang-Cybersecurity-Recruitment/" rel="alternate" type="text/html" title="南阳市网络安全预警中心 2025 级新生招新通知" /><published>2025-11-27T00:00:00+08:00</published><updated>2025-11-27T21:06:02+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/Nanyang-Cybersecurity-Recruitment</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/Nanyang-Cybersecurity-Recruitment/"><![CDATA[<p>亲爱的 2025 级新同学：
+      欢迎加入南阳理工学院的大家庭！为了帮助与 cips 社团紧密相连的南阳市网络安全预警中心吸纳新的成员加入，为推动校园网络安全与信息化建设，提升同学们的技术实践能力，南阳市网络安全预警中心现面向 2025 级新生启动新一轮公开招新。期待有责任、有热情、愿学习、敢实践的你加入，共同守护与建设更安全、更智能的校园网络环境。
+      南阳市网络安全预警中心隶属于学校信息化建设与管理中心，主要负责校园网络安全风险监测、漏洞排查、应急响应及安全知识普及等工作。中心配备专业实验设备与资深指导教师，定期组织技术培训、行业交流及攻防演练活动，为成员提供系统化的能力提升平台。<br />
+      具体的报名信息以及详细的招新信息，请参考文章末尾附件。</p>
+    <h3 id="联系我们">联系我们</h3>
+    <ul>
+      <li>联系电话 15836602004</li>
+    </ul>
     <hr />
-    <h2 id="一本地部署工具">一、本地部署工具</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>工具名称</th>
-          <th>部署模型</th>
-          <th>适用系统</th>
-          <th>部署教程链接</th>
-          <th>核心特点</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>LM Studio</td>
-          <td>DeepSeek R1</td>
-          <td>Windows</td>
-          <td><a href="https://wiki.bafangwy.com/doc/805/">https://wiki.bafangwy.com/doc/805/</a></td>
-          <td>支持在本地部署模型，保障数据隐私</td>
-        </tr>
-      </tbody>
-    </table>
+    <h3 id="附件">附件</h3>
+    <ul>
+      <li>附件一:<img src="/static/news/南阳理工学院网络安全预警中心2025级新生招生.docx" alt="" /></li>
+      <li>附件二:<img src="/static/news/南阳理工学院网络安全预警中心招新报名表.docx" alt="" /></li>
+    </ul>
     <hr />
-    <h2 id="二国产-ai-工具免费无次数限制">二、国产 AI 工具（免费，无次数限制）</h2>
-    <h3 id="说明">说明</h3>
-    <p>除网页版外，几乎所有 AI 工具均提供手机 APP 和电脑客户端，可根据个人使用习惯选择下载。</p>
-    <table>
-      <thead>
-        <tr>
-          <th>公司</th>
-          <th>模型</th>
-          <th>官方网址</th>
-          <th>核心特点</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>深度求索</td>
-          <td>DeepSeek</td>
-          <td><a href="https://chat.deepseek.com/">https://chat.deepseek.com/</a></td>
-          <td>生成内容附带思考过程，支持本地部署</td>
-        </tr>
-        <tr>
-          <td>月之暗面</td>
-          <td>kimi</td>
-          <td><a href="https://kimi.com/">https://kimi.com/</a></td>
-          <td>支持上传文件，可处理大文本内容</td>
-        </tr>
-        <tr>
-          <td>字节跳动</td>
-          <td>豆包</td>
-          <td><a href="https://www.doubao.com/">https://www.doubao.com/</a></td>
-          <td>支持文生图功能，APP 端可进行电话聊天</td>
-        </tr>
-        <tr>
-          <td>科大讯飞</td>
-          <td>星火</td>
-          <td><a href="https://xinghuo.xfyun.cn/desk">https://xinghuo.xfyun.cn/desk</a></td>
-          <td>具备多场景智能交互能力，适配办公需求</td>
-        </tr>
-        <tr>
-          <td>阿里巴巴</td>
-          <td>通义千问</td>
-          <td><a href="https://tongyi.aliyun.com/qianwen">https://tongyi.aliyun.com/qianwen</a></td>
-          <td>依托阿里生态，擅长电商、办公类场景</td>
-        </tr>
-        <tr>
-          <td>百度</td>
-          <td>文心一言</td>
-          <td><a href="https://yiyan.baidu.com/">https://yiyan.baidu.com/</a></td>
-          <td>百度自研大模型，支持多模态内容生成</td>
-        </tr>
-        <tr>
-          <td>百度</td>
-          <td>AI 搜索</td>
-          <td><a href="https://chat.baidu.com/">https://chat.baidu.com/</a></td>
-          <td>结合搜索功能，提供实时、准确的信息回答</td>
-        </tr>
-        <tr>
-          <td>腾讯</td>
-          <td>混元助手</td>
-          <td><a href="https://hunyuan.tencent.com/bot/chat">https://hunyuan.tencent.com/bot/chat</a></td>
-          <td>适配社交、办公场景，支持多轮对话</td>
-        </tr>
-        <tr>
-          <td>昆仑万维</td>
-          <td>天工 AI</td>
-          <td><a href="https://www.tiangong.cn/">https://www.tiangong.cn/</a></td>
-          <td>覆盖创作、问答、代码生成等多领域</td>
-        </tr>
-        <tr>
-          <td>百度</td>
-          <td>橙篇</td>
-          <td><a href="https://cp.baidu.com/">https://cp.baidu.com/</a></td>
-          <td>专注于文案创作、内容生成，适配营销场景</td>
-        </tr>
-        <tr>
-          <td>黑客专用 GPT</td>
-          <td>-</td>
-          <td><a href="https://www.whiterabbitneo.com/">https://www.whiterabbitneo.com/</a></td>
-          <td>面向技术场景，提供代码分析、安全相关支持</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h2 id="三多模型接入工具">三、多模型接入工具</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>工具名称</th>
-          <th>接入模型</th>
-          <th>官方网址</th>
-          <th>核心特点</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Sider AI</td>
-          <td>ChatGPT、Claude 等</td>
-          <td><a href="https://sider.ai/invited?c=eb91155d4a2ab25cc7de38adcd8351c4">https://sider.ai/invited?c=eb91155d4a2ab25cc7de38adcd8351c4</a></td>
-          <td>不使用代理可访问原版 ChatGPT；每天免费 30 次高级模型对话</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h2 id="四aigc-导航站">四、AIGC 导航站</h2>
-    <p>以下导航站整合了多个 AI 工具，可根据需求快速筛选使用：</p>
-    <ol>
-      <li><a href="https://ai404.net/">https://ai404.net/</a></li>
-      <li><a href="https://bot.360.com/">https://bot.360.com/</a></li>
-      <li><a href="https://ai-bot.cn/">https://ai-bot.cn/</a></li>
-      <li><a href="https://www.yjpoo.com/">https://www.yjpoo.com/</a></li>
-      <li><a href="https://gpts.works/">https://gpts.works/</a></li>
-      <li><a href="https://nav.deep-info.cn/">https://nav.deep-info.cn/</a></li>
-      <li><a href="https://17yongai.com/">https://17yongai.com/</a></li>
-      <li><a href="https://www.ainav.cn/">https://www.ainav.cn/</a></li>
-      <li><a href="https://www.ai-apps.com.cn/">https://www.ai-apps.com.cn/</a></li>
-      <li><a href="https://chatgpt-site.zhaoyeqing.cn/">https://chatgpt-site.zhaoyeqing.cn/</a></li>
-      <li><a href="https://chatgptmirror.com/chat/">https://chatgptmirror.com/chat/</a></li>
-      <li><a href="https://www.chatanywhere.top/chat-another">https://www.chatanywhere.top/chat-another</a></li>
-      <li><a href="https://www.chatrobot.cn/index.html">https://www.chatrobot.cn/index.html</a></li>
-      <li><a href="https://03.gogsu.com/#/home/chat">https://03.gogsu.com/#/home/chat</a></li>
-      <li><a href="https://chat.extkj.cn/">https://chat.extkj.cn/</a></li>
-      <li><a href="https://supremes.pro/">https://supremes.pro/</a></li>
-      <li><a href="https://chat.aidutu.cn/#/chat/1002">https://chat.aidutu.cn/#/chat/1002</a></li>
-    </ol>
-    ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能 AI 工具合集]]></summary></entry><entry><title type="html">人工智能术语解释表</title><link href="https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms/" rel="alternate" type="text/html" title="人工智能术语解释表" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms/"><![CDATA[<table>
+    <p><em>期待你的加入，一起用技术构筑更安全的校园信息化未来！</em></p>
+    ]]></content><author><name>CIPS</name></author><category term="招新通知" /><category term="招新" /><category term="网络安全" /><category term="新生" /><category term="社团" /><category term="信息化" /><summary type="html"><![CDATA[南阳市网络安全预警中心 2025 级新生招新通知]]></summary></entry><entry><title type="html">CTF 资料下载（PWN/AWD 专项）</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download/" rel="alternate" type="text/html" title="CTF 资料下载（PWN/AWD 专项）" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download/"><![CDATA[<h2 id="一pwn-方向资料">一、PWN 方向资料</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>资料名称</th>
+        <th>类型</th>
+        <th>链接</th>
+        <th>关键信息</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CTF 竞赛入门指南(CTF All In One)</td>
+        <td>PDF 电子书</td>
+        <td>https://msb-netdisk.mashibing.com/share/261a7e6d36594b41a3213078f29afd21</td>
+        <td>共 1839 页，覆盖 CTF 入门核心内容</td>
+      </tr>
+      <tr>
+        <td>CTF-PWN 入门指北</td>
+        <td>在线文档</td>
+        <td>https://www.bilibili.com/read/cv16112617/</td>
+        <td>适合 PWN 新手入门学习</td>
+      </tr>
+      <tr>
+        <td>《CTF 竞赛权威指南 PWN》</td>
+        <td>电子书</td>
+        <td>https://msb-netdisk.mashibing.com/share/44ba7a2ee5a740d2aa9977af276a4dfb</td>
+        <td>聚焦 PWN 方向，权威性较强</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <h2 id="二awd-方向资料">二、AWD 方向资料</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>资料名称</th>
+        <th>类型</th>
+        <th>链接</th>
+        <th>关键信息</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>《从零学习 AWD 比赛指导手册》</td>
+        <td>在线文档</td>
+        <td>https://forum.butian.net/share/2536</td>
+        <td>从基础到实战，适合 AWD 新手</td>
+      </tr>
+      <tr>
+        <td>G22-AWD 平台搭建</td>
+        <td>教程文档</td>
+        <td>https://wiki.bafangwy.com/doc/645/</td>
+        <td>提供 AWD 训练平台搭建步骤</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <h2 id="资料使用建议">资料使用建议</h2>
+  <ol>
+    <li><strong>入门优先级</strong>：先阅读《CTF 竞赛入门指南》建立 CTF 整体认知，再根据目标方向深入学习 PWN 或 AWD 专项资料。</li>
+    <li><strong>理论结合实践</strong>：学习 PWN 时可搭配 CTF 平台基础题目练习（如 CTFtime、攻防世界）；学习 AWD 后，通过 G22 平台搭建实现本地模拟训练。</li>
+    <li><strong>资料备份提醒</strong>：PDF 电子书和关键教程建议及时下载保存，避免因链接失效导致资料无法访问。</li>
+    <li><strong>学习节奏建议</strong>：PWN 方向需先掌握 C 语言、汇编基础和 Linux 系统知识；AWD 方向需额外了解网络安全、漏洞利用与防御策略。</li>
+  </ol>
+  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools/"><![CDATA[<h2 id="重要提示">重要提示</h2>
+  <p>所有的 GPT 工具都是用模型训练出来的，内容可能存在谬误，使用时需自行甄别信息准确性。</p>
+  <hr />
+  <h2 id="一本地部署工具">一、本地部署工具</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>工具名称</th>
+        <th>部署模型</th>
+        <th>适用系统</th>
+        <th>部署教程链接</th>
+        <th>核心特点</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>LM Studio</td>
+        <td>DeepSeek R1</td>
+        <td>Windows</td>
+        <td><a href="https://wiki.bafangwy.com/doc/805/">https://wiki.bafangwy.com/doc/805/</a></td>
+        <td>支持在本地部署模型，保障数据隐私</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <h2 id="二国产-ai-工具免费无次数限制">二、国产 AI 工具（免费，无次数限制）</h2>
+  <h3 id="说明">说明</h3>
+  <p>除网页版外，几乎所有 AI 工具均提供手机 APP 和电脑客户端，可根据个人使用习惯选择下载。</p>
+  <table>
+    <thead>
+      <tr>
+        <th>公司</th>
+        <th>模型</th>
+        <th>官方网址</th>
+        <th>核心特点</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>深度求索</td>
+        <td>DeepSeek</td>
+        <td><a href="https://chat.deepseek.com/">https://chat.deepseek.com/</a></td>
+        <td>生成内容附带思考过程，支持本地部署</td>
+      </tr>
+      <tr>
+        <td>月之暗面</td>
+        <td>kimi</td>
+        <td><a href="https://kimi.com/">https://kimi.com/</a></td>
+        <td>支持上传文件，可处理大文本内容</td>
+      </tr>
+      <tr>
+        <td>字节跳动</td>
+        <td>豆包</td>
+        <td><a href="https://www.doubao.com/">https://www.doubao.com/</a></td>
+        <td>支持文生图功能，APP 端可进行电话聊天</td>
+      </tr>
+      <tr>
+        <td>科大讯飞</td>
+        <td>星火</td>
+        <td><a href="https://xinghuo.xfyun.cn/desk">https://xinghuo.xfyun.cn/desk</a></td>
+        <td>具备多场景智能交互能力，适配办公需求</td>
+      </tr>
+      <tr>
+        <td>阿里巴巴</td>
+        <td>通义千问</td>
+        <td><a href="https://tongyi.aliyun.com/qianwen">https://tongyi.aliyun.com/qianwen</a></td>
+        <td>依托阿里生态，擅长电商、办公类场景</td>
+      </tr>
+      <tr>
+        <td>百度</td>
+        <td>文心一言</td>
+        <td><a href="https://yiyan.baidu.com/">https://yiyan.baidu.com/</a></td>
+        <td>百度自研大模型，支持多模态内容生成</td>
+      </tr>
+      <tr>
+        <td>百度</td>
+        <td>AI 搜索</td>
+        <td><a href="https://chat.baidu.com/">https://chat.baidu.com/</a></td>
+        <td>结合搜索功能，提供实时、准确的信息回答</td>
+      </tr>
+      <tr>
+        <td>腾讯</td>
+        <td>混元助手</td>
+        <td><a href="https://hunyuan.tencent.com/bot/chat">https://hunyuan.tencent.com/bot/chat</a></td>
+        <td>适配社交、办公场景，支持多轮对话</td>
+      </tr>
+      <tr>
+        <td>昆仑万维</td>
+        <td>天工 AI</td>
+        <td><a href="https://www.tiangong.cn/">https://www.tiangong.cn/</a></td>
+        <td>覆盖创作、问答、代码生成等多领域</td>
+      </tr>
+      <tr>
+        <td>百度</td>
+        <td>橙篇</td>
+        <td><a href="https://cp.baidu.com/">https://cp.baidu.com/</a></td>
+        <td>专注于文案创作、内容生成，适配营销场景</td>
+      </tr>
+      <tr>
+        <td>黑客专用 GPT</td>
+        <td>-</td>
+        <td><a href="https://www.whiterabbitneo.com/">https://www.whiterabbitneo.com/</a></td>
+        <td>面向技术场景，提供代码分析、安全相关支持</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <h2 id="三多模型接入工具">三、多模型接入工具</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>工具名称</th>
+        <th>接入模型</th>
+        <th>官方网址</th>
+        <th>核心特点</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sider AI</td>
+        <td>ChatGPT、Claude 等</td>
+        <td><a href="https://sider.ai/invited?c=eb91155d4a2ab25cc7de38adcd8351c4">https://sider.ai/invited?c=eb91155d4a2ab25cc7de38adcd8351c4</a></td>
+        <td>不使用代理可访问原版 ChatGPT；每天免费 30 次高级模型对话</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <h2 id="四aigc-导航站">四、AIGC 导航站</h2>
+  <p>以下导航站整合了多个 AI 工具，可根据需求快速筛选使用：</p>
+  <ol>
+    <li><a href="https://ai404.net/">https://ai404.net/</a></li>
+    <li><a href="https://bot.360.com/">https://bot.360.com/</a></li>
+    <li><a href="https://ai-bot.cn/">https://ai-bot.cn/</a></li>
+    <li><a href="https://www.yjpoo.com/">https://www.yjpoo.com/</a></li>
+    <li><a href="https://gpts.works/">https://gpts.works/</a></li>
+    <li><a href="https://nav.deep-info.cn/">https://nav.deep-info.cn/</a></li>
+    <li><a href="https://17yongai.com/">https://17yongai.com/</a></li>
+    <li><a href="https://www.ainav.cn/">https://www.ainav.cn/</a></li>
+    <li><a href="https://www.ai-apps.com.cn/">https://www.ai-apps.com.cn/</a></li>
+    <li><a href="https://chatgpt-site.zhaoyeqing.cn/">https://chatgpt-site.zhaoyeqing.cn/</a></li>
+    <li><a href="https://chatgptmirror.com/chat/">https://chatgptmirror.com/chat/</a></li>
+    <li><a href="https://www.chatanywhere.top/chat-another">https://www.chatanywhere.top/chat-another</a></li>
+    <li><a href="https://www.chatrobot.cn/index.html">https://www.chatrobot.cn/index.html</a></li>
+    <li><a href="https://03.gogsu.com/#/home/chat">https://03.gogsu.com/#/home/chat</a></li>
+    <li><a href="https://chat.extkj.cn/">https://chat.extkj.cn/</a></li>
+    <li><a href="https://supremes.pro/">https://supremes.pro/</a></li>
+    <li><a href="https://chat.aidutu.cn/#/chat/1002">https://chat.aidutu.cn/#/chat/1002</a></li>
+  </ol>
+  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能 AI 工具合集]]></summary></entry><entry><title type="html">人工智能术语解释表</title><link href="https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms/" rel="alternate" type="text/html" title="人工智能术语解释表" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms/"><![CDATA[<table>
     <thead>
       <tr>
         <th>名词</th>
@@ -817,35 +845,4 @@
   </ol>
   <p>此次交流会的成功举办，不仅为安全监测组、渗透一组和渗透二组搭建了互学互鉴的平台，也进一步增强了学生技术团队的凝聚力和使命感。未来，信息化建设与管理中心将继续完善学生技术队伍的培养机制，推动形成“培训—实战—反思—成长”的良性循环，助力团队在学校信息化建设中不断突破、稳步前行。</p>
   <p>（校对/耿凯峰 审核/吴绍兴）</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[9 月 25 日，信息化建设与管理中心组织召开学生团队技术交流会。耿凯峰副主任出席会议并讲话，安全监测组、渗透一组和渗透二组全体成员参加。]]></summary></entry><entry><title type="html">你好啊，新社员</title><link href="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/" rel="alternate" type="text/html" title="你好啊，新社员" /><published>2024-09-22T00:00:00+08:00</published><updated>2024-09-22T20:05:04+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/09/Hello-new-members</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/"><![CDATA[<p>欢迎加入 CIPS，开启你的计算机探险之旅！
-    无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。</p>
-  <p>CIPS——让热爱技术的你大展拳脚！</p>
-  <ul>
-    <li>技术实战： 我们社团负责管理学校信息系统，服务器运维、系统搭建、镜像站维护、GitLab 代码托管等都是我们的日常工作。加入 CIPS，你将有机会在真实项目中学习并实践计算机技术。</li>
-    <li>全面学习： 从网络搭建、服务器管理到编程实战，我们为你提供丰富的学习资源和一线技术指导，无论你是技术小白还是有一定经验，我们都能帮助你提升。</li>
-    <li>竞赛与交流： 我们积极组织和参与各类计算机相关竞赛，与校内外技术大咖深入交流，参加论坛与培训，拓展视野，丰富履历。</li>
-  </ul>
-  <p>加入 CIPS，你将获得：</p>
-  <ul>
-    <li>实战经验积累：参与学校的真实项目管理，提升实践能力。</li>
-    <li>技术提升：定期的技术分享会、编程课程、竞赛指导，帮助你快速成长。</li>
-    <li>人脉拓展：结识志同道合的伙伴，与经验丰富的师兄师姐共事交流。</li>
-    <li>资源丰富：拥有独立的实验室和专属 WiFi，学习环境极佳，资源共享。</li>
-  </ul>
-  <p>如果你具备以下特质，我们在等你：</p>
-  <ul>
-    <li>对计算机、编程、网络技术充满兴趣；</li>
-    <li>渴望在实践中提升自己，敢于挑战和创新；</li>
-    <li>有责任心、团队合作精神，愿意与伙伴们共同成长。</li>
-  </ul>
-  <p>报名方式： 点<a href="https://docs.qq.com/sheet/DZFROZVhRUE5SVFNE">这里</a>填写报名表。<br />
-    面试时间： 10 月 8 日，地点：13 号楼 211 室。<br />
-    联系我们：*如果有任何疑问，可以点<a href="https://qm.qq.com/q/GMTHU2wqky">这里</a>加入招新群进行咨询。</p>
-  <p>你与未来只差一步——快来加入我们吧！
-    CIPS，期待与你一起探索计算机的无限可能！</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[欢迎加入 CIPS，开启你的计算机探险之旅！ 无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。]]></summary></entry><entry><title type="html">南阳市网络安全监控预警中心召开2024年第二期技术研讨会</title><link href="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/" rel="alternate" type="text/html" title="南阳市网络安全监控预警中心召开2024年第二期技术研讨会" /><published>2024-04-21T00:00:00+08:00</published><updated>2024-04-24T07:14:13+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>耿凯峰</em></strong>）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。</p>
-  <p><img src="/static/news/seminar-1.jpg" alt="" /></p>
-  <p>本次研讨会的亮点之一是大二大三在校学生们积极参与并进行了技术分享。他们结合自身学习和实践经验，分享了在网络安全领域的研究成果和应用实践。从网络漏洞挖掘到安全加固措施的实施，再到应急响应和事件处理的流程。</p>
-  <p><img src="/static/news/seminar-2.jpg" alt="" /></p>
-  <p>通过本次研讨会，学生们的技术分享展示了他们对网络安全的热情和专业素养，为网络安全领域的发展注入了新的活力和动力。相关负责人表示，南阳市网络安全监控预警中心将继续支持和鼓励年轻学子们在网络安全领域的学习和探索，为构建网络安全的铜墙铁壁贡献力量。（校对/<strong><em>徐扬</em></strong>）</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[本网讯（特约记者/耿凯峰）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。]]></summary></entry></feed>
+  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[9 月 25 日，信息化建设与管理中心组织召开学生团队技术交流会。耿凯峰副主任出席会议并讲话，安全监测组、渗透一组和渗透二组全体成员参加。]]></summary></entry></feed>
