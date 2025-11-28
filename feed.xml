@@ -1,353 +1,383 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-11-28T08:56:12+08:00</updated><id>https://cips.nyist.edu.cn/feed.xml</id><title type="html">CIPS @ NYIST</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">人工智能术语解释表</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI001/" rel="alternate" type="text/html" title="人工智能术语解释表" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T09:18:07+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI001/"><![CDATA[<table>
-        <thead>
-          <tr>
-            <th>名词</th>
-            <th>英文</th>
-            <th>解释</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>AI</td>
-            <td>Artificial Intelligence</td>
-            <td>人工智能。就像机器人的大脑，能让电脑或设备像人一样思考、学习和做事情，比如语音助手帮你查天气、自动驾驶汽车自己开车，都是 AI 在发挥作用。</td>
-          </tr>
-          <tr>
-            <td>GPT</td>
-            <td>Generative Pre-trained Transformer</td>
-            <td>GPT 是一种基于深度学习的自然语言处理模型，通过大规模文本数据的预训练，能够生成连贯、相关的文本内容，广泛应用于语言生成、翻译、问答等多种场景。由 OpenAI 公司开发，2025 年 2 月 27 日最新发布版本是 GPT-4.5。</td>
-          </tr>
-          <tr>
-            <td>ChatGPT</td>
-            <td>Chat Generative Pre-trained Transformer</td>
-            <td>ChatGPT 是一个基于 GPT 技术的人工智能聊天机器人，能够通过对话理解用户的问题，并用自然语言生成回答，帮助用户完成各种语言相关的需求。由 OpenAI 公司在 2022 年 11 月 30 日推出，基于 GPT-3.5 架构。</td>
-          </tr>
-          <tr>
-            <td>生成式 AI</td>
-            <td>Generative AI</td>
-            <td>生成式 AI。一种能够根据输入的提示或指令生成新内容的人工智能技术。它可以创作文本、图像、音频、视频等内容，就像一个“创作机器”，通过学习海量数据来模仿人类的创作方式。</td>
-          </tr>
-          <tr>
-            <td>AIGC</td>
-            <td>Artificial Intelligence Generated Content</td>
-            <td>人工智能生成内容。让 AI 像人类一样创作出各种内容，比如写文章、画画、编曲、制作视频等。</td>
-          </tr>
-          <tr>
-            <td>提示词</td>
-            <td>Prompt</td>
-            <td>用户提供给人工智能系统并期望某些结果的输入，比如输入给 ChatGPT 或者 Midjourney 的内容。</td>
-          </tr>
-          <tr>
-            <td>AGI</td>
-            <td>Artificial General Intelligence</td>
-            <td>通用人工智能。是一种能够像人类一样处理各种复杂任务的智能系统。弱人工智能通常只能在特定领域（如图像识别、语言翻译或棋类游戏）表现出智能，而 AGI 的目标是具备跨领域的通用智能，能够像人类一样自主学习、推理和适应各种复杂任务，无需针对每个任务进行专门设计或训练。</td>
-          </tr>
-          <tr>
-            <td>智能体</td>
-            <td>Agent</td>
-            <td>Agent 就像是一个“智能助手”，它能够感知环境、做出决策并采取行动。Agent 可以是简单的（比如聊天机器人），也可以是复杂的（比如自动驾驶汽车）。它们广泛应用于我们的生活和工作中，帮助我们完成各种任务。</td>
-          </tr>
-          <tr>
-            <td>Manus</td>
-            <td>Avatar Manus</td>
-            <td>Avatar Manus 是一款由中国团队 Monica.im 研发的通用型 AI Agent（人工智能代理），于 2025 年 3 月 6 日正式发布。Manus 能够独立思考、规划并执行复杂任务，直接交付完整成果。Manus 可以在云端自动调用浏览器、虚拟机、Python 完成任务。</td>
-          </tr>
-          <tr>
-            <td>NLP</td>
-            <td>Natural Language Processing</td>
-            <td>自然语言处理。让电脑学会理解人类的语言。比如，你和语音助手聊天，它能听懂你说的话，还能用文字或语音回答你，这就是 NLP 的功劳。</td>
-          </tr>
-          <tr>
-            <td>机器学习</td>
-            <td>Machine Learning</td>
-            <td>机器学习就是让电脑通过数据自己“学习”规律的技术。比如，给电脑看很多猫和狗的图片，它会自动找出猫和狗的区别，以后就能自己判断新图片是猫还是狗。</td>
-          </tr>
-          <tr>
-            <td>深度学习</td>
-            <td>Deep Learning</td>
-            <td>深度学习是机器学习的一种高级方法，它通过模仿人脑的神经网络结构，让电脑能够自动学习更复杂的模式和规律。比如，它可以用来识别语音、图像，甚至预测天气，就像电脑有了更聪明的“大脑”。</td>
-          </tr>
-          <tr>
-            <td>神经网络</td>
-            <td>Neural Network</td>
-            <td>神经网络是一种模仿人脑神经细胞工作方式的计算模型。它由很多节点（像神经元）组成，这些节点相互连接，通过不断调整连接的强度来学习数据中的规律，从而完成任务。</td>
-          </tr>
-          <tr>
-            <td>Transformer 架构</td>
-            <td>Transformer Architecture</td>
-            <td>Transformer 架构是一种基于编码器-解码器（Encoder-Decoder）的深度学习模型，主要用于处理序列数据，如自然语言处理中的翻译、生成等任务。</td>
-          </tr>
-          <tr>
-            <td>数据集</td>
-            <td>Dataset</td>
-            <td>数据集就是一堆用来训练 AI 模型的数据，就像是一堆学习材料。比如一堆图片、文字或者语音记录。</td>
-          </tr>
-          <tr>
-            <td>大数据</td>
-            <td>Big Data</td>
-            <td>大数据就是海量的数据集合，数据量大到普通电脑和软件很难处理。这些数据来自各种地方，比如互联网、传感器、社交媒体等。通过分析大数据，可以发现规律、趋势，帮助做决策，比如预测天气、推荐商品等。</td>
-          </tr>
-          <tr>
-            <td>大模型</td>
-            <td>Large Model</td>
-            <td>大模型是指参数规模庞大（通常达到数亿甚至数千亿）的深度学习模型。</td>
-          </tr>
-          <tr>
-            <td>参数</td>
-            <td>Parameters</td>
-            <td>举个简单的例子，假如有一个模型，它的任务是根据房子的面积来预测房价。模型可能会有一个规则，比如“房价 = 面积 × 某个数值 + 另一个数值”。这里的“某个数值”和“另一个数值”就是参数。模型通过学习数据（比如很多房子的面积和对应的价格），调整这些参数，让预测的结果更接近真实情况。大模型需要大量参数，这样它才能做出更准确的预测。</td>
-          </tr>
-          <tr>
-            <td>LLM</td>
-            <td>Large Language Model</td>
-            <td>大型语言模型。大型语言模型（LLM，Large Language Model）是一种基于深度学习技术构建的人工智能模型，旨在理解和生成人类语言。</td>
-          </tr>
-          <tr>
-            <td>VLM</td>
-            <td>Vision Language Model</td>
-            <td>视觉语言模型。视觉语言模型是一种多模态模型，结合了视觉（图像或视频）和语言（文本）的处理能力。它可以同时处理图像和文本输入，执行视觉问答、图像字幕生成等任务。</td>
-          </tr>
-          <tr>
-            <td>LLaMA</td>
-            <td>Large Language Model Meta AI</td>
-            <td>大语言模型元 AI。由 Meta 发布的开源大语言模型。一个有着上百亿数量级参数的大语言模型，用于大规模部署和管理机器学习元模型。</td>
-          </tr>
-          <tr>
-            <td>推理大模型</td>
-            <td>Reasoning Large Model</td>
-            <td>推理大模型是指能够在传统的大语言模型基础上，强化推理、逻辑分析和决策能力的模型。它们通常具备额外的技术，比如强化学习、神经符号推理、元学习等，来增强其推理和问题解决能力。例如：DeepSeek-R1，GPT-o3 在逻辑推理、数学推理和实时问题解决方面表现突出。</td>
-          </tr>
-          <tr>
-            <td>非推理大模型</td>
-            <td>Non-Reasoning Large Model</td>
-            <td>适用于大多数任务，非推理大模型一般侧重于语言生成、上下文理解和自然语言处理，而不强调深度推理能力。此类模型通常通过对大量文本数据的训练，掌握语言规律并能够生成合适的内容，但缺乏像推理模型那样复杂的推理和决策能力。例如：GPT-3、GPT-4（OpenAI），BERT（Google），主要用于语言生成、语言理解、文本分类、翻译等任务。</td>
-          </tr>
-          <tr>
-            <td>AI 幻觉</td>
-            <td>AI hallucination</td>
-            <td>AI 幻觉是指生成式人工智能在输出内容时，生成了与输入文本或真实世界知识相矛盾的事实错误或逻辑错误。</td>
-          </tr>
-          <tr>
-            <td>多模态 AI</td>
-            <td>Multimodal AI</td>
-            <td>多模态 AI 系统能够以多种媒介处理输入并产生输出。多模态系统可以处理图像、视频、文本或声音的任何组合，而不仅仅是文本。</td>
-          </tr>
-          <tr>
-            <td>MOE</td>
-            <td>Mixture of Experts</td>
-            <td>混合专家模型。它就像一个团队合作的系统，里面有多个“专家”，每个专家擅长处理不同类型的任务或数据。当遇到一个问题时，系统会根据问题的特点，让不同的专家来处理，或者综合多个专家的意见，最终给出一个更准确的结果。就好像一个公司里有不同部门的专家，大家一起合作解决问题一样。</td>
-          </tr>
-          <tr>
-            <td>数据集</td>
-            <td>Dataset</td>
-            <td>数据集就是给 AI 用来学习的“教材”，就像学生上课用的课本。AI 通过这些数据学习规律，变得聪明。</td>
-          </tr>
-          <tr>
-            <td>Token</td>
-            <td>Token</td>
-            <td>Token 就像是语言里的“小零件”，把句子拆成一个个小块。比如，“我爱吃苹果”可以拆成“我”“爱”“吃”“苹果”四个 Token。AI 处理语言时，会先把它拆成这样的小块，方便理解和生成。【Token 离线计算】</td>
-          </tr>
-          <tr>
-            <td>GPU</td>
-            <td>Graphics Processing Unit</td>
-            <td>GPU 是图形处理器，就像电脑里的“超级助手”，专门用来处理复杂的图像和计算任务。它有很多小核心，能同时做很多事，比如玩游戏时渲染画面，或者训练 AI 模型时快速计算，让电脑运行得更快。它比普通的 CPU 更适合做复杂的数学计算，尤其是并行计算。</td>
-          </tr>
-          <tr>
-            <td>训练</td>
-            <td>Training</td>
-            <td>训练就是让 AI 学习的过程。就像教小孩认字，给 AI 很多数据，让它从中找规律、学知识，慢慢变得聪明，能完成任务。</td>
-          </tr>
-          <tr>
-            <td>预训练模型</td>
-            <td>Pre-trained Model</td>
-            <td>预训练模型就是在超大的数据集上先训练好的模型，它学会了通用的知识和规律，比如语言的语法、词汇等。然后，我们可以在小数据集上对它进行微调，让它适应具体任务，比如翻译、问答等。如果 AI 模型从零开始学习，就像一个人从头开始学知识，那会花很多时间。预训练模型已经学了很多通用的知识，所以它可以直接拿来用，或者稍微调整一下就能完成任务。</td>
-          </tr>
-          <tr>
-            <td>模型基座</td>
-            <td>Base Model</td>
-            <td>预训练得到的结果。想象一下，你要做一个智能语音助手，比如像 Siri 或者小爱同学这样的产品。如果你从零开始，需要收集海量的语音数据，然后一点点地训练模型，让它能够理解语言、回答问题。这个过程非常复杂，而且需要大量的时间和资源。但有了“模型基座”之后，就好比你已经有了一个已经打好基础的房子框架。这个框架已经具备了一些基本能力，比如能听懂一些简单的话、能做基本的对话。然后你只需要在这个基础上，根据自己的需求，比如让它更懂方言、或者让它能回答一些特定领域的问题，做一些“装修”和“调整”就可以了。</td>
-          </tr>
-          <tr>
-            <td>微调</td>
-            <td>Fine-tuning</td>
-            <td>微调就是对预训练好的模型进行“再教育”，让它适应特定的任务。比如，预训练模型学会了通用语言知识，微调就是让它专门学习写新闻或者做翻译，让它更擅长这个任务。</td>
-          </tr>
-          <tr>
-            <td>模型蒸馏</td>
-            <td>Model Distillation</td>
-            <td>大模型的文件太大了，对计算机的算力要求很高。模型蒸馏是一种将大模型的知识“浓缩”后传递给小模型的技术。简单来说，就像让一个“学霸老师”教出一个“学神学生”，学生模型通过模仿教师模型的输出结果，学习到类似的知识和能力。</td>
-          </tr>
-          <tr>
-            <td>推理</td>
-            <td>Inference</td>
-            <td>推理就是 AI 模型在训练好之后，用学到的知识去解决实际问题的过程。比如，AI 学会了识别图片里的猫和狗，推理就是它看到一张新图片后，判断这是猫还是狗。</td>
-          </tr>
-          <tr>
-            <td>超参数</td>
-            <td>Hyperparameters</td>
-            <td>在 AI 模型中，超参数就像是“控制旋钮”，用来调整模型的行为和输出。不同的超参数设置会影响模型的表现，比如生成的内容风格、准确性和多样性等。</td>
-          </tr>
-          <tr>
-            <td>RAG</td>
-            <td>Retrieval-Augmented Generation</td>
-            <td>检索增强生成。AI 训练的数据会停留在一个时间节点，因此会出现某些信息过时的情况。RAG 是一种结合检索技术和生成模型的人工智能方法。它通过从外部知识库中检索相关信息（包括搜索引擎、链接、文件），并将其作为上下文输入给大语言模型（LLM），从而增强模型在知识密集型任务中的表现。</td>
-          </tr>
-          <tr>
-            <td>MCP</td>
-            <td>Model Context Protocol</td>
-            <td>模型上下文协议。是由 Anthropic 公司（Claude 母公司）推出的一种开放标准协议。简单来说，它就像是 AI 的“万能连接器”，可以让 AI 大模型（比如 Claude 或其他语言模型）轻松地和外部世界“握手”，连接各种数据源和工具。举个例子，假设你有一个超级聪明的机器人助手，但它只能回答问题，却没办法自己去查资料或者操作其他设备。MCP 就像是给这个机器人装了一个“万能插头”，让它可以连接到冰箱查看库存、连接到手机查看日程，或者上网查天气。</td>
-          </tr>
-        </tbody>
-      </table>
-      ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能术语解释表]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI002/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T09:18:07+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI002/"><![CDATA[<h2 id="重要提示">重要提示</h2>
-    <p>所有的 GPT 工具都是用模型训练出来的，内容可能存在谬误，使用时需自行甄别信息准确性。</p>
-    <hr />
-    <h2 id="一本地部署工具">一、本地部署工具</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>工具名称</th>
-          <th>部署模型</th>
-          <th>适用系统</th>
-          <th>部署教程链接</th>
-          <th>核心特点</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>LM Studio</td>
-          <td>DeepSeek R1</td>
-          <td>Windows</td>
-          <td>https://wiki.bafangwy.com/doc/805/</td>
-          <td>支持在本地部署模型，保障数据隐私</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h2 id="二国产-ai-工具免费无次数限制">二、国产 AI 工具（免费，无次数限制）</h2>
-    <h3 id="说明">说明</h3>
-    <p>除网页版外，几乎所有 AI 工具均提供手机 APP 和电脑客户端，可根据个人使用习惯选择下载。</p>
-    <table>
-      <thead>
-        <tr>
-          <th>公司</th>
-          <th>模型</th>
-          <th>官方网址</th>
-          <th>核心特点</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>深度求索</td>
-          <td>DeepSeek</td>
-          <td>https://chat.deepseek.com/</td>
-          <td>生成内容附带思考过程，支持本地部署</td>
-        </tr>
-        <tr>
-          <td>月之暗面</td>
-          <td>kimi</td>
-          <td>https://kimi.com/</td>
-          <td>支持上传文件，可处理大文本内容</td>
-        </tr>
-        <tr>
-          <td>字节跳动</td>
-          <td>豆包</td>
-          <td>https://www.doubao.com/</td>
-          <td>支持文生图功能，APP 端可进行电话聊天</td>
-        </tr>
-        <tr>
-          <td>科大讯飞</td>
-          <td>星火</td>
-          <td>https://xinghuo.xfyun.cn/desk</td>
-          <td>具备多场景智能交互能力，适配办公需求</td>
-        </tr>
-        <tr>
-          <td>阿里巴巴</td>
-          <td>通义千问</td>
-          <td>https://tongyi.aliyun.com/qianwen</td>
-          <td>依托阿里生态，擅长电商、办公类场景</td>
-        </tr>
-        <tr>
-          <td>百度</td>
-          <td>文心一言</td>
-          <td>https://yiyan.baidu.com/</td>
-          <td>百度自研大模型，支持多模态内容生成</td>
-        </tr>
-        <tr>
-          <td>百度</td>
-          <td>AI 搜索</td>
-          <td>https://chat.baidu.com/</td>
-          <td>结合搜索功能，提供实时、准确的信息回答</td>
-        </tr>
-        <tr>
-          <td>腾讯</td>
-          <td>混元助手</td>
-          <td>https://hunyuan.tencent.com/bot/chat</td>
-          <td>适配社交、办公场景，支持多轮对话</td>
-        </tr>
-        <tr>
-          <td>昆仑万维</td>
-          <td>天工 AI</td>
-          <td>https://www.tiangong.cn/</td>
-          <td>覆盖创作、问答、代码生成等多领域</td>
-        </tr>
-        <tr>
-          <td>百度</td>
-          <td>橙篇</td>
-          <td>https://cp.baidu.com/</td>
-          <td>专注于文案创作、内容生成，适配营销场景</td>
-        </tr>
-        <tr>
-          <td>黑客专用 GPT</td>
-          <td>-</td>
-          <td>https://www.whiterabbitneo.com/</td>
-          <td>面向技术场景，提供代码分析、安全相关支持</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h2 id="三多模型接入工具">三、多模型接入工具</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>工具名称</th>
-          <th>接入模型</th>
-          <th>官方网址</th>
-          <th>核心特点</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Sider AI</td>
-          <td>ChatGPT、Claude 等</td>
-          <td>https://sider.ai/invited?c=eb91155d4a2ab25cc7de38adcd8351c4</td>
-          <td>不使用代理可访问原版 ChatGPT；每天免费 30 次高级模型对话</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h2 id="四aigc-导航站">四、AIGC 导航站</h2>
-    <p>以下导航站整合了多个 AI 工具，可根据需求快速筛选使用：</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-11-28T16:33:16+08:00</updated><id>https://cips.nyist.edu.cn/feed.xml</id><title type="html">CIPS @ NYIST</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖</title><link href="https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award/" rel="alternate" type="text/html" title="南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖" /><published>2025-11-27T00:00:00+08:00</published><updated>2025-11-28T13:40:32+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award/"><![CDATA[<p>近日，由中国教育技术协会主办的 2025 第二届教育信息技术应用创新大赛全国总决赛顺利收官。南阳理工学院计算机与信息化处理协会（CIPS）组建的”没错就是队”，在应用软件适配迁移赛项中凭借扎实的技术实力与创新实践，斩获<strong>全国二等奖</strong>。</p>
+      <h3 id="赛事概况">赛事概况</h3>
+      <p>本届大赛由中国教育技术协会主办、浙江大学联合承办，设 10 个创新赛道，采用”区域赛+全国总决赛”赛制，共有 320 支队伍晋级总决赛。南工 CIPS 团队深耕技术实践，将专业知识与教育信息化需求深度结合，经现场实操、路演答辩等多轮考核，作品的实用性与创新性获评委认可。</p>
+      <h3 id="精彩表现">精彩表现</h3>
+      <p>总决赛现场，团队通过清晰的路演展示与沉稳的答辩表现，详细阐述了作品在教育场景中的创新应用价值，其技术方案的可行性与实践意义获得评委一致认可。此次获奖不仅展现了南阳理工学院学子在信息技术领域的过硬本领，更彰显了学校在”以赛育人”理念下，在创新人才培养与教育信息技术融合应用方面的显著成效。</p>
+      <h3 id="关于-cips">关于 CIPS</h3>
+      <p>作为校内专注于信息化建设与技术创新的学生组织，CIPS 自 2023 年成立以来，始终以推动校园信息化建设与技术创新实践为己任，多次参与区域网络安全攻防演练，在技术实践中积累了丰富经验。</p>
+      <p>此次备赛期间，团队成员发扬”不甘示弱”的南工精神，充分利用课余时间钻研竞赛要求，针对赛事反复打磨技术方案，将开源技术优势与教育信息化需求深度结合，最终形成兼具实用性与创新性的参赛作品。</p>
+      <h3 id="荣誉回顾">荣誉回顾</h3>
+      <p>作为学校信息化领域骨干社团，CIPS 曾获首届大赛全国特等奖，此次获奖是团队 2025 年继数维杯全国三等奖后的又一国家级荣誉，彰显了学校”以赛育人”的显著成效。</p>
+      ]]></content><author><name>NYIST-CIPS</name></author><category term="news" /><summary type="html"><![CDATA[南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖]]></summary></entry><entry><title type="html">南阳市网络安全预警中心2025级新生招新通知</title><link href="https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment/" rel="alternate" type="text/html" title="南阳市网络安全预警中心2025级新生招新通知" /><published>2025-11-27T00:00:00+08:00</published><updated>2025-11-28T16:32:23+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment/"><![CDATA[<p>各位 2025 级新同学：</p>
+    <p>网络安全的平稳运行是学术研究与生活学习的重要保障，南阳理工学院南阳市网络安全预警中心作为守护校园网络与网络安全防线的核心力量，现面向全校全体大一新生开启招新工作，拟招募 8 名有志青年加入，共同筑牢网络安全屏障。</p>
+    <p>网络安全预警中心隶属于学校信息化建设与管理中心，主要负责校园网络安全风险监测、漏洞排查、应急响应及安全知识普及等工作。中心配备专业实验设备与资深指导教师，定期组织技术培训、行业交流及攻防演练活动，为成员提供系统化的能力提升平台。</p>
+    <p>本次招新岗位为网络安全预警预备人员，具体要求如下：</p>
     <ol>
-      <li>https://ai404.net/</li>
-      <li>https://bot.360.com/</li>
-      <li>https://ai-bot.cn/</li>
-      <li>https://www.yjpoo.com/</li>
-      <li>https://gpts.works/</li>
-      <li>https://nav.deep-info.cn/</li>
-      <li>https://17yongai.com/</li>
-      <li>https://www.ainav.cn/</li>
-      <li>https://www.ai-apps.com.cn/</li>
-      <li>https://chatgpt-site.zhaoyeqing.cn/</li>
-      <li>https://chatgptmirror.com/chat/</li>
-      <li>https://www.chatanywhere.top/chat-another</li>
-      <li>https://www.chatrobot.cn/index.html</li>
-      <li>https://03.gogsu.com/#/home/chat</li>
-      <li>https://chat.extkj.cn/</li>
-      <li>https://supremes.pro/</li>
-      <li>https://chat.aidutu.cn/#/chat/1002</li>
+      <li>热爱网络安全领域，对网络攻防、数据防护、渗透测试等内容有浓厚兴趣；</li>
+      <li>具备良好的学习能力与责任心，能按时参与中心日常工作与培训；</li>
+      <li>遵守纪律，严格保守网络安全相关机密；</li>
+      <li>有计算机基础、编程经验或相关竞赛经历者优先，但非必备条件。</li>
     </ol>
-    ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能 AI 工具合集]]></summary></entry><entry><title type="html">CTF 介绍</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF001/" rel="alternate" type="text/html" title="CTF 介绍" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T16:47:20+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF001/"><![CDATA[<h3 id="什么是-ctf">什么是 CTF？</h3>
+    <p>报名及选拔流程安排如下：报名时间为 2025 年 11 月 28 日至 12 月 2 日，有意向的同学请将《网络安全预警中心招新报名表》及个人简要说明（注明特长与兴趣方向）发送至邮箱 <a href="mailto:3330758682@qq.com">3330758682@qq.com</a>，邮件主题统一命名为“2025 级招新+姓名+专业班级”。</p>
+    <p>选拔将分三轮进行：第一轮为材料初审，筛选符合基本要求的候选人；第二轮为面试，侧重沟通能力与岗位匹配度。最终将根据综合表现确定 8 名暂录用名单。</p>
+    <p>加入我们，你将有机会接触网络安全前沿技术，参与真实的网络安全防护工作，积累宝贵的实践经验，还能结识一群志同道合的伙伴。如有疑问，联系电话 15836602004。</p>
+    <p>期待怀揣热情的你，与我们并肩同行，共护网络安全！</p>
+    <p>南阳市网络安全预警中心<br />
+      2025 年 11 月 27 日</p>
+    <p>附件：</p>
+    <ul>
+      <li>南阳理工学院网络安全预警中心招新报名表（DOCX）：<a href="https://xxh.nyist.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=1990741852&amp;wbfileid=DFD25301E1B2945E6024382C8527D1E1">下载链接</a></li>
+    </ul>
+    ]]></content><author><name>杨晨</name></author><summary type="html"><![CDATA[各位 2025 级新同学：]]></summary></entry><entry><title type="html">人工智能术语解释表</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI001/" rel="alternate" type="text/html" title="人工智能术语解释表" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T09:18:07+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI001/"><![CDATA[<table>
+    <thead>
+      <tr>
+        <th>名词</th>
+        <th>英文</th>
+        <th>解释</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>AI</td>
+        <td>Artificial Intelligence</td>
+        <td>人工智能。就像机器人的大脑，能让电脑或设备像人一样思考、学习和做事情，比如语音助手帮你查天气、自动驾驶汽车自己开车，都是 AI 在发挥作用。</td>
+      </tr>
+      <tr>
+        <td>GPT</td>
+        <td>Generative Pre-trained Transformer</td>
+        <td>GPT 是一种基于深度学习的自然语言处理模型，通过大规模文本数据的预训练，能够生成连贯、相关的文本内容，广泛应用于语言生成、翻译、问答等多种场景。由 OpenAI 公司开发，2025 年 2 月 27 日最新发布版本是 GPT-4.5。</td>
+      </tr>
+      <tr>
+        <td>ChatGPT</td>
+        <td>Chat Generative Pre-trained Transformer</td>
+        <td>ChatGPT 是一个基于 GPT 技术的人工智能聊天机器人，能够通过对话理解用户的问题，并用自然语言生成回答，帮助用户完成各种语言相关的需求。由 OpenAI 公司在 2022 年 11 月 30 日推出，基于 GPT-3.5 架构。</td>
+      </tr>
+      <tr>
+        <td>生成式 AI</td>
+        <td>Generative AI</td>
+        <td>生成式 AI。一种能够根据输入的提示或指令生成新内容的人工智能技术。它可以创作文本、图像、音频、视频等内容，就像一个“创作机器”，通过学习海量数据来模仿人类的创作方式。</td>
+      </tr>
+      <tr>
+        <td>AIGC</td>
+        <td>Artificial Intelligence Generated Content</td>
+        <td>人工智能生成内容。让 AI 像人类一样创作出各种内容，比如写文章、画画、编曲、制作视频等。</td>
+      </tr>
+      <tr>
+        <td>提示词</td>
+        <td>Prompt</td>
+        <td>用户提供给人工智能系统并期望某些结果的输入，比如输入给 ChatGPT 或者 Midjourney 的内容。</td>
+      </tr>
+      <tr>
+        <td>AGI</td>
+        <td>Artificial General Intelligence</td>
+        <td>通用人工智能。是一种能够像人类一样处理各种复杂任务的智能系统。弱人工智能通常只能在特定领域（如图像识别、语言翻译或棋类游戏）表现出智能，而 AGI 的目标是具备跨领域的通用智能，能够像人类一样自主学习、推理和适应各种复杂任务，无需针对每个任务进行专门设计或训练。</td>
+      </tr>
+      <tr>
+        <td>智能体</td>
+        <td>Agent</td>
+        <td>Agent 就像是一个“智能助手”，它能够感知环境、做出决策并采取行动。Agent 可以是简单的（比如聊天机器人），也可以是复杂的（比如自动驾驶汽车）。它们广泛应用于我们的生活和工作中，帮助我们完成各种任务。</td>
+      </tr>
+      <tr>
+        <td>Manus</td>
+        <td>Avatar Manus</td>
+        <td>Avatar Manus 是一款由中国团队 Monica.im 研发的通用型 AI Agent（人工智能代理），于 2025 年 3 月 6 日正式发布。Manus 能够独立思考、规划并执行复杂任务，直接交付完整成果。Manus 可以在云端自动调用浏览器、虚拟机、Python 完成任务。</td>
+      </tr>
+      <tr>
+        <td>NLP</td>
+        <td>Natural Language Processing</td>
+        <td>自然语言处理。让电脑学会理解人类的语言。比如，你和语音助手聊天，它能听懂你说的话，还能用文字或语音回答你，这就是 NLP 的功劳。</td>
+      </tr>
+      <tr>
+        <td>机器学习</td>
+        <td>Machine Learning</td>
+        <td>机器学习就是让电脑通过数据自己“学习”规律的技术。比如，给电脑看很多猫和狗的图片，它会自动找出猫和狗的区别，以后就能自己判断新图片是猫还是狗。</td>
+      </tr>
+      <tr>
+        <td>深度学习</td>
+        <td>Deep Learning</td>
+        <td>深度学习是机器学习的一种高级方法，它通过模仿人脑的神经网络结构，让电脑能够自动学习更复杂的模式和规律。比如，它可以用来识别语音、图像，甚至预测天气，就像电脑有了更聪明的“大脑”。</td>
+      </tr>
+      <tr>
+        <td>神经网络</td>
+        <td>Neural Network</td>
+        <td>神经网络是一种模仿人脑神经细胞工作方式的计算模型。它由很多节点（像神经元）组成，这些节点相互连接，通过不断调整连接的强度来学习数据中的规律，从而完成任务。</td>
+      </tr>
+      <tr>
+        <td>Transformer 架构</td>
+        <td>Transformer Architecture</td>
+        <td>Transformer 架构是一种基于编码器-解码器（Encoder-Decoder）的深度学习模型，主要用于处理序列数据，如自然语言处理中的翻译、生成等任务。</td>
+      </tr>
+      <tr>
+        <td>数据集</td>
+        <td>Dataset</td>
+        <td>数据集就是一堆用来训练 AI 模型的数据，就像是一堆学习材料。比如一堆图片、文字或者语音记录。</td>
+      </tr>
+      <tr>
+        <td>大数据</td>
+        <td>Big Data</td>
+        <td>大数据就是海量的数据集合，数据量大到普通电脑和软件很难处理。这些数据来自各种地方，比如互联网、传感器、社交媒体等。通过分析大数据，可以发现规律、趋势，帮助做决策，比如预测天气、推荐商品等。</td>
+      </tr>
+      <tr>
+        <td>大模型</td>
+        <td>Large Model</td>
+        <td>大模型是指参数规模庞大（通常达到数亿甚至数千亿）的深度学习模型。</td>
+      </tr>
+      <tr>
+        <td>参数</td>
+        <td>Parameters</td>
+        <td>举个简单的例子，假如有一个模型，它的任务是根据房子的面积来预测房价。模型可能会有一个规则，比如“房价 = 面积 × 某个数值 + 另一个数值”。这里的“某个数值”和“另一个数值”就是参数。模型通过学习数据（比如很多房子的面积和对应的价格），调整这些参数，让预测的结果更接近真实情况。大模型需要大量参数，这样它才能做出更准确的预测。</td>
+      </tr>
+      <tr>
+        <td>LLM</td>
+        <td>Large Language Model</td>
+        <td>大型语言模型。大型语言模型（LLM，Large Language Model）是一种基于深度学习技术构建的人工智能模型，旨在理解和生成人类语言。</td>
+      </tr>
+      <tr>
+        <td>VLM</td>
+        <td>Vision Language Model</td>
+        <td>视觉语言模型。视觉语言模型是一种多模态模型，结合了视觉（图像或视频）和语言（文本）的处理能力。它可以同时处理图像和文本输入，执行视觉问答、图像字幕生成等任务。</td>
+      </tr>
+      <tr>
+        <td>LLaMA</td>
+        <td>Large Language Model Meta AI</td>
+        <td>大语言模型元 AI。由 Meta 发布的开源大语言模型。一个有着上百亿数量级参数的大语言模型，用于大规模部署和管理机器学习元模型。</td>
+      </tr>
+      <tr>
+        <td>推理大模型</td>
+        <td>Reasoning Large Model</td>
+        <td>推理大模型是指能够在传统的大语言模型基础上，强化推理、逻辑分析和决策能力的模型。它们通常具备额外的技术，比如强化学习、神经符号推理、元学习等，来增强其推理和问题解决能力。例如：DeepSeek-R1，GPT-o3 在逻辑推理、数学推理和实时问题解决方面表现突出。</td>
+      </tr>
+      <tr>
+        <td>非推理大模型</td>
+        <td>Non-Reasoning Large Model</td>
+        <td>适用于大多数任务，非推理大模型一般侧重于语言生成、上下文理解和自然语言处理，而不强调深度推理能力。此类模型通常通过对大量文本数据的训练，掌握语言规律并能够生成合适的内容，但缺乏像推理模型那样复杂的推理和决策能力。例如：GPT-3、GPT-4（OpenAI），BERT（Google），主要用于语言生成、语言理解、文本分类、翻译等任务。</td>
+      </tr>
+      <tr>
+        <td>AI 幻觉</td>
+        <td>AI hallucination</td>
+        <td>AI 幻觉是指生成式人工智能在输出内容时，生成了与输入文本或真实世界知识相矛盾的事实错误或逻辑错误。</td>
+      </tr>
+      <tr>
+        <td>多模态 AI</td>
+        <td>Multimodal AI</td>
+        <td>多模态 AI 系统能够以多种媒介处理输入并产生输出。多模态系统可以处理图像、视频、文本或声音的任何组合，而不仅仅是文本。</td>
+      </tr>
+      <tr>
+        <td>MOE</td>
+        <td>Mixture of Experts</td>
+        <td>混合专家模型。它就像一个团队合作的系统，里面有多个“专家”，每个专家擅长处理不同类型的任务或数据。当遇到一个问题时，系统会根据问题的特点，让不同的专家来处理，或者综合多个专家的意见，最终给出一个更准确的结果。就好像一个公司里有不同部门的专家，大家一起合作解决问题一样。</td>
+      </tr>
+      <tr>
+        <td>数据集</td>
+        <td>Dataset</td>
+        <td>数据集就是给 AI 用来学习的“教材”，就像学生上课用的课本。AI 通过这些数据学习规律，变得聪明。</td>
+      </tr>
+      <tr>
+        <td>Token</td>
+        <td>Token</td>
+        <td>Token 就像是语言里的“小零件”，把句子拆成一个个小块。比如，“我爱吃苹果”可以拆成“我”“爱”“吃”“苹果”四个 Token。AI 处理语言时，会先把它拆成这样的小块，方便理解和生成。【Token 离线计算】</td>
+      </tr>
+      <tr>
+        <td>GPU</td>
+        <td>Graphics Processing Unit</td>
+        <td>GPU 是图形处理器，就像电脑里的“超级助手”，专门用来处理复杂的图像和计算任务。它有很多小核心，能同时做很多事，比如玩游戏时渲染画面，或者训练 AI 模型时快速计算，让电脑运行得更快。它比普通的 CPU 更适合做复杂的数学计算，尤其是并行计算。</td>
+      </tr>
+      <tr>
+        <td>训练</td>
+        <td>Training</td>
+        <td>训练就是让 AI 学习的过程。就像教小孩认字，给 AI 很多数据，让它从中找规律、学知识，慢慢变得聪明，能完成任务。</td>
+      </tr>
+      <tr>
+        <td>预训练模型</td>
+        <td>Pre-trained Model</td>
+        <td>预训练模型就是在超大的数据集上先训练好的模型，它学会了通用的知识和规律，比如语言的语法、词汇等。然后，我们可以在小数据集上对它进行微调，让它适应具体任务，比如翻译、问答等。如果 AI 模型从零开始学习，就像一个人从头开始学知识，那会花很多时间。预训练模型已经学了很多通用的知识，所以它可以直接拿来用，或者稍微调整一下就能完成任务。</td>
+      </tr>
+      <tr>
+        <td>模型基座</td>
+        <td>Base Model</td>
+        <td>预训练得到的结果。想象一下，你要做一个智能语音助手，比如像 Siri 或者小爱同学这样的产品。如果你从零开始，需要收集海量的语音数据，然后一点点地训练模型，让它能够理解语言、回答问题。这个过程非常复杂，而且需要大量的时间和资源。但有了“模型基座”之后，就好比你已经有了一个已经打好基础的房子框架。这个框架已经具备了一些基本能力，比如能听懂一些简单的话、能做基本的对话。然后你只需要在这个基础上，根据自己的需求，比如让它更懂方言、或者让它能回答一些特定领域的问题，做一些“装修”和“调整”就可以了。</td>
+      </tr>
+      <tr>
+        <td>微调</td>
+        <td>Fine-tuning</td>
+        <td>微调就是对预训练好的模型进行“再教育”，让它适应特定的任务。比如，预训练模型学会了通用语言知识，微调就是让它专门学习写新闻或者做翻译，让它更擅长这个任务。</td>
+      </tr>
+      <tr>
+        <td>模型蒸馏</td>
+        <td>Model Distillation</td>
+        <td>大模型的文件太大了，对计算机的算力要求很高。模型蒸馏是一种将大模型的知识“浓缩”后传递给小模型的技术。简单来说，就像让一个“学霸老师”教出一个“学神学生”，学生模型通过模仿教师模型的输出结果，学习到类似的知识和能力。</td>
+      </tr>
+      <tr>
+        <td>推理</td>
+        <td>Inference</td>
+        <td>推理就是 AI 模型在训练好之后，用学到的知识去解决实际问题的过程。比如，AI 学会了识别图片里的猫和狗，推理就是它看到一张新图片后，判断这是猫还是狗。</td>
+      </tr>
+      <tr>
+        <td>超参数</td>
+        <td>Hyperparameters</td>
+        <td>在 AI 模型中，超参数就像是“控制旋钮”，用来调整模型的行为和输出。不同的超参数设置会影响模型的表现，比如生成的内容风格、准确性和多样性等。</td>
+      </tr>
+      <tr>
+        <td>RAG</td>
+        <td>Retrieval-Augmented Generation</td>
+        <td>检索增强生成。AI 训练的数据会停留在一个时间节点，因此会出现某些信息过时的情况。RAG 是一种结合检索技术和生成模型的人工智能方法。它通过从外部知识库中检索相关信息（包括搜索引擎、链接、文件），并将其作为上下文输入给大语言模型（LLM），从而增强模型在知识密集型任务中的表现。</td>
+      </tr>
+      <tr>
+        <td>MCP</td>
+        <td>Model Context Protocol</td>
+        <td>模型上下文协议。是由 Anthropic 公司（Claude 母公司）推出的一种开放标准协议。简单来说，它就像是 AI 的“万能连接器”，可以让 AI 大模型（比如 Claude 或其他语言模型）轻松地和外部世界“握手”，连接各种数据源和工具。举个例子，假设你有一个超级聪明的机器人助手，但它只能回答问题，却没办法自己去查资料或者操作其他设备。MCP 就像是给这个机器人装了一个“万能插头”，让它可以连接到冰箱查看库存、连接到手机查看日程，或者上网查天气。</td>
+      </tr>
+    </tbody>
+  </table>
+  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能术语解释表]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI002/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T09:18:07+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI002/"><![CDATA[<h2 id="重要提示">重要提示</h2>
+  <p>所有的 GPT 工具都是用模型训练出来的，内容可能存在谬误，使用时需自行甄别信息准确性。</p>
+  <hr />
+  <h2 id="一本地部署工具">一、本地部署工具</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>工具名称</th>
+        <th>部署模型</th>
+        <th>适用系统</th>
+        <th>部署教程链接</th>
+        <th>核心特点</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>LM Studio</td>
+        <td>DeepSeek R1</td>
+        <td>Windows</td>
+        <td>https://wiki.bafangwy.com/doc/805/</td>
+        <td>支持在本地部署模型，保障数据隐私</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <h2 id="二国产-ai-工具免费无次数限制">二、国产 AI 工具（免费，无次数限制）</h2>
+  <h3 id="说明">说明</h3>
+  <p>除网页版外，几乎所有 AI 工具均提供手机 APP 和电脑客户端，可根据个人使用习惯选择下载。</p>
+  <table>
+    <thead>
+      <tr>
+        <th>公司</th>
+        <th>模型</th>
+        <th>官方网址</th>
+        <th>核心特点</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>深度求索</td>
+        <td>DeepSeek</td>
+        <td>https://chat.deepseek.com/</td>
+        <td>生成内容附带思考过程，支持本地部署</td>
+      </tr>
+      <tr>
+        <td>月之暗面</td>
+        <td>kimi</td>
+        <td>https://kimi.com/</td>
+        <td>支持上传文件，可处理大文本内容</td>
+      </tr>
+      <tr>
+        <td>字节跳动</td>
+        <td>豆包</td>
+        <td>https://www.doubao.com/</td>
+        <td>支持文生图功能，APP 端可进行电话聊天</td>
+      </tr>
+      <tr>
+        <td>科大讯飞</td>
+        <td>星火</td>
+        <td>https://xinghuo.xfyun.cn/desk</td>
+        <td>具备多场景智能交互能力，适配办公需求</td>
+      </tr>
+      <tr>
+        <td>阿里巴巴</td>
+        <td>通义千问</td>
+        <td>https://tongyi.aliyun.com/qianwen</td>
+        <td>依托阿里生态，擅长电商、办公类场景</td>
+      </tr>
+      <tr>
+        <td>百度</td>
+        <td>文心一言</td>
+        <td>https://yiyan.baidu.com/</td>
+        <td>百度自研大模型，支持多模态内容生成</td>
+      </tr>
+      <tr>
+        <td>百度</td>
+        <td>AI 搜索</td>
+        <td>https://chat.baidu.com/</td>
+        <td>结合搜索功能，提供实时、准确的信息回答</td>
+      </tr>
+      <tr>
+        <td>腾讯</td>
+        <td>混元助手</td>
+        <td>https://hunyuan.tencent.com/bot/chat</td>
+        <td>适配社交、办公场景，支持多轮对话</td>
+      </tr>
+      <tr>
+        <td>昆仑万维</td>
+        <td>天工 AI</td>
+        <td>https://www.tiangong.cn/</td>
+        <td>覆盖创作、问答、代码生成等多领域</td>
+      </tr>
+      <tr>
+        <td>百度</td>
+        <td>橙篇</td>
+        <td>https://cp.baidu.com/</td>
+        <td>专注于文案创作、内容生成，适配营销场景</td>
+      </tr>
+      <tr>
+        <td>黑客专用 GPT</td>
+        <td>-</td>
+        <td>https://www.whiterabbitneo.com/</td>
+        <td>面向技术场景，提供代码分析、安全相关支持</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <h2 id="三多模型接入工具">三、多模型接入工具</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>工具名称</th>
+        <th>接入模型</th>
+        <th>官方网址</th>
+        <th>核心特点</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sider AI</td>
+        <td>ChatGPT、Claude 等</td>
+        <td>https://sider.ai/invited?c=eb91155d4a2ab25cc7de38adcd8351c4</td>
+        <td>不使用代理可访问原版 ChatGPT；每天免费 30 次高级模型对话</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <h2 id="四aigc-导航站">四、AIGC 导航站</h2>
+  <p>以下导航站整合了多个 AI 工具，可根据需求快速筛选使用：</p>
+  <ol>
+    <li>https://ai404.net/</li>
+    <li>https://bot.360.com/</li>
+    <li>https://ai-bot.cn/</li>
+    <li>https://www.yjpoo.com/</li>
+    <li>https://gpts.works/</li>
+    <li>https://nav.deep-info.cn/</li>
+    <li>https://17yongai.com/</li>
+    <li>https://www.ainav.cn/</li>
+    <li>https://www.ai-apps.com.cn/</li>
+    <li>https://chatgpt-site.zhaoyeqing.cn/</li>
+    <li>https://chatgptmirror.com/chat/</li>
+    <li>https://www.chatanywhere.top/chat-another</li>
+    <li>https://www.chatrobot.cn/index.html</li>
+    <li>https://03.gogsu.com/#/home/chat</li>
+    <li>https://chat.extkj.cn/</li>
+    <li>https://supremes.pro/</li>
+    <li>https://chat.aidutu.cn/#/chat/1002</li>
+  </ol>
+  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能 AI 工具合集]]></summary></entry><entry><title type="html">CTF 介绍</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF001/" rel="alternate" type="text/html" title="CTF 介绍" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T16:47:20+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF001/"><![CDATA[<h3 id="什么是-ctf">什么是 CTF？</h3>
   <p>CTF（Capture The Flag）是一种资讯安全竞赛的形式，通常将挑战题目分为数种主要类型，例如：</p>
   <ul>
     <li><strong>Pwn (Binary</strong> Exploitation) ：破解或攻击程式，利用其弱点（漏洞）取得目标机器或执行未被预期的动作。</li>
@@ -618,7 +648,11 @@
     <li><strong>资料备份提醒</strong>：PDF 电子书和关键教程建议及时下载保存，避免因链接失效导致资料无法访问。</li>
     <li><strong>学习节奏建议</strong>：PWN 方向需先掌握 C 语言、汇编基础和 Linux 系统知识；AWD 方向需额外了解网络安全、漏洞利用与防御策略。</li>
   </ol>
-  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips1/" rel="alternate" type="text/html" title="南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-28T16:47:20+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips1</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips1/"><![CDATA[<p>近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。</p>
+  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖</title><link href="https://cips.nyist.edu.cn/news/2025/10/CIPS-Society-Claims-Award-at-Digital-Dimension-Cup/" rel="alternate" type="text/html" title="南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/10/CIPS-Society-Claims-Award-at-Digital-Dimension-Cup</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/10/CIPS-Society-Claims-Award-at-Digital-Dimension-Cup/"><![CDATA[<p>近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。</p>
+  <p>本次大赛吸引了来自全国各高校的优秀学子同台竞技。南阳理工学院 CIPS 社团的参赛队员们经过数月的精心准备，在比赛中展现了扎实的数学功底、创新的建模思维和出色的团队协作能力。他们的获奖作品充分体现了将数学理论应用于解决实际问题的能力，获得了评委们的一致认可。</p>
+  <p>CIPS 社团作为南阳理工学院重要的学术科技类社团，一直致力于培养学生的创新精神和实践能力。此次获奖不仅是对参赛同学个人能力的肯定，更是对社团长期坚持“以赛促学、以学促用”理念的充分印证。</p>
+  <p>学校相关负责人表示，将继续支持学生参与各类高水平学科竞赛，为学生提供更多展示才华的平台，助力培养更多具有创新精神和实践能力的优秀人才。</p>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。]]></summary></entry><entry><title type="html">南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips1/" rel="alternate" type="text/html" title="南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-28T16:47:20+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips1</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips1/"><![CDATA[<p>近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。</p>
   <p>本次大赛吸引了来自全国各高校的优秀学子同台竞技。南阳理工学院 CIPS 社团的参赛队员们经过数月的精心准备，在比赛中展现了扎实的数学功底、创新的建模思维和出色的团队协作能力。他们的获奖作品充分体现了将数学理论应用于解决实际问题的能力，获得了评委们的一致认可。</p>
   <p>CIPS 社团作为南阳理工学院重要的学术科技类社团，一直致力于培养学生的创新精神和实践能力。此次获奖不仅是对参赛同学个人能力的肯定，更是对社团长期坚持“以赛促学、以学促用”理念的充分印证。</p>
   <p>学校相关负责人表示，将继续支持学生参与各类高水平学科竞赛，为学生提供更多展示才华的平台，助力培养更多具有创新精神和实践能力的优秀人才。</p>
@@ -806,46 +840,4 @@
   </ul>
   <h2 id="五结语">五、结语</h2>
   <p>校园网络安全是一项系统工程，需要技术、管理和意识多管齐下。只有构建完善的防护体系，才能为高校的数字化发展保驾护航。</p>
-  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、引言]]></summary></entry><entry><title type="html">信息化建设与管理中心举办学生团队技术交流会</title><link href="https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange/" rel="alternate" type="text/html" title="信息化建设与管理中心举办学生团队技术交流会" /><published>2025-09-25T00:00:00+08:00</published><updated>2025-10-20T19:45:10+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/09/nyist-tech-exchange/"><![CDATA[<p>9 月 25 日，信息化建设与管理中心组织召开学生团队技术交流会。耿凯峰副主任出席会议并讲话，安全监测组、渗透一组和渗透二组全体成员参加。</p>
-  <p>交流会以“技术共进·协作致远”为主题，同学们积极提出了在实践中遇到的各类问题，如“如何更高效地完成分组任务”“学习与项目如何平衡”“技术难题该如何突破”“团队沟通怎样更顺畅”等。针对这些提问，现场老师和组内同学们逐一进行了交流与解答，有的从时间管理方法入手，分享了如何合理规划学习与工作；有的结合实战经验，介绍了处理复杂漏洞与攻防演练的技巧；也有同学从团队协作角度提出改进建议，如加强跨组配合、建立更顺畅的沟通机制。</p>
-  <p>通过互动解答，不仅解决了实际困惑，也促进了不同小组之间的理解与借鉴，进一步增强了团队凝聚力。</p>
-  <p>耿凯峰充分肯定了学生技术团队在学校信息化工作中发挥的重要作用，并对学生技术团队提出了新的期望。他指出，希望大家在今后的学习与实践中：</p>
-  <ol>
-    <li>不断增强安全意识，规范技术行为，始终重视数据与系统的安全性。</li>
-    <li>珍惜锻炼机会，勇于担当作为，在具体任务中积累经验、提升能力。</li>
-    <li>注重理论与实践结合，全面提升素养，努力成长为既懂技术又能应用的复合型人才。</li>
-  </ol>
-  <p>此次交流会的成功举办，不仅为安全监测组、渗透一组和渗透二组搭建了互学互鉴的平台，也进一步增强了学生技术团队的凝聚力和使命感。未来，信息化建设与管理中心将继续完善学生技术队伍的培养机制，推动形成“培训—实战—反思—成长”的良性循环，助力团队在学校信息化建设中不断突破、稳步前行。</p>
-  <p>（校对/耿凯峰 审核/吴绍兴）</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[9 月 25 日，信息化建设与管理中心组织召开学生团队技术交流会。耿凯峰副主任出席会议并讲话，安全监测组、渗透一组和渗透二组全体成员参加。]]></summary></entry><entry><title type="html">你好啊，新社员</title><link href="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/" rel="alternate" type="text/html" title="你好啊，新社员" /><published>2024-09-22T00:00:00+08:00</published><updated>2024-09-22T20:05:04+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/09/Hello-new-members</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/09/Hello-new-members/"><![CDATA[<p>欢迎加入 CIPS，开启你的计算机探险之旅！
-    无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。</p>
-  <p>CIPS——让热爱技术的你大展拳脚！</p>
-  <ul>
-    <li>技术实战： 我们社团负责管理学校信息系统，服务器运维、系统搭建、镜像站维护、GitLab 代码托管等都是我们的日常工作。加入 CIPS，你将有机会在真实项目中学习并实践计算机技术。</li>
-    <li>全面学习： 从网络搭建、服务器管理到编程实战，我们为你提供丰富的学习资源和一线技术指导，无论你是技术小白还是有一定经验，我们都能帮助你提升。</li>
-    <li>竞赛与交流： 我们积极组织和参与各类计算机相关竞赛，与校内外技术大咖深入交流，参加论坛与培训，拓展视野，丰富履历。</li>
-  </ul>
-  <p>加入 CIPS，你将获得：</p>
-  <ul>
-    <li>实战经验积累：参与学校的真实项目管理，提升实践能力。</li>
-    <li>技术提升：定期的技术分享会、编程课程、竞赛指导，帮助你快速成长。</li>
-    <li>人脉拓展：结识志同道合的伙伴，与经验丰富的师兄师姐共事交流。</li>
-    <li>资源丰富：拥有独立的实验室和专属 WiFi，学习环境极佳，资源共享。</li>
-  </ul>
-  <p>如果你具备以下特质，我们在等你：</p>
-  <ul>
-    <li>对计算机、编程、网络技术充满兴趣；</li>
-    <li>渴望在实践中提升自己，敢于挑战和创新；</li>
-    <li>有责任心、团队合作精神，愿意与伙伴们共同成长。</li>
-  </ul>
-  <p>报名方式： 点<a href="https://docs.qq.com/sheet/DZFROZVhRUE5SVFNE">这里</a>填写报名表。<br />
-    面试时间： 10 月 8 日，地点：13 号楼 211 室。<br />
-    联系我们：*如果有任何疑问，可以点<a href="https://qm.qq.com/q/GMTHU2wqky">这里</a>加入招新群进行咨询。</p>
-  <p>你与未来只差一步——快来加入我们吧！
-    CIPS，期待与你一起探索计算机的无限可能！</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[欢迎加入 CIPS，开启你的计算机探险之旅！ 无论你是对计算机技术充满好奇，还是希望亲手搭建服务器系统，或是想在实践中学习编程，我们的社团都能为你提供一个广阔的舞台。]]></summary></entry><entry><title type="html">南阳市网络安全监控预警中心召开2024年第二期技术研讨会</title><link href="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/" rel="alternate" type="text/html" title="南阳市网络安全监控预警中心召开2024年第二期技术研讨会" /><published>2024-04-21T00:00:00+08:00</published><updated>2024-04-24T07:14:13+08:00</updated><id>https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2024/04/Nanyang-Tech-Seminar-2/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>耿凯峰</em></strong>）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。</p>
-  <p><img src="/static/news/seminar-1.jpg" alt="" /></p>
-  <p>本次研讨会的亮点之一是大二大三在校学生们积极参与并进行了技术分享。他们结合自身学习和实践经验，分享了在网络安全领域的研究成果和应用实践。从网络漏洞挖掘到安全加固措施的实施，再到应急响应和事件处理的流程。</p>
-  <p><img src="/static/news/seminar-2.jpg" alt="" /></p>
-  <p>通过本次研讨会，学生们的技术分享展示了他们对网络安全的热情和专业素养，为网络安全领域的发展注入了新的活力和动力。相关负责人表示，南阳市网络安全监控预警中心将继续支持和鼓励年轻学子们在网络安全领域的学习和探索，为构建网络安全的铜墙铁壁贡献力量。（校对/<strong><em>徐扬</em></strong>）</p>
-  ]]></content><author><name>NYIST-CIPS</name></author><summary type="html"><![CDATA[本网讯（特约记者/耿凯峰）4 月 18 日下午，南阳市网络安全监控预警中心举行了 2024 年第二期技术研讨会，旨在加强网络安全防护工作，推动网络安全技术的交流与合作，培养青年学子在网络安全领域的创新能力和实践经验。预警中心工作人员、校驻场安服人员和部分网络安全专业同学等 20 余人参加了会议。]]></summary></entry></feed>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、引言]]></summary></entry></feed>
