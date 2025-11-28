@@ -1,895 +1,275 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed/planet.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-11-28T08:51:45+08:00</updated><id>https://cips.nyist.edu.cn/feed/planet.xml</id><title type="html">CIPS @ NYIST | Planet</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">CTF 介绍</title><link href="https://cips.nyist.edu.cn/planet/2025/10/ntroduction-to-Capture-The-Flag/" rel="alternate" type="text/html" title="CTF 介绍" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/ntroduction-to-Capture-The-Flag</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/ntroduction-to-Capture-The-Flag/"><![CDATA[<h3 id="什么是-ctf">什么是 CTF？</h3>
-      <p>CTF（Capture The Flag）是一种资讯安全竞赛的形式，通常将挑战题目分为数种主要类型，例如：</p>
-      <ul>
-        <li><strong>Pwn (Binary</strong> Exploitation) ：破解或攻击程式，利用其弱点（漏洞）取得目标机器或执行未被预期的动作。</li>
-        <li><strong>Reverse (Reverse Engineering)</strong>：逆向工程，分析程式码或档案运作方式，找出演算法逻辑或破解方法。</li>
-        <li><strong>Web (Web Exploitation)</strong>：针对网站常见漏洞（SQL Injection、XSS、File Inclusion 等）进行渗透测试和漏洞利用。</li>
-        <li><strong>Forensics (数位鉴识)</strong>：分析系统、记忆体或封包，透过蛛丝马迹取得 Flag。</li>
-        <li><strong>Crypto (密码学)</strong>：解密、分析密码或加密演算法，甚至自行推导解密方式。</li>
-        <li><strong>Misc (杂项)</strong>：包含 OSINT、编码转换、隐写术（Steganography）等比较零散的主题。</li>
-      </ul>
-      <blockquote>
-        <p>不同 CTF 会根据赛制与性质分配不同的题目类型，也有部分竞赛主打特定范围（如纯 Web 或纯逆向）。</p>
-      </blockquote>
-      <h3 id="ctf-比赛类型分类"><strong>CTF 比赛类型分类</strong></h3>
-      <h4 id="1-jeopardy解题型">1. <strong>Jeopardy（解题型）</strong></h4>
-      <p>这是最常见的 CTF 赛制，参赛者需要从多种题目中选择解题，目标是找到题目隐藏的 Flag，根据题目难度获得相应分数。</p>
-      <ul>
-        <li>
-          <p>特点</p>
-          <p>题目多样，涵盖 Pwn、Reverse、Web、Crypto、Forensics 等领域。</p>
-          <p>参赛者可以自由选择擅长的题型解题，分数通常累积到比赛结束。</p>
-        </li>
-        <li>
-          <p><strong>适合对象</strong>：初学者与进阶玩家都可参加，对个人与小型团队特别友善。</p>
-        </li>
-        <li>
-          <p><strong>范例比赛</strong>：picoCTF、Google CTF（Quals 赛）、AIS3 Pre-exam。</p>
-        </li>
-      </ul>
-      <hr />
-      <h4 id="2-attack-defense攻防型">2. <strong>Attack-Defense（攻防型）</strong></h4>
-      <p>攻防型 CTF 更注重实战，模拟真实的网路攻防情境。参赛团队需在指定的基础环境中，攻击对手的伺服器同时保护自己的服务。</p>
-      <ul>
-        <li>
-          <p>特点</p>
-          <p>团队需要同时具备进攻（渗透测试、漏洞利用）与防御（漏洞修补、日志分析）能力。</p>
-          <p>赛事进行中，团队需快速回应对手攻击，同时在规定时间内得分。</p>
-        </li>
-        <li>
-          <p><strong>适合对象</strong>：进阶玩家、团队合作能力强的参赛者。</p>
-        </li>
-        <li>
-          <p><strong>范例比赛</strong>：DEF CON CTF（决赛）、HITCON CTF（部分赛制）。</p>
-        </li>
-      </ul>
-      <hr />
-      <h4 id="3-king-of-the-hillkoth">3. <strong>King of the Hill（KoTH）</strong></h4>
-      <p>KoTH 是一种特殊的 CTF 比赛类型，参赛者需要攻陷目标系统（通常是一台虚拟机或服务），并在夺得控制权后进行防御，防止其他参赛者夺回系统的控制。</p>
-      <ul>
-        <li>
-          <p>特点</p>
-          <p>比赛期间，参赛者需要攻击其他参赛者的已控主机，同时巩固自己对主机的控制权。</p>
-          <p>参赛者获得分数的时间取决于他们对目标的控制时间长短。</p>
-          <p>比赛结束时，控制系统时间最长的队伍或个人获胜。</p>
-        </li>
-        <li>
-          <p>防御与攻击并重</p>
-          <p>除了渗透测试技术，还需具备系统加固、防御与监控的能力（如修补漏洞、阻止其他攻击）。</p>
-          <p>需要快速分析系统漏洞，并在有限时间内设置防御机制。</p>
-        </li>
-        <li>
-          <p>适合对象</p>
-          <p>进阶玩家或对攻防兼具技能有兴趣的参赛者。</p>
-        </li>
-        <li>
-          <p><strong>范例比赛</strong>：Hack The Box KoTH、TryHackMe KoTH 模式。</p>
-        </li>
-      </ul>
-      <hr />
-      <h4 id="ctf-类型的区别">CTF 类型的区别</h4>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed/planet.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-11-28T08:56:12+08:00</updated><id>https://cips.nyist.edu.cn/feed/planet.xml</id><title type="html">CIPS @ NYIST | Planet</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">CTF 资料下载（PWN/AWD 专项）</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF002/" rel="alternate" type="text/html" title="CTF 资料下载（PWN/AWD 专项）" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T09:18:07+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF002/"><![CDATA[<h2 id="一pwn-方向资料">一、PWN 方向资料</h2>
       <table>
         <thead>
           <tr>
-            <th>特点</th>
-            <th>King of the Hill</th>
-            <th>Attack-Defense</th>
-            <th>Jeopardy</th>
+            <th>资料名称</th>
+            <th>类型</th>
+            <th>链接</th>
+            <th>关键信息</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><strong>目标</strong></td>
-            <td>夺取并保持控制权</td>
-            <td>攻击对手并防御自己的服务</td>
-            <td>解决独立题目以取得 Flag</td>
+            <td>CTF 竞赛入门指南(CTF All In One)</td>
+            <td>PDF 电子书</td>
+            <td>https://msb-netdisk.mashibing.com/share/261a7e6d36594b41a3213078f29afd21</td>
+            <td>共 1839 页，覆盖 CTF 入门核心内容</td>
           </tr>
           <tr>
-            <td><strong>焦点</strong></td>
-            <td>同时进行攻击与防御</td>
-            <td>主要专注于服务防御与攻击</td>
-            <td>以解题能力为主</td>
+            <td>CTF-PWN 入门指北</td>
+            <td>在线文档</td>
+            <td>https://www.bilibili.com/read/cv16112617/</td>
+            <td>适合 PWN 新手入门学习</td>
           </tr>
           <tr>
-            <td><strong>比赛方式</strong></td>
-            <td>所有参赛者攻击同一目标并竞争控制权</td>
-            <td>团队之间互相攻击与防御</td>
-            <td>各自解决题目，没有直接对抗</td>
-          </tr>
-          <tr>
-            <td><strong>难度</strong></td>
-            <td>高，需兼顾攻防技术</td>
-            <td>高，需了解渗透与防御的完整流程</td>
-            <td>中至高，视题目难度而定</td>
+            <td>《CTF 竞赛权威指南 PWN》</td>
+            <td>电子书</td>
+            <td>https://msb-netdisk.mashibing.com/share/44ba7a2ee5a740d2aa9977af276a4dfb</td>
+            <td>聚焦 PWN 方向，权威性较强</td>
           </tr>
         </tbody>
       </table>
       <hr />
-      <h3 id="4-boot2root主机渗透型">4. <strong>Boot2Root（主机渗透型）</strong></h3>
-      <p>参赛者需要进入一个目标机器（通常为虚拟机），利用渗透测试技术攻入系统，并在最高权限（Root 权限）下找到 Flag。</p>
-      <ul>
-        <li>
-          <p>特点</p>
-          <p>强调渗透技术和对系统漏洞的理解。</p>
-          <p>过程涉及资讯搜集、漏洞分析、利用、权限提升等完整流程。</p>
-        </li>
-        <li>
-          <p><strong>适合对象</strong>：喜欢主机渗透测试、想模拟真实环境的玩家。</p>
-        </li>
-        <li>
-          <p><strong>范例平台</strong>：Hack The Box、TryHackMe。</p>
-        </li>
-      </ul>
+      <h2 id="二awd-方向资料">二、AWD 方向资料</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>资料名称</th>
+            <th>类型</th>
+            <th>链接</th>
+            <th>关键信息</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>《从零学习 AWD 比赛指导手册》</td>
+            <td>在线文档</td>
+            <td>https://forum.butian.net/share/2536</td>
+            <td>从基础到实战，适合 AWD 新手</td>
+          </tr>
+          <tr>
+            <td>G22-AWD 平台搭建</td>
+            <td>教程文档</td>
+            <td>https://wiki.bafangwy.com/doc/645/</td>
+            <td>提供 AWD 训练平台搭建步骤</td>
+          </tr>
+        </tbody>
+      </table>
       <hr />
-      <h3 id="5-real-world-simulation真实世界模拟型">5. <strong>Real-World Simulation（真实世界模拟型）</strong></h3>
-      <p>这类比赛聚焦于模拟真实世界的安全事件，例如针对公司内部网路、工控系统（ICS）、云端服务进行渗透测试或攻防。</p>
-      <ul>
-        <li>
-          <p>特点</p>
-          <p>题目更贴近企业实际场景，涉及多层网路架构与复杂应用。</p>
-          <p>强调团队合作，解决多面向问题。</p>
-        </li>
-        <li>
-          <p><strong>适合对象</strong>：有企业安全背景或希望参与真实场景的进阶玩家与团队。</p>
-        </li>
-        <li>
-          <p><strong>范例比赛</strong>：Cyber Apocalypse CTF、Cyber Defence Exercise（CYBER-X）。</p>
-        </li>
-      </ul>
-      <hr />
-      <h3 id="6-ai自动化型-ctf">6. <strong>AI/自动化型 CTF</strong></h3>
-      <p>部分比赛专注于结合人工智慧（AI）技术与资安竞赛，要求参赛者开发自动化工具进行漏洞探索、攻击或防御。</p>
-      <ul>
-        <li>
-          <p>特点</p>
-          <p>高度依赖编程能力和算法设计。</p>
-          <p>题目通常具有学术或研究性质。</p>
-        </li>
-        <li>
-          <p><strong>适合对象</strong>：熟悉 AI、机器学习或算法研究的参赛者。</p>
-        </li>
-        <li>
-          <p><strong>范例比赛</strong>：DARPA Cyber Grand Challenge。</p>
-        </li>
-      </ul>
-      <hr />
-      <h3 id="7教育型-ctflearning-based">7.<strong>教育型 CTF（Learning-Based）</strong></h3>
-      <p>这类比赛设计目的是教育与培训，例如专为新手设计的题目，帮助参赛者逐步学习资安概念与技能。</p>
-      <ul>
-        <li>
-          <p>特点</p>
-          <p>题目附有提示与教学指引，适合练习基础技能。</p>
-          <p>目标是提升参与者的知识与实践能力，而非竞争性。</p>
-        </li>
-        <li>
-          <p><strong>适合对象</strong>：新手、学生、希望从头学习的玩家。</p>
-        </li>
-        <li>
-          <p><strong>范例比赛</strong>：picoCTF、OverTheWire、AIS3 Pre-exam。</p>
-        </li>
-      </ul>
-      <hr />
-      <h3 id="8企业实战-ctfred-team-vs-blue-team">8.<strong>企业实战 CTF（Red Team vs. Blue Team）</strong></h3>
-      <p>由企业或资安组织主办，比赛通常设计为「红队 vs 蓝队」模式。参赛者分为攻击方（红队）与防御方（蓝队），模拟企业内部的攻防场景。</p>
-      <ul>
-        <li>
-          <p>特点</p>
-          <p>比赛设计高度贴近实际企业安全需求，涵盖事件响应、威胁检测等内容。</p>
-          <p>适合有意进入企业资安工作的参赛者。</p>
-        </li>
-        <li>
-          <p><strong>适合对象</strong>：企业内资安团队、进阶资安工程师。</p>
-        </li>
-        <li>
-          <p><strong>范例比赛</strong>：Cybersecurity Attack &amp; Defense Exercise。</p>
-        </li>
-      </ul>
-      <hr />
-      <h2 id="如何选择适合的比赛类型"><strong>如何选择适合的比赛类型？</strong></h2>
+      <h2 id="资料使用建议">资料使用建议</h2>
       <ol>
-        <li>
-          <p>新手玩家</p>
-          <p>建议从<strong>Jeopardy 型</strong>或<strong>教育型 CTF</strong>开始，例如 picoCTF、AIS3 Pre-exam、OverTheWire。</p>
-        </li>
-        <li>
-          <p>进阶玩家或团队</p>
-          <p>可挑战<strong>攻防型 CTF</strong>或<strong>混合型 CTF</strong>，如 HITCON CTF、Google CTF。</p>
-        </li>
-        <li>
-          <p>实战导向</p>
-          <p>若希望模拟真实环境或学习企业场景，选择<strong>Real-World Simulation</strong>或<strong>Boot2Root 型</strong>比赛。</p>
-        </li>
-        <li>
-          <p>学术与研究兴趣</p>
-          <p>对 AI 或演算法有兴趣的玩家可参与<strong>AI 相关 CTF</strong>。</p>
-        </li>
+        <li><strong>入门优先级</strong>：先阅读《CTF 竞赛入门指南》建立 CTF 整体认知，再根据目标方向深入学习 PWN 或 AWD 专项资料。</li>
+        <li><strong>理论结合实践</strong>：学习 PWN 时可搭配 CTF 平台基础题目练习（如 CTFtime、攻防世界）；学习 AWD 后，通过 G22 平台搭建实现本地模拟训练。</li>
+        <li><strong>资料备份提醒</strong>：PDF 电子书和关键教程建议及时下载保存，避免因链接失效导致资料无法访问。</li>
+        <li><strong>学习节奏建议</strong>：PWN 方向需先掌握 C 语言、汇编基础和 Linux 系统知识；AWD 方向需额外了解网络安全、漏洞利用与防御策略。</li>
       </ol>
-      ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 介绍]]></summary></entry><entry><title type="html">人工智能术语解释表</title><link href="https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms/" rel="alternate" type="text/html" title="人工智能术语解释表" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/Glossary-of-AI-Terms/"><![CDATA[<table>
+      ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">CTF 介绍</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF001/" rel="alternate" type="text/html" title="CTF 介绍" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T16:47:20+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF001/"><![CDATA[<h3 id="什么是-ctf">什么是 CTF？</h3>
+    <p>CTF（Capture The Flag）是一种资讯安全竞赛的形式，通常将挑战题目分为数种主要类型，例如：</p>
+    <ul>
+      <li><strong>Pwn (Binary</strong> Exploitation) ：破解或攻击程式，利用其弱点（漏洞）取得目标机器或执行未被预期的动作。</li>
+      <li><strong>Reverse (Reverse Engineering)</strong>：逆向工程，分析程式码或档案运作方式，找出演算法逻辑或破解方法。</li>
+      <li><strong>Web (Web Exploitation)</strong>：针对网站常见漏洞（SQL Injection、XSS、File Inclusion 等）进行渗透测试和漏洞利用。</li>
+      <li><strong>Forensics (数位鉴识)</strong>：分析系统、记忆体或封包，透过蛛丝马迹取得 Flag。</li>
+      <li><strong>Crypto (密码学)</strong>：解密、分析密码或加密演算法，甚至自行推导解密方式。</li>
+      <li><strong>Misc (杂项)</strong>：包含 OSINT、编码转换、隐写术（Steganography）等比较零散的主题。</li>
+    </ul>
+    <blockquote>
+      <p>不同 CTF 会根据赛制与性质分配不同的题目类型，也有部分竞赛主打特定范围（如纯 Web 或纯逆向）。</p>
+    </blockquote>
+    <h3 id="ctf-比赛类型分类"><strong>CTF 比赛类型分类</strong></h3>
+    <h4 id="1-jeopardy解题型">1. <strong>Jeopardy（解题型）</strong></h4>
+    <p>这是最常见的 CTF 赛制，参赛者需要从多种题目中选择解题，目标是找到题目隐藏的 Flag，根据题目难度获得相应分数。</p>
+    <ul>
+      <li>
+        <p>特点</p>
+        <p>题目多样，涵盖 Pwn、Reverse、Web、Crypto、Forensics 等领域。</p>
+        <p>参赛者可以自由选择擅长的题型解题，分数通常累积到比赛结束。</p>
+      </li>
+      <li>
+        <p><strong>适合对象</strong>：初学者与进阶玩家都可参加，对个人与小型团队特别友善。</p>
+      </li>
+      <li>
+        <p><strong>范例比赛</strong>：picoCTF、Google CTF（Quals 赛）、AIS3 Pre-exam。</p>
+      </li>
+    </ul>
+    <hr />
+    <h4 id="2-attack-defense攻防型">2. <strong>Attack-Defense（攻防型）</strong></h4>
+    <p>攻防型 CTF 更注重实战，模拟真实的网路攻防情境。参赛团队需在指定的基础环境中，攻击对手的伺服器同时保护自己的服务。</p>
+    <ul>
+      <li>
+        <p>特点</p>
+        <p>团队需要同时具备进攻（渗透测试、漏洞利用）与防御（漏洞修补、日志分析）能力。</p>
+        <p>赛事进行中，团队需快速回应对手攻击，同时在规定时间内得分。</p>
+      </li>
+      <li>
+        <p><strong>适合对象</strong>：进阶玩家、团队合作能力强的参赛者。</p>
+      </li>
+      <li>
+        <p><strong>范例比赛</strong>：DEF CON CTF（决赛）、HITCON CTF（部分赛制）。</p>
+      </li>
+    </ul>
+    <hr />
+    <h4 id="3-king-of-the-hillkoth">3. <strong>King of the Hill（KoTH）</strong></h4>
+    <p>KoTH 是一种特殊的 CTF 比赛类型，参赛者需要攻陷目标系统（通常是一台虚拟机或服务），并在夺得控制权后进行防御，防止其他参赛者夺回系统的控制。</p>
+    <ul>
+      <li>
+        <p>特点</p>
+        <p>比赛期间，参赛者需要攻击其他参赛者的已控主机，同时巩固自己对主机的控制权。</p>
+        <p>参赛者获得分数的时间取决于他们对目标的控制时间长短。</p>
+        <p>比赛结束时，控制系统时间最长的队伍或个人获胜。</p>
+      </li>
+      <li>
+        <p>防御与攻击并重</p>
+        <p>除了渗透测试技术，还需具备系统加固、防御与监控的能力（如修补漏洞、阻止其他攻击）。</p>
+        <p>需要快速分析系统漏洞，并在有限时间内设置防御机制。</p>
+      </li>
+      <li>
+        <p>适合对象</p>
+        <p>进阶玩家或对攻防兼具技能有兴趣的参赛者。</p>
+      </li>
+      <li>
+        <p><strong>范例比赛</strong>：Hack The Box KoTH、TryHackMe KoTH 模式。</p>
+      </li>
+    </ul>
+    <hr />
+    <h4 id="ctf-类型的区别">CTF 类型的区别</h4>
+    <table>
       <thead>
         <tr>
-          <th>名词</th>
-          <th>英文</th>
-          <th>解释</th>
+          <th>特点</th>
+          <th>King of the Hill</th>
+          <th>Attack-Defense</th>
+          <th>Jeopardy</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>AI</td>
-          <td>Artificial Intelligence</td>
-          <td>人工智能。就像机器人的大脑，能让电脑或设备像人一样思考、学习和做事情，比如语音助手帮你查天气、自动驾驶汽车自己开车，都是 AI 在发挥作用。</td>
+          <td><strong>目标</strong></td>
+          <td>夺取并保持控制权</td>
+          <td>攻击对手并防御自己的服务</td>
+          <td>解决独立题目以取得 Flag</td>
         </tr>
         <tr>
-          <td>GPT</td>
-          <td>Generative Pre-trained Transformer</td>
-          <td>GPT 是一种基于深度学习的自然语言处理模型，通过大规模文本数据的预训练，能够生成连贯、相关的文本内容，广泛应用于语言生成、翻译、问答等多种场景。由 OpenAI 公司开发，2025 年 2 月 27 日最新发布版本是 GPT-4.5。</td>
+          <td><strong>焦点</strong></td>
+          <td>同时进行攻击与防御</td>
+          <td>主要专注于服务防御与攻击</td>
+          <td>以解题能力为主</td>
         </tr>
         <tr>
-          <td>ChatGPT</td>
-          <td>Chat Generative Pre-trained Transformer</td>
-          <td>ChatGPT 是一个基于 GPT 技术的人工智能聊天机器人，能够通过对话理解用户的问题，并用自然语言生成回答，帮助用户完成各种语言相关的需求。由 OpenAI 公司在 2022 年 11 月 30 日推出，基于 GPT-3.5 架构。</td>
+          <td><strong>比赛方式</strong></td>
+          <td>所有参赛者攻击同一目标并竞争控制权</td>
+          <td>团队之间互相攻击与防御</td>
+          <td>各自解决题目，没有直接对抗</td>
         </tr>
         <tr>
-          <td>生成式 AI</td>
-          <td>Generative AI</td>
-          <td>生成式 AI。一种能够根据输入的提示或指令生成新内容的人工智能技术。它可以创作文本、图像、音频、视频等内容，就像一个“创作机器”，通过学习海量数据来模仿人类的创作方式。</td>
-        </tr>
-        <tr>
-          <td>AIGC</td>
-          <td>Artificial Intelligence Generated Content</td>
-          <td>人工智能生成内容。让 AI 像人类一样创作出各种内容，比如写文章、画画、编曲、制作视频等。</td>
-        </tr>
-        <tr>
-          <td>提示词</td>
-          <td>Prompt</td>
-          <td>用户提供给人工智能系统并期望某些结果的输入，比如输入给 ChatGPT 或者 Midjourney 的内容。</td>
-        </tr>
-        <tr>
-          <td>AGI</td>
-          <td>Artificial General Intelligence</td>
-          <td>通用人工智能。是一种能够像人类一样处理各种复杂任务的智能系统。弱人工智能通常只能在特定领域（如图像识别、语言翻译或棋类游戏）表现出智能，而 AGI 的目标是具备跨领域的通用智能，能够像人类一样自主学习、推理和适应各种复杂任务，无需针对每个任务进行专门设计或训练。</td>
-        </tr>
-        <tr>
-          <td>智能体</td>
-          <td>Agent</td>
-          <td>Agent 就像是一个“智能助手”，它能够感知环境、做出决策并采取行动。Agent 可以是简单的（比如聊天机器人），也可以是复杂的（比如自动驾驶汽车）。它们广泛应用于我们的生活和工作中，帮助我们完成各种任务。</td>
-        </tr>
-        <tr>
-          <td>Manus</td>
-          <td>Avatar Manus</td>
-          <td>Avatar Manus 是一款由中国团队 Monica.im 研发的通用型 AI Agent（人工智能代理），于 2025 年 3 月 6 日正式发布。Manus 能够独立思考、规划并执行复杂任务，直接交付完整成果。Manus 可以在云端自动调用浏览器、虚拟机、Python 完成任务。</td>
-        </tr>
-        <tr>
-          <td>NLP</td>
-          <td>Natural Language Processing</td>
-          <td>自然语言处理。让电脑学会理解人类的语言。比如，你和语音助手聊天，它能听懂你说的话，还能用文字或语音回答你，这就是 NLP 的功劳。</td>
-        </tr>
-        <tr>
-          <td>机器学习</td>
-          <td>Machine Learning</td>
-          <td>机器学习就是让电脑通过数据自己“学习”规律的技术。比如，给电脑看很多猫和狗的图片，它会自动找出猫和狗的区别，以后就能自己判断新图片是猫还是狗。</td>
-        </tr>
-        <tr>
-          <td>深度学习</td>
-          <td>Deep Learning</td>
-          <td>深度学习是机器学习的一种高级方法，它通过模仿人脑的神经网络结构，让电脑能够自动学习更复杂的模式和规律。比如，它可以用来识别语音、图像，甚至预测天气，就像电脑有了更聪明的“大脑”。</td>
-        </tr>
-        <tr>
-          <td>神经网络</td>
-          <td>Neural Network</td>
-          <td>神经网络是一种模仿人脑神经细胞工作方式的计算模型。它由很多节点（像神经元）组成，这些节点相互连接，通过不断调整连接的强度来学习数据中的规律，从而完成任务。</td>
-        </tr>
-        <tr>
-          <td>Transformer 架构</td>
-          <td>Transformer Architecture</td>
-          <td>Transformer 架构是一种基于编码器-解码器（Encoder-Decoder）的深度学习模型，主要用于处理序列数据，如自然语言处理中的翻译、生成等任务。</td>
-        </tr>
-        <tr>
-          <td>数据集</td>
-          <td>Dataset</td>
-          <td>数据集就是一堆用来训练 AI 模型的数据，就像是一堆学习材料。比如一堆图片、文字或者语音记录。</td>
-        </tr>
-        <tr>
-          <td>大数据</td>
-          <td>Big Data</td>
-          <td>大数据就是海量的数据集合，数据量大到普通电脑和软件很难处理。这些数据来自各种地方，比如互联网、传感器、社交媒体等。通过分析大数据，可以发现规律、趋势，帮助做决策，比如预测天气、推荐商品等。</td>
-        </tr>
-        <tr>
-          <td>大模型</td>
-          <td>Large Model</td>
-          <td>大模型是指参数规模庞大（通常达到数亿甚至数千亿）的深度学习模型。</td>
-        </tr>
-        <tr>
-          <td>参数</td>
-          <td>Parameters</td>
-          <td>举个简单的例子，假如有一个模型，它的任务是根据房子的面积来预测房价。模型可能会有一个规则，比如“房价 = 面积 × 某个数值 + 另一个数值”。这里的“某个数值”和“另一个数值”就是参数。模型通过学习数据（比如很多房子的面积和对应的价格），调整这些参数，让预测的结果更接近真实情况。大模型需要大量参数，这样它才能做出更准确的预测。</td>
-        </tr>
-        <tr>
-          <td>LLM</td>
-          <td>Large Language Model</td>
-          <td>大型语言模型。大型语言模型（LLM，Large Language Model）是一种基于深度学习技术构建的人工智能模型，旨在理解和生成人类语言。</td>
-        </tr>
-        <tr>
-          <td>VLM</td>
-          <td>Vision Language Model</td>
-          <td>视觉语言模型。视觉语言模型是一种多模态模型，结合了视觉（图像或视频）和语言（文本）的处理能力。它可以同时处理图像和文本输入，执行视觉问答、图像字幕生成等任务。</td>
-        </tr>
-        <tr>
-          <td>LLaMA</td>
-          <td>Large Language Model Meta AI</td>
-          <td>大语言模型元 AI。由 Meta 发布的开源大语言模型。一个有着上百亿数量级参数的大语言模型，用于大规模部署和管理机器学习元模型。</td>
-        </tr>
-        <tr>
-          <td>推理大模型</td>
-          <td>Reasoning Large Model</td>
-          <td>推理大模型是指能够在传统的大语言模型基础上，强化推理、逻辑分析和决策能力的模型。它们通常具备额外的技术，比如强化学习、神经符号推理、元学习等，来增强其推理和问题解决能力。例如：DeepSeek-R1，GPT-o3 在逻辑推理、数学推理和实时问题解决方面表现突出。</td>
-        </tr>
-        <tr>
-          <td>非推理大模型</td>
-          <td>Non-Reasoning Large Model</td>
-          <td>适用于大多数任务，非推理大模型一般侧重于语言生成、上下文理解和自然语言处理，而不强调深度推理能力。此类模型通常通过对大量文本数据的训练，掌握语言规律并能够生成合适的内容，但缺乏像推理模型那样复杂的推理和决策能力。例如：GPT-3、GPT-4（OpenAI），BERT（Google），主要用于语言生成、语言理解、文本分类、翻译等任务。</td>
-        </tr>
-        <tr>
-          <td>AI 幻觉</td>
-          <td>AI hallucination</td>
-          <td>AI 幻觉是指生成式人工智能在输出内容时，生成了与输入文本或真实世界知识相矛盾的事实错误或逻辑错误。</td>
-        </tr>
-        <tr>
-          <td>多模态 AI</td>
-          <td>Multimodal AI</td>
-          <td>多模态 AI 系统能够以多种媒介处理输入并产生输出。多模态系统可以处理图像、视频、文本或声音的任何组合，而不仅仅是文本。</td>
-        </tr>
-        <tr>
-          <td>MOE</td>
-          <td>Mixture of Experts</td>
-          <td>混合专家模型。它就像一个团队合作的系统，里面有多个“专家”，每个专家擅长处理不同类型的任务或数据。当遇到一个问题时，系统会根据问题的特点，让不同的专家来处理，或者综合多个专家的意见，最终给出一个更准确的结果。就好像一个公司里有不同部门的专家，大家一起合作解决问题一样。</td>
-        </tr>
-        <tr>
-          <td>数据集</td>
-          <td>Dataset</td>
-          <td>数据集就是给 AI 用来学习的“教材”，就像学生上课用的课本。AI 通过这些数据学习规律，变得聪明。</td>
-        </tr>
-        <tr>
-          <td>Token</td>
-          <td>Token</td>
-          <td>Token 就像是语言里的“小零件”，把句子拆成一个个小块。比如，“我爱吃苹果”可以拆成“我”“爱”“吃”“苹果”四个 Token。AI 处理语言时，会先把它拆成这样的小块，方便理解和生成。【Token 离线计算】</td>
-        </tr>
-        <tr>
-          <td>GPU</td>
-          <td>Graphics Processing Unit</td>
-          <td>GPU 是图形处理器，就像电脑里的“超级助手”，专门用来处理复杂的图像和计算任务。它有很多小核心，能同时做很多事，比如玩游戏时渲染画面，或者训练 AI 模型时快速计算，让电脑运行得更快。它比普通的 CPU 更适合做复杂的数学计算，尤其是并行计算。</td>
-        </tr>
-        <tr>
-          <td>训练</td>
-          <td>Training</td>
-          <td>训练就是让 AI 学习的过程。就像教小孩认字，给 AI 很多数据，让它从中找规律、学知识，慢慢变得聪明，能完成任务。</td>
-        </tr>
-        <tr>
-          <td>预训练模型</td>
-          <td>Pre-trained Model</td>
-          <td>预训练模型就是在超大的数据集上先训练好的模型，它学会了通用的知识和规律，比如语言的语法、词汇等。然后，我们可以在小数据集上对它进行微调，让它适应具体任务，比如翻译、问答等。如果 AI 模型从零开始学习，就像一个人从头开始学知识，那会花很多时间。预训练模型已经学了很多通用的知识，所以它可以直接拿来用，或者稍微调整一下就能完成任务。</td>
-        </tr>
-        <tr>
-          <td>模型基座</td>
-          <td>Base Model</td>
-          <td>预训练得到的结果。想象一下，你要做一个智能语音助手，比如像 Siri 或者小爱同学这样的产品。如果你从零开始，需要收集海量的语音数据，然后一点点地训练模型，让它能够理解语言、回答问题。这个过程非常复杂，而且需要大量的时间和资源。但有了“模型基座”之后，就好比你已经有了一个已经打好基础的房子框架。这个框架已经具备了一些基本能力，比如能听懂一些简单的话、能做基本的对话。然后你只需要在这个基础上，根据自己的需求，比如让它更懂方言、或者让它能回答一些特定领域的问题，做一些“装修”和“调整”就可以了。</td>
-        </tr>
-        <tr>
-          <td>微调</td>
-          <td>Fine-tuning</td>
-          <td>微调就是对预训练好的模型进行“再教育”，让它适应特定的任务。比如，预训练模型学会了通用语言知识，微调就是让它专门学习写新闻或者做翻译，让它更擅长这个任务。</td>
-        </tr>
-        <tr>
-          <td>模型蒸馏</td>
-          <td>Model Distillation</td>
-          <td>大模型的文件太大了，对计算机的算力要求很高。模型蒸馏是一种将大模型的知识“浓缩”后传递给小模型的技术。简单来说，就像让一个“学霸老师”教出一个“学神学生”，学生模型通过模仿教师模型的输出结果，学习到类似的知识和能力。</td>
-        </tr>
-        <tr>
-          <td>推理</td>
-          <td>Inference</td>
-          <td>推理就是 AI 模型在训练好之后，用学到的知识去解决实际问题的过程。比如，AI 学会了识别图片里的猫和狗，推理就是它看到一张新图片后，判断这是猫还是狗。</td>
-        </tr>
-        <tr>
-          <td>超参数</td>
-          <td>Hyperparameters</td>
-          <td>在 AI 模型中，超参数就像是“控制旋钮”，用来调整模型的行为和输出。不同的超参数设置会影响模型的表现，比如生成的内容风格、准确性和多样性等。</td>
-        </tr>
-        <tr>
-          <td>RAG</td>
-          <td>Retrieval-Augmented Generation</td>
-          <td>检索增强生成。AI 训练的数据会停留在一个时间节点，因此会出现某些信息过时的情况。RAG 是一种结合检索技术和生成模型的人工智能方法。它通过从外部知识库中检索相关信息（包括搜索引擎、链接、文件），并将其作为上下文输入给大语言模型（LLM），从而增强模型在知识密集型任务中的表现。</td>
-        </tr>
-        <tr>
-          <td>MCP</td>
-          <td>Model Context Protocol</td>
-          <td>模型上下文协议。是由 Anthropic 公司（Claude 母公司）推出的一种开放标准协议。简单来说，它就像是 AI 的“万能连接器”，可以让 AI 大模型（比如 Claude 或其他语言模型）轻松地和外部世界“握手”，连接各种数据源和工具。举个例子，假设你有一个超级聪明的机器人助手，但它只能回答问题，却没办法自己去查资料或者操作其他设备。MCP 就像是给这个机器人装了一个“万能插头”，让它可以连接到冰箱查看库存、连接到手机查看日程，或者上网查天气。</td>
+          <td><strong>难度</strong></td>
+          <td>高，需兼顾攻防技术</td>
+          <td>高，需了解渗透与防御的完整流程</td>
+          <td>中至高，视题目难度而定</td>
         </tr>
       </tbody>
     </table>
-    ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能术语解释表]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/Compilation-of-AI-Tools/"><![CDATA[<h2 id="重要提示">重要提示</h2>
-  <p>所有的 GPT 工具都是用模型训练出来的，内容可能存在谬误，使用时需自行甄别信息准确性。</p>
-  <hr />
-  <h2 id="一本地部署工具">一、本地部署工具</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>工具名称</th>
-        <th>部署模型</th>
-        <th>适用系统</th>
-        <th>部署教程链接</th>
-        <th>核心特点</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>LM Studio</td>
-        <td>DeepSeek R1</td>
-        <td>Windows</td>
-        <td><a href="https://wiki.bafangwy.com/doc/805/">https://wiki.bafangwy.com/doc/805/</a></td>
-        <td>支持在本地部署模型，保障数据隐私</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h2 id="二国产-ai-工具免费无次数限制">二、国产 AI 工具（免费，无次数限制）</h2>
-  <h3 id="说明">说明</h3>
-  <p>除网页版外，几乎所有 AI 工具均提供手机 APP 和电脑客户端，可根据个人使用习惯选择下载。</p>
-  <table>
-    <thead>
-      <tr>
-        <th>公司</th>
-        <th>模型</th>
-        <th>官方网址</th>
-        <th>核心特点</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>深度求索</td>
-        <td>DeepSeek</td>
-        <td><a href="https://chat.deepseek.com/">https://chat.deepseek.com/</a></td>
-        <td>生成内容附带思考过程，支持本地部署</td>
-      </tr>
-      <tr>
-        <td>月之暗面</td>
-        <td>kimi</td>
-        <td><a href="https://kimi.com/">https://kimi.com/</a></td>
-        <td>支持上传文件，可处理大文本内容</td>
-      </tr>
-      <tr>
-        <td>字节跳动</td>
-        <td>豆包</td>
-        <td><a href="https://www.doubao.com/">https://www.doubao.com/</a></td>
-        <td>支持文生图功能，APP 端可进行电话聊天</td>
-      </tr>
-      <tr>
-        <td>科大讯飞</td>
-        <td>星火</td>
-        <td><a href="https://xinghuo.xfyun.cn/desk">https://xinghuo.xfyun.cn/desk</a></td>
-        <td>具备多场景智能交互能力，适配办公需求</td>
-      </tr>
-      <tr>
-        <td>阿里巴巴</td>
-        <td>通义千问</td>
-        <td><a href="https://tongyi.aliyun.com/qianwen">https://tongyi.aliyun.com/qianwen</a></td>
-        <td>依托阿里生态，擅长电商、办公类场景</td>
-      </tr>
-      <tr>
-        <td>百度</td>
-        <td>文心一言</td>
-        <td><a href="https://yiyan.baidu.com/">https://yiyan.baidu.com/</a></td>
-        <td>百度自研大模型，支持多模态内容生成</td>
-      </tr>
-      <tr>
-        <td>百度</td>
-        <td>AI 搜索</td>
-        <td><a href="https://chat.baidu.com/">https://chat.baidu.com/</a></td>
-        <td>结合搜索功能，提供实时、准确的信息回答</td>
-      </tr>
-      <tr>
-        <td>腾讯</td>
-        <td>混元助手</td>
-        <td><a href="https://hunyuan.tencent.com/bot/chat">https://hunyuan.tencent.com/bot/chat</a></td>
-        <td>适配社交、办公场景，支持多轮对话</td>
-      </tr>
-      <tr>
-        <td>昆仑万维</td>
-        <td>天工 AI</td>
-        <td><a href="https://www.tiangong.cn/">https://www.tiangong.cn/</a></td>
-        <td>覆盖创作、问答、代码生成等多领域</td>
-      </tr>
-      <tr>
-        <td>百度</td>
-        <td>橙篇</td>
-        <td><a href="https://cp.baidu.com/">https://cp.baidu.com/</a></td>
-        <td>专注于文案创作、内容生成，适配营销场景</td>
-      </tr>
-      <tr>
-        <td>黑客专用 GPT</td>
-        <td>-</td>
-        <td><a href="https://www.whiterabbitneo.com/">https://www.whiterabbitneo.com/</a></td>
-        <td>面向技术场景，提供代码分析、安全相关支持</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h2 id="三多模型接入工具">三、多模型接入工具</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>工具名称</th>
-        <th>接入模型</th>
-        <th>官方网址</th>
-        <th>核心特点</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Sider AI</td>
-        <td>ChatGPT、Claude 等</td>
-        <td><a href="https://sider.ai/invited?c=eb91155d4a2ab25cc7de38adcd8351c4">https://sider.ai/invited?c=eb91155d4a2ab25cc7de38adcd8351c4</a></td>
-        <td>不使用代理可访问原版 ChatGPT；每天免费 30 次高级模型对话</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h2 id="四aigc-导航站">四、AIGC 导航站</h2>
-  <p>以下导航站整合了多个 AI 工具，可根据需求快速筛选使用：</p>
-  <ol>
-    <li><a href="https://ai404.net/">https://ai404.net/</a></li>
-    <li><a href="https://bot.360.com/">https://bot.360.com/</a></li>
-    <li><a href="https://ai-bot.cn/">https://ai-bot.cn/</a></li>
-    <li><a href="https://www.yjpoo.com/">https://www.yjpoo.com/</a></li>
-    <li><a href="https://gpts.works/">https://gpts.works/</a></li>
-    <li><a href="https://nav.deep-info.cn/">https://nav.deep-info.cn/</a></li>
-    <li><a href="https://17yongai.com/">https://17yongai.com/</a></li>
-    <li><a href="https://www.ainav.cn/">https://www.ainav.cn/</a></li>
-    <li><a href="https://www.ai-apps.com.cn/">https://www.ai-apps.com.cn/</a></li>
-    <li><a href="https://chatgpt-site.zhaoyeqing.cn/">https://chatgpt-site.zhaoyeqing.cn/</a></li>
-    <li><a href="https://chatgptmirror.com/chat/">https://chatgptmirror.com/chat/</a></li>
-    <li><a href="https://www.chatanywhere.top/chat-another">https://www.chatanywhere.top/chat-another</a></li>
-    <li><a href="https://www.chatrobot.cn/index.html">https://www.chatrobot.cn/index.html</a></li>
-    <li><a href="https://03.gogsu.com/#/home/chat">https://03.gogsu.com/#/home/chat</a></li>
-    <li><a href="https://chat.extkj.cn/">https://chat.extkj.cn/</a></li>
-    <li><a href="https://supremes.pro/">https://supremes.pro/</a></li>
-    <li><a href="https://chat.aidutu.cn/#/chat/1002">https://chat.aidutu.cn/#/chat/1002</a></li>
-  </ol>
-  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[人工智能 AI 工具合集]]></summary></entry><entry><title type="html">CTF 资料下载（PWN/AWD 专项）</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF002/" rel="alternate" type="text/html" title="CTF 资料下载（PWN/AWD 专项）" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T09:18:07+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF002/"><![CDATA[<h2 id="一pwn-方向资料">一、PWN 方向资料</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>资料名称</th>
-        <th>类型</th>
-        <th>链接</th>
-        <th>关键信息</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>CTF 竞赛入门指南(CTF All In One)</td>
-        <td>PDF 电子书</td>
-        <td>https://msb-netdisk.mashibing.com/share/261a7e6d36594b41a3213078f29afd21</td>
-        <td>共 1839 页，覆盖 CTF 入门核心内容</td>
-      </tr>
-      <tr>
-        <td>CTF-PWN 入门指北</td>
-        <td>在线文档</td>
-        <td>https://www.bilibili.com/read/cv16112617/</td>
-        <td>适合 PWN 新手入门学习</td>
-      </tr>
-      <tr>
-        <td>《CTF 竞赛权威指南 PWN》</td>
-        <td>电子书</td>
-        <td>https://msb-netdisk.mashibing.com/share/44ba7a2ee5a740d2aa9977af276a4dfb</td>
-        <td>聚焦 PWN 方向，权威性较强</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h2 id="二awd-方向资料">二、AWD 方向资料</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>资料名称</th>
-        <th>类型</th>
-        <th>链接</th>
-        <th>关键信息</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>《从零学习 AWD 比赛指导手册》</td>
-        <td>在线文档</td>
-        <td>https://forum.butian.net/share/2536</td>
-        <td>从基础到实战，适合 AWD 新手</td>
-      </tr>
-      <tr>
-        <td>G22-AWD 平台搭建</td>
-        <td>教程文档</td>
-        <td>https://wiki.bafangwy.com/doc/645/</td>
-        <td>提供 AWD 训练平台搭建步骤</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h2 id="资料使用建议">资料使用建议</h2>
-  <ol>
-    <li><strong>入门优先级</strong>：先阅读《CTF 竞赛入门指南》建立 CTF 整体认知，再根据目标方向深入学习 PWN 或 AWD 专项资料。</li>
-    <li><strong>理论结合实践</strong>：学习 PWN 时可搭配 CTF 平台基础题目练习（如 CTFtime、攻防世界）；学习 AWD 后，通过 G22 平台搭建实现本地模拟训练。</li>
-    <li><strong>资料备份提醒</strong>：PDF 电子书和关键教程建议及时下载保存，避免因链接失效导致资料无法访问。</li>
-    <li><strong>学习节奏建议</strong>：PWN 方向需先掌握 C 语言、汇编基础和 Linux 系统知识；AWD 方向需额外了解网络安全、漏洞利用与防御策略。</li>
-  </ol>
-  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">CTF 介绍</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF001/" rel="alternate" type="text/html" title="CTF 介绍" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T16:47:20+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF001</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF001/"><![CDATA[<h3 id="什么是-ctf">什么是 CTF？</h3>
-  <p>CTF（Capture The Flag）是一种资讯安全竞赛的形式，通常将挑战题目分为数种主要类型，例如：</p>
-  <ul>
-    <li><strong>Pwn (Binary</strong> Exploitation) ：破解或攻击程式，利用其弱点（漏洞）取得目标机器或执行未被预期的动作。</li>
-    <li><strong>Reverse (Reverse Engineering)</strong>：逆向工程，分析程式码或档案运作方式，找出演算法逻辑或破解方法。</li>
-    <li><strong>Web (Web Exploitation)</strong>：针对网站常见漏洞（SQL Injection、XSS、File Inclusion 等）进行渗透测试和漏洞利用。</li>
-    <li><strong>Forensics (数位鉴识)</strong>：分析系统、记忆体或封包，透过蛛丝马迹取得 Flag。</li>
-    <li><strong>Crypto (密码学)</strong>：解密、分析密码或加密演算法，甚至自行推导解密方式。</li>
-    <li><strong>Misc (杂项)</strong>：包含 OSINT、编码转换、隐写术（Steganography）等比较零散的主题。</li>
-  </ul>
-  <blockquote>
-    <p>不同 CTF 会根据赛制与性质分配不同的题目类型，也有部分竞赛主打特定范围（如纯 Web 或纯逆向）。</p>
-  </blockquote>
-  <h3 id="ctf-比赛类型分类"><strong>CTF 比赛类型分类</strong></h3>
-  <h4 id="1-jeopardy解题型">1. <strong>Jeopardy（解题型）</strong></h4>
-  <p>这是最常见的 CTF 赛制，参赛者需要从多种题目中选择解题，目标是找到题目隐藏的 Flag，根据题目难度获得相应分数。</p>
-  <ul>
-    <li>
-      <p>特点</p>
-      <p>题目多样，涵盖 Pwn、Reverse、Web、Crypto、Forensics 等领域。</p>
-      <p>参赛者可以自由选择擅长的题型解题，分数通常累积到比赛结束。</p>
-    </li>
-    <li>
-      <p><strong>适合对象</strong>：初学者与进阶玩家都可参加，对个人与小型团队特别友善。</p>
-    </li>
-    <li>
-      <p><strong>范例比赛</strong>：picoCTF、Google CTF（Quals 赛）、AIS3 Pre-exam。</p>
-    </li>
-  </ul>
-  <hr />
-  <h4 id="2-attack-defense攻防型">2. <strong>Attack-Defense（攻防型）</strong></h4>
-  <p>攻防型 CTF 更注重实战，模拟真实的网路攻防情境。参赛团队需在指定的基础环境中，攻击对手的伺服器同时保护自己的服务。</p>
-  <ul>
-    <li>
-      <p>特点</p>
-      <p>团队需要同时具备进攻（渗透测试、漏洞利用）与防御（漏洞修补、日志分析）能力。</p>
-      <p>赛事进行中，团队需快速回应对手攻击，同时在规定时间内得分。</p>
-    </li>
-    <li>
-      <p><strong>适合对象</strong>：进阶玩家、团队合作能力强的参赛者。</p>
-    </li>
-    <li>
-      <p><strong>范例比赛</strong>：DEF CON CTF（决赛）、HITCON CTF（部分赛制）。</p>
-    </li>
-  </ul>
-  <hr />
-  <h4 id="3-king-of-the-hillkoth">3. <strong>King of the Hill（KoTH）</strong></h4>
-  <p>KoTH 是一种特殊的 CTF 比赛类型，参赛者需要攻陷目标系统（通常是一台虚拟机或服务），并在夺得控制权后进行防御，防止其他参赛者夺回系统的控制。</p>
-  <ul>
-    <li>
-      <p>特点</p>
-      <p>比赛期间，参赛者需要攻击其他参赛者的已控主机，同时巩固自己对主机的控制权。</p>
-      <p>参赛者获得分数的时间取决于他们对目标的控制时间长短。</p>
-      <p>比赛结束时，控制系统时间最长的队伍或个人获胜。</p>
-    </li>
-    <li>
-      <p>防御与攻击并重</p>
-      <p>除了渗透测试技术，还需具备系统加固、防御与监控的能力（如修补漏洞、阻止其他攻击）。</p>
-      <p>需要快速分析系统漏洞，并在有限时间内设置防御机制。</p>
-    </li>
-    <li>
-      <p>适合对象</p>
-      <p>进阶玩家或对攻防兼具技能有兴趣的参赛者。</p>
-    </li>
-    <li>
-      <p><strong>范例比赛</strong>：Hack The Box KoTH、TryHackMe KoTH 模式。</p>
-    </li>
-  </ul>
-  <hr />
-  <h4 id="ctf-类型的区别">CTF 类型的区别</h4>
-  <table>
-    <thead>
-      <tr>
-        <th>特点</th>
-        <th>King of the Hill</th>
-        <th>Attack-Defense</th>
-        <th>Jeopardy</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>目标</strong></td>
-        <td>夺取并保持控制权</td>
-        <td>攻击对手并防御自己的服务</td>
-        <td>解决独立题目以取得 Flag</td>
-      </tr>
-      <tr>
-        <td><strong>焦点</strong></td>
-        <td>同时进行攻击与防御</td>
-        <td>主要专注于服务防御与攻击</td>
-        <td>以解题能力为主</td>
-      </tr>
-      <tr>
-        <td><strong>比赛方式</strong></td>
-        <td>所有参赛者攻击同一目标并竞争控制权</td>
-        <td>团队之间互相攻击与防御</td>
-        <td>各自解决题目，没有直接对抗</td>
-      </tr>
-      <tr>
-        <td><strong>难度</strong></td>
-        <td>高，需兼顾攻防技术</td>
-        <td>高，需了解渗透与防御的完整流程</td>
-        <td>中至高，视题目难度而定</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h3 id="4-boot2root主机渗透型">4. <strong>Boot2Root（主机渗透型）</strong></h3>
-  <p>参赛者需要进入一个目标机器（通常为虚拟机），利用渗透测试技术攻入系统，并在最高权限（Root 权限）下找到 Flag。</p>
-  <ul>
-    <li>
-      <p>特点</p>
-      <p>强调渗透技术和对系统漏洞的理解。</p>
-      <p>过程涉及资讯搜集、漏洞分析、利用、权限提升等完整流程。</p>
-    </li>
-    <li>
-      <p><strong>适合对象</strong>：喜欢主机渗透测试、想模拟真实环境的玩家。</p>
-    </li>
-    <li>
-      <p><strong>范例平台</strong>：Hack The Box、TryHackMe。</p>
-    </li>
-  </ul>
-  <hr />
-  <h3 id="5-real-world-simulation真实世界模拟型">5. <strong>Real-World Simulation（真实世界模拟型）</strong></h3>
-  <p>这类比赛聚焦于模拟真实世界的安全事件，例如针对公司内部网路、工控系统（ICS）、云端服务进行渗透测试或攻防。</p>
-  <ul>
-    <li>
-      <p>特点</p>
-      <p>题目更贴近企业实际场景，涉及多层网路架构与复杂应用。</p>
-      <p>强调团队合作，解决多面向问题。</p>
-    </li>
-    <li>
-      <p><strong>适合对象</strong>：有企业安全背景或希望参与真实场景的进阶玩家与团队。</p>
-    </li>
-    <li>
-      <p><strong>范例比赛</strong>：Cyber Apocalypse CTF、Cyber Defence Exercise（CYBER-X）。</p>
-    </li>
-  </ul>
-  <hr />
-  <h3 id="6-ai自动化型-ctf">6. <strong>AI/自动化型 CTF</strong></h3>
-  <p>部分比赛专注于结合人工智慧（AI）技术与资安竞赛，要求参赛者开发自动化工具进行漏洞探索、攻击或防御。</p>
-  <ul>
-    <li>
-      <p>特点</p>
-      <p>高度依赖编程能力和算法设计。</p>
-      <p>题目通常具有学术或研究性质。</p>
-    </li>
-    <li>
-      <p><strong>适合对象</strong>：熟悉 AI、机器学习或算法研究的参赛者。</p>
-    </li>
-    <li>
-      <p><strong>范例比赛</strong>：DARPA Cyber Grand Challenge。</p>
-    </li>
-  </ul>
-  <hr />
-  <h3 id="7教育型-ctflearning-based">7.<strong>教育型 CTF（Learning-Based）</strong></h3>
-  <p>这类比赛设计目的是教育与培训，例如专为新手设计的题目，帮助参赛者逐步学习资安概念与技能。</p>
-  <ul>
-    <li>
-      <p>特点</p>
-      <p>题目附有提示与教学指引，适合练习基础技能。</p>
-      <p>目标是提升参与者的知识与实践能力，而非竞争性。</p>
-    </li>
-    <li>
-      <p><strong>适合对象</strong>：新手、学生、希望从头学习的玩家。</p>
-    </li>
-    <li>
-      <p><strong>范例比赛</strong>：picoCTF、OverTheWire、AIS3 Pre-exam。</p>
-    </li>
-  </ul>
-  <hr />
-  <h3 id="8企业实战-ctfred-team-vs-blue-team">8.<strong>企业实战 CTF（Red Team vs. Blue Team）</strong></h3>
-  <p>由企业或资安组织主办，比赛通常设计为「红队 vs 蓝队」模式。参赛者分为攻击方（红队）与防御方（蓝队），模拟企业内部的攻防场景。</p>
-  <ul>
-    <li>
-      <p>特点</p>
-      <p>比赛设计高度贴近实际企业安全需求，涵盖事件响应、威胁检测等内容。</p>
-      <p>适合有意进入企业资安工作的参赛者。</p>
-    </li>
-    <li>
-      <p><strong>适合对象</strong>：企业内资安团队、进阶资安工程师。</p>
-    </li>
-    <li>
-      <p><strong>范例比赛</strong>：Cybersecurity Attack &amp; Defense Exercise。</p>
-    </li>
-  </ul>
-  <hr />
-  <h2 id="如何选择适合的比赛类型"><strong>如何选择适合的比赛类型？</strong></h2>
-  <ol>
-    <li>
-      <p>新手玩家</p>
-      <p>建议从<strong>Jeopardy 型</strong>或<strong>教育型 CTF</strong>开始，例如 picoCTF、AIS3 Pre-exam、OverTheWire。</p>
-    </li>
-    <li>
-      <p>进阶玩家或团队</p>
-      <p>可挑战<strong>攻防型 CTF</strong>或<strong>混合型 CTF</strong>，如 HITCON CTF、Google CTF。</p>
-    </li>
-    <li>
-      <p>实战导向</p>
-      <p>若希望模拟真实环境或学习企业场景，选择<strong>Real-World Simulation</strong>或<strong>Boot2Root 型</strong>比赛。</p>
-    </li>
-    <li>
-      <p>学术与研究兴趣</p>
-      <p>对 AI 或演算法有兴趣的玩家可参与<strong>AI 相关 CTF</strong>。</p>
-    </li>
-  </ol>
-  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 介绍]]></summary></entry><entry><title type="html">CTF 资料下载（PWN/AWD 专项）</title><link href="https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download/" rel="alternate" type="text/html" title="CTF 资料下载（PWN/AWD 专项）" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-31T20:37:15+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/CTF-Resource-Download/"><![CDATA[<h2 id="一pwn-方向资料">一、PWN 方向资料</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>资料名称</th>
-        <th>类型</th>
-        <th>链接</th>
-        <th>关键信息</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>CTF 竞赛入门指南(CTF All In One)</td>
-        <td>PDF 电子书</td>
-        <td>https://msb-netdisk.mashibing.com/share/261a7e6d36594b41a3213078f29afd21</td>
-        <td>共 1839 页，覆盖 CTF 入门核心内容</td>
-      </tr>
-      <tr>
-        <td>CTF-PWN 入门指北</td>
-        <td>在线文档</td>
-        <td>https://www.bilibili.com/read/cv16112617/</td>
-        <td>适合 PWN 新手入门学习</td>
-      </tr>
-      <tr>
-        <td>《CTF 竞赛权威指南 PWN》</td>
-        <td>电子书</td>
-        <td>https://msb-netdisk.mashibing.com/share/44ba7a2ee5a740d2aa9977af276a4dfb</td>
-        <td>聚焦 PWN 方向，权威性较强</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h2 id="二awd-方向资料">二、AWD 方向资料</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>资料名称</th>
-        <th>类型</th>
-        <th>链接</th>
-        <th>关键信息</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>《从零学习 AWD 比赛指导手册》</td>
-        <td>在线文档</td>
-        <td>https://forum.butian.net/share/2536</td>
-        <td>从基础到实战，适合 AWD 新手</td>
-      </tr>
-      <tr>
-        <td>G22-AWD 平台搭建</td>
-        <td>教程文档</td>
-        <td>https://wiki.bafangwy.com/doc/645/</td>
-        <td>提供 AWD 训练平台搭建步骤</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr />
-  <h2 id="资料使用建议">资料使用建议</h2>
-  <ol>
-    <li><strong>入门优先级</strong>：先阅读《CTF 竞赛入门指南》建立 CTF 整体认知，再根据目标方向深入学习 PWN 或 AWD 专项资料。</li>
-    <li><strong>理论结合实践</strong>：学习 PWN 时可搭配 CTF 平台基础题目练习（如 CTFtime、攻防世界）；学习 AWD 后，通过 G22 平台搭建实现本地模拟训练。</li>
-    <li><strong>资料备份提醒</strong>：PDF 电子书和关键教程建议及时下载保存，避免因链接失效导致资料无法访问。</li>
-    <li><strong>学习节奏建议</strong>：PWN 方向需先掌握 C 语言、汇编基础和 Linux 系统知识；AWD 方向需额外了解网络安全、漏洞利用与防御策略。</li>
-  </ol>
-  ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 资料下载（PWN/AWD 专项）]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI002/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T09:18:07+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI002/"><![CDATA[<h2 id="重要提示">重要提示</h2>
+    <hr />
+    <h3 id="4-boot2root主机渗透型">4. <strong>Boot2Root（主机渗透型）</strong></h3>
+    <p>参赛者需要进入一个目标机器（通常为虚拟机），利用渗透测试技术攻入系统，并在最高权限（Root 权限）下找到 Flag。</p>
+    <ul>
+      <li>
+        <p>特点</p>
+        <p>强调渗透技术和对系统漏洞的理解。</p>
+        <p>过程涉及资讯搜集、漏洞分析、利用、权限提升等完整流程。</p>
+      </li>
+      <li>
+        <p><strong>适合对象</strong>：喜欢主机渗透测试、想模拟真实环境的玩家。</p>
+      </li>
+      <li>
+        <p><strong>范例平台</strong>：Hack The Box、TryHackMe。</p>
+      </li>
+    </ul>
+    <hr />
+    <h3 id="5-real-world-simulation真实世界模拟型">5. <strong>Real-World Simulation（真实世界模拟型）</strong></h3>
+    <p>这类比赛聚焦于模拟真实世界的安全事件，例如针对公司内部网路、工控系统（ICS）、云端服务进行渗透测试或攻防。</p>
+    <ul>
+      <li>
+        <p>特点</p>
+        <p>题目更贴近企业实际场景，涉及多层网路架构与复杂应用。</p>
+        <p>强调团队合作，解决多面向问题。</p>
+      </li>
+      <li>
+        <p><strong>适合对象</strong>：有企业安全背景或希望参与真实场景的进阶玩家与团队。</p>
+      </li>
+      <li>
+        <p><strong>范例比赛</strong>：Cyber Apocalypse CTF、Cyber Defence Exercise（CYBER-X）。</p>
+      </li>
+    </ul>
+    <hr />
+    <h3 id="6-ai自动化型-ctf">6. <strong>AI/自动化型 CTF</strong></h3>
+    <p>部分比赛专注于结合人工智慧（AI）技术与资安竞赛，要求参赛者开发自动化工具进行漏洞探索、攻击或防御。</p>
+    <ul>
+      <li>
+        <p>特点</p>
+        <p>高度依赖编程能力和算法设计。</p>
+        <p>题目通常具有学术或研究性质。</p>
+      </li>
+      <li>
+        <p><strong>适合对象</strong>：熟悉 AI、机器学习或算法研究的参赛者。</p>
+      </li>
+      <li>
+        <p><strong>范例比赛</strong>：DARPA Cyber Grand Challenge。</p>
+      </li>
+    </ul>
+    <hr />
+    <h3 id="7教育型-ctflearning-based">7.<strong>教育型 CTF（Learning-Based）</strong></h3>
+    <p>这类比赛设计目的是教育与培训，例如专为新手设计的题目，帮助参赛者逐步学习资安概念与技能。</p>
+    <ul>
+      <li>
+        <p>特点</p>
+        <p>题目附有提示与教学指引，适合练习基础技能。</p>
+        <p>目标是提升参与者的知识与实践能力，而非竞争性。</p>
+      </li>
+      <li>
+        <p><strong>适合对象</strong>：新手、学生、希望从头学习的玩家。</p>
+      </li>
+      <li>
+        <p><strong>范例比赛</strong>：picoCTF、OverTheWire、AIS3 Pre-exam。</p>
+      </li>
+    </ul>
+    <hr />
+    <h3 id="8企业实战-ctfred-team-vs-blue-team">8.<strong>企业实战 CTF（Red Team vs. Blue Team）</strong></h3>
+    <p>由企业或资安组织主办，比赛通常设计为「红队 vs 蓝队」模式。参赛者分为攻击方（红队）与防御方（蓝队），模拟企业内部的攻防场景。</p>
+    <ul>
+      <li>
+        <p>特点</p>
+        <p>比赛设计高度贴近实际企业安全需求，涵盖事件响应、威胁检测等内容。</p>
+        <p>适合有意进入企业资安工作的参赛者。</p>
+      </li>
+      <li>
+        <p><strong>适合对象</strong>：企业内资安团队、进阶资安工程师。</p>
+      </li>
+      <li>
+        <p><strong>范例比赛</strong>：Cybersecurity Attack &amp; Defense Exercise。</p>
+      </li>
+    </ul>
+    <hr />
+    <h2 id="如何选择适合的比赛类型"><strong>如何选择适合的比赛类型？</strong></h2>
+    <ol>
+      <li>
+        <p>新手玩家</p>
+        <p>建议从<strong>Jeopardy 型</strong>或<strong>教育型 CTF</strong>开始，例如 picoCTF、AIS3 Pre-exam、OverTheWire。</p>
+      </li>
+      <li>
+        <p>进阶玩家或团队</p>
+        <p>可挑战<strong>攻防型 CTF</strong>或<strong>混合型 CTF</strong>，如 HITCON CTF、Google CTF。</p>
+      </li>
+      <li>
+        <p>实战导向</p>
+        <p>若希望模拟真实环境或学习企业场景，选择<strong>Real-World Simulation</strong>或<strong>Boot2Root 型</strong>比赛。</p>
+      </li>
+      <li>
+        <p>学术与研究兴趣</p>
+        <p>对 AI 或演算法有兴趣的玩家可参与<strong>AI 相关 CTF</strong>。</p>
+      </li>
+    </ol>
+    ]]></content><author><name>乔炳栋</name></author><category term="planet" /><summary type="html"><![CDATA[CTF 介绍]]></summary></entry><entry><title type="html">人工智能 AI 工具合集</title><link href="https://cips.nyist.edu.cn/planet/2025/10/AI002/" rel="alternate" type="text/html" title="人工智能 AI 工具合集" /><published>2025-10-21T00:00:00+08:00</published><updated>2025-10-28T09:18:07+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/AI002</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/AI002/"><![CDATA[<h2 id="重要提示">重要提示</h2>
   <p>所有的 GPT 工具都是用模型训练出来的，内容可能存在谬误，使用时需自行甄别信息准确性。</p>
   <hr />
   <h2 id="一本地部署工具">一、本地部署工具</h2>
@@ -1422,4 +802,8 @@
   </ol>
   <h2 id="五结语">五、结语</h2>
   <p>网络安全是一个持续演进的领域，面对日益复杂的威胁，只有不断学习新技术、完善安全体系，才能有效保障个人和组织的信息安全。</p>
-  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、网络安全概述]]></summary></entry></feed>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、网络安全概述]]></summary></entry><entry><title type="html">南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips1/" rel="alternate" type="text/html" title="南阳理工学院CIPS社团在第十届数维杯数学建模大赛中荣获三等奖" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-28T16:47:20+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips1</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips1/"><![CDATA[<p>近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。</p>
+  <p>本次大赛吸引了来自全国各高校的优秀学子同台竞技。南阳理工学院 CIPS 社团的参赛队员们经过数月的精心准备，在比赛中展现了扎实的数学功底、创新的建模思维和出色的团队协作能力。他们的获奖作品充分体现了将数学理论应用于解决实际问题的能力，获得了评委们的一致认可。</p>
+  <p>CIPS 社团作为南阳理工学院重要的学术科技类社团，一直致力于培养学生的创新精神和实践能力。此次获奖不仅是对参赛同学个人能力的肯定，更是对社团长期坚持“以赛促学、以学促用”理念的充分印证。</p>
+  <p>学校相关负责人表示，将继续支持学生参与各类高水平学科竞赛，为学生提供更多展示才华的平台，助力培养更多具有创新精神和实践能力的优秀人才。</p>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。]]></summary></entry></feed>
