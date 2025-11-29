@@ -240,7 +240,7 @@ var store = [{
 "teaser": null
 },{
 "title": "联系我们",
-"excerpt":"官方邮件地址      您可以向我们直接发送电子邮件。   参与邮件列表讨论（推荐）   点击此处了解详情     QQ 群上的 LUG   适合于即时性较强的讨论，较正式的讨论还请使用官方邮件列表。      QQ 群: 群号请查看 cipsqq.palve.moe 的 DNS TXT 记录。校内学生请联系管理员了解详情。     面对面交流   NYIST CIPS 在校内的活动室：      东南校区 13 教 211 室   你也可以在 CIPS 举办的各类活动中找到 CIPS 的成员并当面进行交流。  ","categories": [],
+"excerpt":"官方邮件地址      您可以向我们直接发送电子邮件。   参与邮件列表讨论（推荐）   点击此处了解详情     QQ 群上的 LUG   适合于即时性较强的讨论，较正式的讨论还请使用官方邮件列表。      QQ 群: 群号请查看 cips.nyist.edu.cn 的 DNS TXT 记录。校内学生请联系管理员了解详情。     面对面交流   NYIST CIPS 在校内的活动室：      东南校区 13 教 211 室   你也可以在 CIPS 举办的各类活动中找到 CIPS 的成员并当面进行交流。  ","categories": [],
 "tags": [],
 "url": "/wiki/cips/contact/",
 "teaser": null
