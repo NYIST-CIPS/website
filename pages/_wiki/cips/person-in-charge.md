@@ -9,6 +9,19 @@
 
 ## 主要负责人
 
+| 代号 | 职务       | 姓名   | 邮箱                     |
+| :--- | :--------- | :----- | :----------------------- |
+| -    | 社长       | 刘傲博 | cips AT nyist.edu.cn     |
+| GUYU | 副社长     | 楚罗翔 | chuluoxiang AT gmail.com |
+| -    | 学术部     | 杜鸿杰 | cips AT nyist.edu.cn     |
+| -    | 组织部     | 张志洪 | cips AT nyist.edu.cn     |
+| -    | 科技竞赛部 | 赵晨阳 | cips AT nyist.edu.cn     |
+| -    | 媒体宣传部 | 张祺   | cips AT nyist.edu.cn     |
+
+## 历任负责人
+
+### 2024-2025 届
+
 | 代号  | 职务       | 姓名   | 邮箱                 |
 | :---- | :--------- | :----- | :------------------- |
 | Palve | 社长       | 潘富   | i AT palve.moe       |
@@ -20,8 +33,6 @@
 | -     | 科技竞赛部 | 马艳红 | cips AT nyist.edu.cn |
 | -     | 媒体宣传部 | 张印彤 | cips AT nyist.edu.cn |
 | -     | 媒体宣传部 | 靳明凯 | cips AT nyist.edu.cn |
-
-## 历任负责人
 
 ### 2023-2024 届
 
