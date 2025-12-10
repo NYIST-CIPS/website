@@ -1,39 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-12-10T16:38:23+08:00</updated><id>https://cips.nyist.edu.cn/feed.xml</id><title type="html">CIPS @ NYIST</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">南阳理工学院在第三届IPv6技术应用创新大赛中荣获全国二等奖</title><link href="https://cips.nyist.edu.cn/news/2025/12/ipv6-innovation-award/" rel="alternate" type="text/html" title="南阳理工学院在第三届IPv6技术应用创新大赛中荣获全国二等奖" /><published>2025-12-08T00:00:00+08:00</published><updated>2025-12-10T16:37:30+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/12/ipv6-innovation-award</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/12/ipv6-innovation-award/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>古宸豪</em></strong>）12 月 5 日，第三届 IPv6 技术应用创新大赛科教赛道暨第八届下一代互联网技术创新大赛决赛在北京圆满落幕。南阳理工学院申报的《基于 IPv6 的智能递归 DNS 安全联动体系构建与应用研究》项目荣获全国二等奖。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://cips.nyist.edu.cn/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cips.nyist.edu.cn/" rel="alternate" type="text/html" /><updated>2025-12-10T18:51:46+08:00</updated><id>https://cips.nyist.edu.cn/feed.xml</id><title type="html">CIPS @ NYIST</title><subtitle>南阳理工学院-计算机与信息化处理协会</subtitle><author><name>NYIST-CIPS</name></author><entry><title type="html">南阳理工学院在第三届IPv6技术应用创新大赛中荣获全国二等奖</title><link href="https://cips.nyist.edu.cn/news/2025/12/ipv6-innovation-award/" rel="alternate" type="text/html" title="南阳理工学院在第三届IPv6技术应用创新大赛中荣获全国二等奖" /><published>2025-12-08T00:00:00+08:00</published><updated>2025-12-10T16:37:30+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/12/ipv6-innovation-award</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/12/ipv6-innovation-award/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>古宸豪</em></strong>）12 月 5 日，第三届 IPv6 技术应用创新大赛科教赛道暨第八届下一代互联网技术创新大赛决赛在北京圆满落幕。南阳理工学院申报的《基于 IPv6 的智能递归 DNS 安全联动体系构建与应用研究》项目荣获全国二等奖。</p>
       <p><img src="/static/news/seminar-12-05-2.jpg" alt="IPv6 技术应用创新大赛全国二等奖" /></p>
       <p>该项目积极响应国家 IPv6 规模部署要求，针对高校传统 DNS 存在的安全薄弱与管控缺失痛点，构建了面向 IPv6 单栈环境的智能递归 DNS 安全联动体系。通过在校内部署 IPv6 根镜像与多节点架构，保障了解析的高性能与自主可控，深度对接上网认证系统与威胁情报平台，实现了基于用户标签的智能选路、恶意域名拦截及安全联动封禁。同时，依托全量日志分析与可视化监测，构建了面向高校场景的 DNS 安全态势感知体系。</p>
       <p>信息化建设与管理中心将以本次获奖为契机，持续聚焦 IPv6 安全技术研究与应用创新，为筑牢校园网络安全防线、服务区域数字经济发展贡献更多智慧与实践成果。</p>
       <p>本届大赛以”AI 赋能互联网技术创新发展”为主题，在推进 IPv6 规模部署和应用专家委员会指导下，由中国教育和科研计算机网 CERNET 网络中心主办。大赛紧密围绕《2025 年深入推进 IPv6 规模部署和应用工作要点》总体要求，旨在全面推进 IPv6 技术创新与融合应用。全国入围决赛的 60 余支项目团队，在关键技术、行业应用、网络安全等组别中展开了高水平比拼。（校对/<strong>耿凯峰</strong>）</p>
-      ]]></content><author><name>古宸豪</name></author><category term="news" /><summary type="html"><![CDATA[本网讯（特约记者/古宸豪）12 月 5 日，第三届 IPv6 技术应用创新大赛科教赛道暨第八届下一代互联网技术创新大赛决赛在北京圆满落幕。南阳理工学院申报的《基于 IPv6 的智能递归 DNS 安全联动体系构建与应用研究》项目荣获全国二等奖。]]></summary></entry><entry><title type="html">南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖</title><link href="https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award/" rel="alternate" type="text/html" title="南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖" /><published>2025-11-27T00:00:00+08:00</published><updated>2025-11-28T13:40:32+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/CIPS-Educational-Tech-Innovation-Award/"><![CDATA[<p>近日，由中国教育技术协会主办的 2025 第二届教育信息技术应用创新大赛全国总决赛顺利收官。南阳理工学院计算机与信息化处理协会（CIPS）组建的”没错就是队”，在应用软件适配迁移赛项中凭借扎实的技术实力与创新实践，斩获<strong>全国二等奖</strong>。</p>
-    <h3 id="赛事概况">赛事概况</h3>
-    <p>本届大赛由中国教育技术协会主办、浙江大学联合承办，设 10 个创新赛道，采用”区域赛+全国总决赛”赛制，共有 320 支队伍晋级总决赛。南工 CIPS 团队深耕技术实践，将专业知识与教育信息化需求深度结合，经现场实操、路演答辩等多轮考核，作品的实用性与创新性获评委认可。</p>
-    <h3 id="精彩表现">精彩表现</h3>
-    <p>总决赛现场，团队通过清晰的路演展示与沉稳的答辩表现，详细阐述了作品在教育场景中的创新应用价值，其技术方案的可行性与实践意义获得评委一致认可。此次获奖不仅展现了南阳理工学院学子在信息技术领域的过硬本领，更彰显了学校在”以赛育人”理念下，在创新人才培养与教育信息技术融合应用方面的显著成效。</p>
-    <h3 id="关于-cips">关于 CIPS</h3>
-    <p>作为校内专注于信息化建设与技术创新的学生组织，CIPS 自 2023 年成立以来，始终以推动校园信息化建设与技术创新实践为己任，多次参与区域网络安全攻防演练，在技术实践中积累了丰富经验。</p>
-    <p>此次备赛期间，团队成员发扬”不甘示弱”的南工精神，充分利用课余时间钻研竞赛要求，针对赛事反复打磨技术方案，将开源技术优势与教育信息化需求深度结合，最终形成兼具实用性与创新性的参赛作品。</p>
-    <h3 id="荣誉回顾">荣誉回顾</h3>
-    <p>作为学校信息化领域骨干社团，CIPS 曾获首届大赛全国特等奖，此次获奖是团队 2025 年继数维杯全国三等奖后的又一国家级荣誉，彰显了学校”以赛育人”的显著成效。</p>
-    ]]></content><author><name>NYIST-CIPS</name></author><category term="news" /><summary type="html"><![CDATA[南工 CIPS 团队在 2025 教育信息技术应用创新大赛中斩获全国二等奖]]></summary></entry><entry><title type="html">南阳市网络安全预警中心2025级新生招新通知</title><link href="https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment/" rel="alternate" type="text/html" title="南阳市网络安全预警中心2025级新生招新通知" /><published>2025-11-27T00:00:00+08:00</published><updated>2025-11-28T16:32:23+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment/"><![CDATA[<p>各位 2025 级新同学：</p>
-  <p>网络安全的平稳运行是学术研究与生活学习的重要保障，南阳理工学院南阳市网络安全预警中心作为守护校园网络与网络安全防线的核心力量，现面向全校全体大一新生开启招新工作，拟招募 8 名有志青年加入，共同筑牢网络安全屏障。</p>
-  <p>网络安全预警中心隶属于学校信息化建设与管理中心，主要负责校园网络安全风险监测、漏洞排查、应急响应及安全知识普及等工作。中心配备专业实验设备与资深指导教师，定期组织技术培训、行业交流及攻防演练活动，为成员提供系统化的能力提升平台。</p>
-  <p>本次招新岗位为网络安全预警预备人员，具体要求如下：</p>
-  <ol>
-    <li>热爱网络安全领域，对网络攻防、数据防护、渗透测试等内容有浓厚兴趣；</li>
-    <li>具备良好的学习能力与责任心，能按时参与中心日常工作与培训；</li>
-    <li>遵守纪律，严格保守网络安全相关机密；</li>
-    <li>有计算机基础、编程经验或相关竞赛经历者优先，但非必备条件。</li>
-  </ol>
-  <p>报名及选拔流程安排如下：报名时间为 2025 年 11 月 28 日至 12 月 2 日，有意向的同学请将《网络安全预警中心招新报名表》及个人简要说明（注明特长与兴趣方向）发送至邮箱 <a href="mailto:3330758682@qq.com">3330758682@qq.com</a>，邮件主题统一命名为“2025 级招新+姓名+专业班级”。</p>
-  <p>选拔将分三轮进行：第一轮为材料初审，筛选符合基本要求的候选人；第二轮为面试，侧重沟通能力与岗位匹配度。最终将根据综合表现确定 8 名暂录用名单。</p>
-  <p>加入我们，你将有机会接触网络安全前沿技术，参与真实的网络安全防护工作，积累宝贵的实践经验，还能结识一群志同道合的伙伴。如有疑问，联系电话 15836602004。</p>
-  <p>期待怀揣热情的你，与我们并肩同行，共护网络安全！</p>
-  <p>南阳市网络安全预警中心<br />
-    2025 年 11 月 27 日</p>
-  <p>附件：</p>
-  <ul>
-    <li>南阳理工学院网络安全预警中心招新报名表（DOCX）：<a href="https://xxh.nyist.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=1990741852&amp;wbfileid=DFD25301E1B2945E6024382C8527D1E1">下载链接</a></li>
-  </ul>
-  ]]></content><author><name>杨晨</name></author><summary type="html"><![CDATA[各位 2025 级新同学：]]></summary></entry><entry><title type="html">Nyist Edu Innovation Award</title><link href="https://cips.nyist.edu.cn/news/2025/11/nyist-edu-innovation-award/" rel="alternate" type="text/html" title="Nyist Edu Innovation Award" /><published>2025-11-17T00:00:00+08:00</published><updated>2025-12-10T16:37:30+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/nyist-edu-innovation-award</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/nyist-edu-innovation-award/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>古宸豪</em></strong>）近日，由中国教育技术学会主办的 2025 年第二届教育信息技术应用创新大赛落幕。经过区域赛和全国决赛的激烈角逐，信息化建设与管理中心指导的学生团队凭借出色表现，在应用软件适配迁移赛中荣获华中赛区一等奖 1 项、二等奖 1 项，并在全国总决赛中荣获二等奖 1 项，展现了学校在教育信息技术应用创新领域的扎实基础和丰硕成果。</p>
+      ]]></content><author><name>古宸豪</name></author><category term="news" /><summary type="html"><![CDATA[本网讯（特约记者/古宸豪）12 月 5 日，第三届 IPv6 技术应用创新大赛科教赛道暨第八届下一代互联网技术创新大赛决赛在北京圆满落幕。南阳理工学院申报的《基于 IPv6 的智能递归 DNS 安全联动体系构建与应用研究》项目荣获全国二等奖。]]></summary></entry><entry><title type="html">南阳市网络安全预警中心2025级新生招新通知</title><link href="https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment/" rel="alternate" type="text/html" title="南阳市网络安全预警中心2025级新生招新通知" /><published>2025-11-27T00:00:00+08:00</published><updated>2025-11-28T16:32:23+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/nyist-network-security-recruitment/"><![CDATA[<p>各位 2025 级新同学：</p>
+    <p>网络安全的平稳运行是学术研究与生活学习的重要保障，南阳理工学院南阳市网络安全预警中心作为守护校园网络与网络安全防线的核心力量，现面向全校全体大一新生开启招新工作，拟招募 8 名有志青年加入，共同筑牢网络安全屏障。</p>
+    <p>网络安全预警中心隶属于学校信息化建设与管理中心，主要负责校园网络安全风险监测、漏洞排查、应急响应及安全知识普及等工作。中心配备专业实验设备与资深指导教师，定期组织技术培训、行业交流及攻防演练活动，为成员提供系统化的能力提升平台。</p>
+    <p>本次招新岗位为网络安全预警预备人员，具体要求如下：</p>
+    <ol>
+      <li>热爱网络安全领域，对网络攻防、数据防护、渗透测试等内容有浓厚兴趣；</li>
+      <li>具备良好的学习能力与责任心，能按时参与中心日常工作与培训；</li>
+      <li>遵守纪律，严格保守网络安全相关机密；</li>
+      <li>有计算机基础、编程经验或相关竞赛经历者优先，但非必备条件。</li>
+    </ol>
+    <p>报名及选拔流程安排如下：报名时间为 2025 年 11 月 28 日至 12 月 2 日，有意向的同学请将《网络安全预警中心招新报名表》及个人简要说明（注明特长与兴趣方向）发送至邮箱 <a href="mailto:3330758682@qq.com">3330758682@qq.com</a>，邮件主题统一命名为“2025 级招新+姓名+专业班级”。</p>
+    <p>选拔将分三轮进行：第一轮为材料初审，筛选符合基本要求的候选人；第二轮为面试，侧重沟通能力与岗位匹配度。最终将根据综合表现确定 8 名暂录用名单。</p>
+    <p>加入我们，你将有机会接触网络安全前沿技术，参与真实的网络安全防护工作，积累宝贵的实践经验，还能结识一群志同道合的伙伴。如有疑问，联系电话 15836602004。</p>
+    <p>期待怀揣热情的你，与我们并肩同行，共护网络安全！</p>
+    <p>南阳市网络安全预警中心<br />
+      2025 年 11 月 27 日</p>
+    <p>附件：</p>
+    <ul>
+      <li>南阳理工学院网络安全预警中心招新报名表（DOCX）：<a href="https://xxh.nyist.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&amp;owner=1990741852&amp;wbfileid=DFD25301E1B2945E6024382C8527D1E1">下载链接</a></li>
+    </ul>
+    ]]></content><author><name>杨晨</name></author><summary type="html"><![CDATA[各位 2025 级新同学：]]></summary></entry><entry><title type="html">Nyist Edu Innovation Award</title><link href="https://cips.nyist.edu.cn/news/2025/11/nyist-edu-innovation-award/" rel="alternate" type="text/html" title="Nyist Edu Innovation Award" /><published>2025-11-17T00:00:00+08:00</published><updated>2025-12-10T16:37:30+08:00</updated><id>https://cips.nyist.edu.cn/news/2025/11/nyist-edu-innovation-award</id><content type="html" xml:base="https://cips.nyist.edu.cn/news/2025/11/nyist-edu-innovation-award/"><![CDATA[<p><strong><em>本网讯</em></strong>（特约记者/<strong><em>古宸豪</em></strong>）近日，由中国教育技术学会主办的 2025 年第二届教育信息技术应用创新大赛落幕。经过区域赛和全国决赛的激烈角逐，信息化建设与管理中心指导的学生团队凭借出色表现，在应用软件适配迁移赛中荣获华中赛区一等奖 1 项、二等奖 1 项，并在全国总决赛中荣获二等奖 1 项，展现了学校在教育信息技术应用创新领域的扎实基础和丰硕成果。</p>
   <p><img src="/static/news/seminar-11-17-3.png" alt="第二届教育信息技术应用创新大赛" /></p>
   <p><img src="/static/news/seminar-11-17-2.png" alt="第二届教育信息技术应用创新大赛" /></p>
   <p><img src="/static/news/seminar-11-17-1.png" alt="第二届教育信息技术应用创新大赛" /></p>
@@ -667,4 +657,86 @@
   <p>本次大赛吸引了来自全国各高校的优秀学子同台竞技。南阳理工学院 CIPS 社团的参赛队员们经过数月的精心准备，在比赛中展现了扎实的数学功底、创新的建模思维和出色的团队协作能力。他们的获奖作品充分体现了将数学理论应用于解决实际问题的能力，获得了评委们的一致认可。</p>
   <p>CIPS 社团作为南阳理工学院重要的学术科技类社团，一直致力于培养学生的创新精神和实践能力。此次获奖不仅是对参赛同学个人能力的肯定，更是对社团长期坚持“以赛促学、以学促用”理念的充分印证。</p>
   <p>学校相关负责人表示，将继续支持学生参与各类高水平学科竞赛，为学生提供更多展示才华的平台，助力培养更多具有创新精神和实践能力的优秀人才。</p>
-  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。]]></summary></entry></feed>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[近日，第十届数维杯全国大学生数学建模大赛圆满落幕。南阳理工学院 CIPS 社团再创佳绩，由张志洪、乔柄栋等同学组成的参赛团队凭借出色的表现荣获全国三等奖，为学校争得了荣誉。]]></summary></entry><entry><title type="html">一、网络安全概述</title><link href="https://cips.nyist.edu.cn/planet/2025/10/cips2/" rel="alternate" type="text/html" title="一、网络安全概述" /><published>2025-10-14T00:00:00+08:00</published><updated>2025-10-28T16:47:20+08:00</updated><id>https://cips.nyist.edu.cn/planet/2025/10/cips2</id><content type="html" xml:base="https://cips.nyist.edu.cn/planet/2025/10/cips2/"><![CDATA[<p>网络安全（Cybersecurity）是指通过采取技术、管理等多种手段，保护网络系统及其数据免受攻击、损坏、泄露和非法访问，确保信息的机密性、完整性和可用性。</p>
+  <h2 id="二常见网络安全威胁">二、常见网络安全威胁</h2>
+  <ol>
+    <li><strong>恶意软件（Malware）</strong>
+      <ul>
+        <li>包括病毒、蠕虫、木马、勒索软件等，能够破坏系统、窃取数据或勒索赎金。</li>
+      </ul>
+    </li>
+    <li><strong>网络钓鱼（Phishing）</strong>
+      <ul>
+        <li>通过伪造邮件、网站等手段诱骗用户泄露敏感信息，如账号密码、银行卡号等。</li>
+      </ul>
+    </li>
+    <li><strong>拒绝服务攻击（DDoS）</strong>
+      <ul>
+        <li>攻击者通过大量请求使目标服务器瘫痪，导致正常用户无法访问服务。</li>
+      </ul>
+    </li>
+    <li><strong>SQL 注入（SQL Injection）</strong>
+      <ul>
+        <li>攻击者通过在输入框中插入恶意 SQL 语句，获取或篡改数据库中的数据。</li>
+      </ul>
+    </li>
+    <li><strong>中间人攻击（MITM）</strong>
+      <ul>
+        <li>攻击者在通信双方之间窃听、篡改数据，常见于不安全的 Wi-Fi 环境。</li>
+      </ul>
+    </li>
+  </ol>
+  <h2 id="三网络安全防护措施">三、网络安全防护措施</h2>
+  <ol>
+    <li><strong>防火墙与入侵检测系统</strong>
+      <ul>
+        <li>部署硬件或软件防火墙，监控和过滤进出网络的数据流，防止非法访问。</li>
+      </ul>
+    </li>
+    <li><strong>数据加密</strong>
+      <ul>
+        <li>采用 SSL/TLS 等加密协议保护数据传输安全，防止数据被窃听和篡改。</li>
+      </ul>
+    </li>
+    <li><strong>多因素认证（MFA）</strong>
+      <ul>
+        <li>除密码外，增加短信、动态令牌等验证方式，提高账号安全性。</li>
+      </ul>
+    </li>
+    <li><strong>定期漏洞扫描与补丁管理</strong>
+      <ul>
+        <li>定期扫描系统漏洞，及时修补操作系统和应用程序的安全漏洞。</li>
+      </ul>
+    </li>
+    <li><strong>安全意识培训</strong>
+      <ul>
+        <li>对员工和用户进行网络安全知识培训，提升防范意识，减少人为失误。</li>
+      </ul>
+    </li>
+  </ol>
+  <h2 id="四网络安全发展趋势">四、网络安全发展趋势</h2>
+  <ol>
+    <li><strong>零信任安全架构（Zero Trust）</strong>
+      <ul>
+        <li>不再默认信任任何内部或外部网络，所有访问都需严格验证和授权。</li>
+      </ul>
+    </li>
+    <li><strong>人工智能与大数据安全</strong>
+      <ul>
+        <li>利用 AI 和大数据分析技术，提升威胁检测和响应的智能化水平。</li>
+      </ul>
+    </li>
+    <li><strong>云安全</strong>
+      <ul>
+        <li>随着云计算普及，云平台的安全防护成为重点，包括数据隔离、访问控制等。</li>
+      </ul>
+    </li>
+    <li><strong>物联网安全</strong>
+      <ul>
+        <li>物联网设备数量激增，安全风险随之增加，需加强设备认证和数据保护。</li>
+      </ul>
+    </li>
+  </ol>
+  <h2 id="五结语">五、结语</h2>
+  <p>网络安全是一个持续演进的领域，面对日益复杂的威胁，只有不断学习新技术、完善安全体系，才能有效保障个人和组织的信息安全。</p>
+  ]]></content><author><name>杨博文</name></author><category term="news" /><summary type="html"><![CDATA[一、网络安全概述]]></summary></entry></feed>
