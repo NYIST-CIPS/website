@@ -3,6 +3,7 @@
 
 # Jekyll
 _site
+_deploy
 .git-metadata
 .jekyll-cache
 .jekyll-metadata
